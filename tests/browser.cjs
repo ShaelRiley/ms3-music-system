@@ -4,12 +4,13 @@ const {spawn}=require('child_process');
 const path=require('path'),assert=require('assert');
 (async()=>{
  const root=path.resolve(__dirname,'..'),server=spawn('python3',['-m','http.server','8765','--bind','127.0.0.1'],{cwd:root,stdio:'ignore'});
- let browser;
+ let browser,page;
  try{
   for(let i=0;i<100;i++){try{if((await fetch('http://127.0.0.1:8765')).ok)break;}catch{}await new Promise(r=>setTimeout(r,50));}
   browser=await chromium.launch({headless:true,args:['--no-sandbox'],...(process.env.MS3_CHROMIUM?{executablePath:process.env.MS3_CHROMIUM}:{})});
-  const page=await browser.newPage(),errors=[];page.on('pageerror',e=>errors.push(String(e)));
+  page=await browser.newPage();const errors=[];page.on('pageerror',e=>errors.push(String(e)));
   await page.goto('http://127.0.0.1:8765');await page.waitForFunction(()=>window.ms3Player);
+  await page.evaluate(()=>{window.ms3Messages=[];for(const name of ['error','warning'])window.ms3Player.addEventListener(name,e=>window.ms3Messages.push({name,detail:e.detail}));});
   assert.equal(await page.locator('#bank option').count(),8);
   await page.click('#play');await page.waitForFunction(()=>window.ms3Player.status().currentAsset==='a-t0',{},{timeout:15000});
   for(let level=2;level<=4;level++){await page.click('#up');await page.waitForFunction(level=>window.ms3Player.status().currentAsset===`a-t${level-1}`,level,{timeout:15000});}
@@ -33,5 +34,6 @@ const path=require('path'),assert=require('assert');
    await ctx.close();return count;
   });assert.equal(decoded,225);assert.deepEqual(errors,[]);
   console.log(JSON.stringify({suite:'STANDALONE_BROWSER',actualAudio:true,decodedFiles:decoded,controls:'all tensions, bank, boss, fanfare return, stop/restart',stats}));
+ }catch(error){if(page)console.log('BROWSER_DIAGNOSTICS',await page.evaluate(()=>({status:document.getElementById('status').textContent,messages:window.ms3Messages,state:window.ms3Player?.status(),contextState:window.ms3Player?.context?.state,contextTime:window.ms3Player?.context?.currentTime,scheduler:window.ms3Player?.scheduler&&{jobs:window.ms3Player.scheduler.jobs,lanes:window.ms3Player.scheduler.lanes},loads:window.ms3Player?.transport?.loads})));throw error;
  }finally{if(browser)await browser.close();server.kill();}
 })().catch(e=>{console.error(e);process.exitCode=1;});

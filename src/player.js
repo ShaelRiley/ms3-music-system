@@ -5,7 +5,7 @@ const clamp = (x, a, b) => Math.max(a, Math.min(b, x));
 
 /** Browser/WebView adapter. No game, DOM, backend service or synthesis dependency. */
 export class MS3Player extends EventTarget {
-  constructor(catalog, {bankURL, volume = .8, contextFactory, fetcher = fetch} = {}) {
+  constructor(catalog, {bankURL, volume = .8, contextFactory, fetcher = (...args) => fetch(...args)} = {}) {
     super();
     this.catalog = catalog;
     this.bankURL = new URL(bankURL || '../bank/', import.meta.url);

@@ -1,0 +1,40 @@
+{
+  "parent": "e633cd13fed0908ff424fb2da5190285cbc22407",
+  "onsetBefore": {
+    "exitCode": 1,
+    "failure": "ready phrase has full intended gain on its first native frame"
+  },
+  "overlapBefore": {
+    "exitCode": 1,
+    "gainBefore": 1.9945,
+    "outgoingGain": 0.99725,
+    "incomingGain": 0.99725,
+    "failure": "routine overlap must not duck the whole score"
+  },
+  "overlapAfter": {
+    "exitCode": 0,
+    "gainBefore": 1.9458536585366,
+    "outgoingGain": 1.9458536585366,
+    "incomingGain": 1.9458536585366
+  },
+  "residenceBefore": {
+    "exitCode": 1,
+    "failure": "routine phrase holds for four successful passes"
+  },
+  "residenceAfter": {
+    "checks": 301996,
+    "stallCases": 15
+  },
+  "resourceAfter": {
+    "checks": 2031,
+    "stallCases": 15,
+    "peakChannels": 8
+  },
+  "bank": {
+    "revision": "ms2-surge-0f7591eb682f3b2b",
+    "files": 1403,
+    "bytes": 59993192,
+    "encodedAudioChanged": false
+  },
+  "nativeSmoothnessAccepted": false
+}

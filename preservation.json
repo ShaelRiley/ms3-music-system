@@ -1,0 +1,4641 @@
+{
+  "sourceRepository": "ShaelRiley/the-legend-of-deborah",
+  "sourceCommit": "d252a7acf2f64919ff6dd6457f5ca4f9c24db94f",
+  "files": [
+    {
+      "path": "tools/test_music_bundle.lua",
+      "bytes": 3701,
+      "sha256": "95000746a39a69e44205ac440541281bce504d2894f069403283e9bf3596014b"
+    },
+    {
+      "path": "tools/run_lua54.py",
+      "bytes": 2804,
+      "sha256": "81387bdefe4fff9ef39f6861105674bb6b203440ddeb548327bae2febde0a423"
+    },
+    {
+      "path": "tools/test_music_audio.js",
+      "bytes": 566,
+      "sha256": "174a3136eb919bcde12e95c9ff2b7891649a985444dbeb36aa8770ba50f9f705"
+    },
+    {
+      "path": "tools/audio_test_double.lua",
+      "bytes": 638,
+      "sha256": "2b2fc787f4f6336518dc8c4f4d0e05bf161c563029b458d76ac1e2eb65ea0abd"
+    },
+    {
+      "path": "tools/test_ms3_audio_bridge.py",
+      "bytes": 4959,
+      "sha256": "7bdceeb5571335fc18eec2e16b0d58f467d4ce0cdd373b64952ee3f18b0d9e1a"
+    },
+    {
+      "path": "tools/test_ms3_transport.js",
+      "bytes": 11845,
+      "sha256": "0dcce561839d98761b84b48d19ae0050a86d891a85bc482604f4291ab6439c5d"
+    },
+    {
+      "path": "tools/test_music_client.lua",
+      "bytes": 4176,
+      "sha256": "2915f42e80f9148e13846b4b6aa6e17932e69e784a266c36a8e5c80c5b1ce81f"
+    },
+    {
+      "path": "tools/test_music_options.lua",
+      "bytes": 5282,
+      "sha256": "42d6d2eeb7d2f54d40395cf73c078bd3483e77a03f0765e942c2cf04b74c89dd"
+    },
+    {
+      "path": "tools/test_ms3_song_policy.lua",
+      "bytes": 3603,
+      "sha256": "d7b871e1a4784d8fa1ed471ea6466ec18dd8728b4b838af5dc562e6e360d2578"
+    },
+    {
+      "path": "tools/test_music_sequence.js",
+      "bytes": 12217,
+      "sha256": "93bad35af07f1b3f64ac682876669051f49412e8379f43b742ead8b46624bc99"
+    },
+    {
+      "path": "tools/test_music_policy.lua",
+      "bytes": 2401,
+      "sha256": "00053da4ab5a654a7f94b52bcf21d85cd4044449a8c1381b42e01f3abce1b8ee"
+    },
+    {
+      "path": "tools/test_music_gate.py",
+      "bytes": 2310,
+      "sha256": "1bba357a998670f38f24820ef9de280839dcbd84577984884fd34272b3104883"
+    },
+    {
+      "path": "tools/test_ms3_song_sequence.js",
+      "bytes": 4625,
+      "sha256": "8aa33e629f76ec37d87fe0bd9a386030902c828fb4d690abc6b5c665dd5c8aa6"
+    },
+    {
+      "path": "tools/test_ms3_audio.py",
+      "bytes": 5777,
+      "sha256": "acdcc3e14d44ff558a99c460ccc091afd8ad3e393fbe07b1eea7bd3716a0ea97"
+    },
+    {
+      "path": "tools/test_ms3_sixteen_bar.py",
+      "bytes": 10650,
+      "sha256": "824905908ef5270d0328bd18ea6a2913d664533b9eeb90bd6686bb93346bc6ec"
+    },
+    {
+      "path": "tools/test_music_resources.lua",
+      "bytes": 14481,
+      "sha256": "e14566d6a9dc0868801bdbce3cc99e1df07127ae24f7ed960f4342a75d643474"
+    },
+    {
+      "path": "tools/test_music_native_hitch.lua",
+      "bytes": 3733,
+      "sha256": "3b63b09ba930925ef3f2babbfdabdcae815f7ffb307e2579751eefeb080285ae"
+    },
+    {
+      "path": "tools/test_ms2_surge_bank.py",
+      "bytes": 11312,
+      "sha256": "b5975e3c8b613216da200b62a89a35cdb953053727c9dbc97a4ffe3f1d1fe68e"
+    },
+    {
+      "path": "tools/test_music_transitions.lua",
+      "bytes": 1984,
+      "sha256": "cc83464e25c60c4c1c5b055d775a63a538cf4de1f41fa3632194aee0de27a9c0"
+    },
+    {
+      "path": "tools/test_music_server.lua",
+      "bytes": 8835,
+      "sha256": "58c51b6aef4a8891c2cec13ac6cbd77d2c8d73fc90f1d47ef2bee251147f3bbe"
+    },
+    {
+      "path": "tools/test_ms2_catalog.py",
+      "bytes": 14255,
+      "sha256": "73c4a975e8a1802f5702f3243cb7fcd0325ecee0ee24d97439303733532b722b"
+    },
+    {
+      "path": "tools/music_test_fixture.lua",
+      "bytes": 9097,
+      "sha256": "d1ac30c28883f8ed56b425826c7de62457d2a4dc2bb5ecf54f5c8739bb3bfb8b"
+    },
+    {
+      "path": "tools/test_ms3_song_score.py",
+      "bytes": 5553,
+      "sha256": "fca32396e968207c41f836b63d7e942500d1bd412cdb2e7869b0dab887e6ee7e"
+    },
+    {
+      "path": "tools/test_ms3_song_audio.py",
+      "bytes": 4176,
+      "sha256": "bf9f406fc4f1462d81ec05a0acdae64a62826b63f2a2d538496768c602deb780"
+    },
+    {
+      "path": "tools/test_music_authorization.lua",
+      "bytes": 11422,
+      "sha256": "d556bd81b1e467e01967d1eed98c5ef907df456b682550719f7fb8c6e3433ec9"
+    },
+    {
+      "path": "docs/MS3_SONG_SCORE.json",
+      "bytes": 3271422,
+      "sha256": "1507e516b0023590eb872def828991e773b67721d56c47f557413d5e727cdf69"
+    },
+    {
+      "path": "docs/MS3_16_BAR_AUDIT.json",
+      "bytes": 776511,
+      "sha256": "10225b5a199271d0b543202c0776dae94f12a895d6497883c17a0511c3658f06"
+    },
+    {
+      "path": "docs/MS2_CLIPS.zip",
+      "bytes": 367665,
+      "sha256": "54807688077eb1a5e45070166e054045a5a53c968093315c38daac4223a2c137"
+    },
+    {
+      "path": "docs/MS2_CATALOG.json",
+      "bytes": 254153,
+      "sha256": "11a3b653cffee3276598daaa26753abadef7cd40754fe8ce4d79135f3919a601"
+    },
+    {
+      "path": "docs/MS3_SONG_AUDIT.json",
+      "bytes": 333812,
+      "sha256": "4b7907e13cdc1b429d4f79ee429de597c1e5909080a9d5e6e920c6973bd7b18c"
+    },
+    {
+      "path": "docs/MS2_CATALOG.md",
+      "bytes": 544,
+      "sha256": "28f64d5886a7838ab8634b79ec27897e35e6a9475a3ae4121e3f46f39d5ad4a1"
+    },
+    {
+      "path": "docs/MS2_SURGE_BANK.json",
+      "bytes": 289661,
+      "sha256": "cb02fd46b2b47465a9b7d4240c66a337868565aae1a20586cf3d635bd13bc197"
+    },
+    {
+      "path": "docs/MS3_SONG_DIRECTION.md",
+      "bytes": 3197,
+      "sha256": "d2307e5be3cf99ab53ea9d74ce570d6bda96757ee159f87bc0a1cbd1456fca1e"
+    },
+    {
+      "path": "tools/music/ms2_engine.js",
+      "bytes": 36130,
+      "sha256": "d5dedacf0d2f1ba769b67e2f799831bc21dfbdd93f46b986fc4cdbdb053e86f8"
+    },
+    {
+      "path": "tools/music/build_ms2_audio.py",
+      "bytes": 463,
+      "sha256": "832119e978d579abbb582bec20b427b42eb5bf90203e50d72fde429b15bacfeb"
+    },
+    {
+      "path": "tools/music/read_catalog.js",
+      "bytes": 646,
+      "sha256": "4301712b75a4141e5cab89be2944b67557d60a52ce3650c2d1c7cd0bf234b34f"
+    },
+    {
+      "path": "tools/music/song_score.py",
+      "bytes": 10611,
+      "sha256": "673683c575b592deabb469e3c2e7788c2c2d29eef73ba36d4c31277b56296515"
+    },
+    {
+      "path": "tools/music/build_ms2_surge.py",
+      "bytes": 20958,
+      "sha256": "a452a9bb94854bf683f6e6159cbe1ae03261464ece8d2031ff6f92af37704a6a"
+    },
+    {
+      "path": "tools/music/build_ms2.py",
+      "bytes": 23541,
+      "sha256": "aa51168c2b347aba6606d35ff5b9703f6e1a721c6ed4b8cd7166fd6c0cb0eaf3"
+    },
+    {
+      "path": "tools/music/midi.py",
+      "bytes": 7377,
+      "sha256": "5bda01feee2015ed307d10438d3356aa940e74c89ab347f9b03d4cb958439960"
+    },
+    {
+      "path": "tools/music/remap_ms3_sixteen_bar.py",
+      "bytes": 30927,
+      "sha256": "0778124cff6c3b95cc1ff18450a0b0c371022e5a8e7754edd31503424499dd79"
+    },
+    {
+      "path": "tools/music/sources/Block F Chill (synth)-03275b639dc5.mid",
+      "bytes": 28059,
+      "sha256": "03275b639dc5353f74c2270bcb94e1cf5e6b98b170e7f077d9491fb484d1aed1"
+    },
+    {
+      "path": "tools/music/sources/Block H Boss (percussion)-6044cdebaca5.mid",
+      "bytes": 6020,
+      "sha256": "6044cdebaca5dcde1ae8af26ae9fe6ac420189635504e7e2f22a458f299617fa"
+    },
+    {
+      "path": "tools/music/sources/Block A Fanfare (fx)-b2c1df69c4ee.mid",
+      "bytes": 284,
+      "sha256": "b2c1df69c4eebac4ad1fc09e8f4f554d28c5adf30ab24ea4ac73f04a2194badf"
+    },
+    {
+      "path": "tools/music/sources/Block B Fanfare (synth)-a3705c91386f.mid",
+      "bytes": 1322,
+      "sha256": "a3705c91386f2191429a9730ef884bb52240979ca4d70a7166b111c3d32919e4"
+    },
+    {
+      "path": "tools/music/sources/Block C Boss (vocals)-23d252d7dbd6.mid",
+      "bytes": 3282,
+      "sha256": "23d252d7dbd682f12832f0886cb198da43b88aec4c91c5b3f676ec7e38d5711e"
+    },
+    {
+      "path": "tools/music/sources/Block F T3 (woodwinds)-798e60c3806e.mid",
+      "bytes": 3374,
+      "sha256": "798e60c3806e5a2017e27a4e6ebef9707d895dd5ac80ac097fcdde8d3d14f4d3"
+    },
+    {
+      "path": "tools/music/sources/Block A Chill (guitar)-baabbe9b7f09.mid",
+      "bytes": 4590,
+      "sha256": "baabbe9b7f09cc445f0a09e957845cffe0b602692164c85585bbf0a0996acc3f"
+    },
+    {
+      "path": "tools/music/sources/Block B T3 (vocals)-2e8a34cb05e4.mid",
+      "bytes": 6493,
+      "sha256": "2e8a34cb05e4c0be20b9c9bdfe502a05dc597c052fe7064e04717205e4163c0c"
+    },
+    {
+      "path": "tools/music/sources/Block C T4 (strings)-a92229ce7a07.mid",
+      "bytes": 23615,
+      "sha256": "a92229ce7a07053a8c8b8bc61c066aa5e28f9123e5d63767183947cbcc8c2ee2"
+    },
+    {
+      "path": "tools/music/sources/Block E Boss (keyboard)-be6742589a88.mid",
+      "bytes": 20942,
+      "sha256": "be6742589a885e39b65325bcb0b42d37242a190dacaba5e6a9a793813d35c62b"
+    },
+    {
+      "path": "tools/music/sources/Block B Fanfare (woodwinds)-a76d175b8596.mid",
+      "bytes": 426,
+      "sha256": "a76d175b859674acfb818b4c97749fb3403f72af799099a943f0ec63c17f3158"
+    },
+    {
+      "path": "tools/music/sources/Block A T4 (woodwinds)-a4335cc59788.mid",
+      "bytes": 4191,
+      "sha256": "a4335cc597882b82ff203973729710039f12b530e2708bf3127901893526e8c5"
+    },
+    {
+      "path": "tools/music/sources/Block D Chill (brass)-70e657338919.mid",
+      "bytes": 2912,
+      "sha256": "70e657338919472d3eb2c714576f62818fd89f91a509fc4aaa5a1f8958af0c2b"
+    },
+    {
+      "path": "tools/music/sources/Block D T4 (guitar)-df9c60ce232b.mid",
+      "bytes": 3119,
+      "sha256": "df9c60ce232bb71a2c49000c3143e5bf4db00ce9d246670b7aabea36d47b452a"
+    },
+    {
+      "path": "tools/music/sources/Block F T4 (synth)-b0aa1364d33f.mid",
+      "bytes": 22866,
+      "sha256": "b0aa1364d33fe3a8b98bb0c71fd894eb7aee81926aac6c2d9c3e1123ab6c72a5"
+    },
+    {
+      "path": "tools/music/sources/Block F T3 (guitar)-9c331cbe7c95.mid",
+      "bytes": 3354,
+      "sha256": "9c331cbe7c9544f6c66482bc8439304c5db93f18895f49a1d42b27af4c2fa1dd"
+    },
+    {
+      "path": "tools/music/sources/Block E T2 (synth)-e3ba920cb42d.mid",
+      "bytes": 19939,
+      "sha256": "e3ba920cb42dcdea20f964aee104fa1bab2f758185cf291f77e9f89b33af53d4"
+    },
+    {
+      "path": "tools/music/sources/Block G T2 (bass)-1b3fecaf5963.mid",
+      "bytes": 11887,
+      "sha256": "1b3fecaf5963a214fdfc65ac98eda55a471c50fda4faf09b755a57459d61fc19"
+    },
+    {
+      "path": "tools/music/sources/Block B T3 (synth)-946304cd8eb3.mid",
+      "bytes": 36437,
+      "sha256": "946304cd8eb34444d4627e363fe2e6c954c5fb0115ee404284ae0519f5b397a9"
+    },
+    {
+      "path": "tools/music/sources/Block D T4 (strings)-89a20007acc7.mid",
+      "bytes": 15296,
+      "sha256": "89a20007acc7bb934a85f894cba776ccee579e576468822caae797db60844aa1"
+    },
+    {
+      "path": "tools/music/sources/Block B T4 (woodwinds)-dd9296803ac0.mid",
+      "bytes": 6102,
+      "sha256": "dd9296803ac07498aa223e923ac83134bc3bd0ce0c667310a2c10f66d5a99014"
+    },
+    {
+      "path": "tools/music/sources/Block G T2 (woodwinds)-625e366b0eff.mid",
+      "bytes": 5234,
+      "sha256": "625e366b0eff824c619936e9cf65c1c813ce1645a5a28e8de526adee90a2e372"
+    },
+    {
+      "path": "tools/music/sources/Block G T3 (brass)-51d42671b96f.mid",
+      "bytes": 4454,
+      "sha256": "51d42671b96ff810139555c7f43390da66ceb95749e44dde7aa2b464d4adc4e5"
+    },
+    {
+      "path": "tools/music/sources/Block B T4 (synth)-78b4ee756b90.mid",
+      "bytes": 45379,
+      "sha256": "78b4ee756b9087bb0e3f195f01c53f4e9a2f6ac572f0252b39f59e7f80cb3ddf"
+    },
+    {
+      "path": "tools/music/sources/Block G T4 (bass)-834ebe429fcb.mid",
+      "bytes": 14018,
+      "sha256": "834ebe429fcb3a1a7ce6359dcfec70adc50fed964373b60ef566cddc2eb2f1c0"
+    },
+    {
+      "path": "tools/music/sources/Block B T4 (strings)-e04c2b3ec4a4.mid",
+      "bytes": 26576,
+      "sha256": "e04c2b3ec4a45bc23cc7a3cfd90236a85199e4ddcc3b9dab40822c950e87db11"
+    },
+    {
+      "path": "tools/music/sources/Block F T4 (percussion)-98c0a5d91dd7.mid",
+      "bytes": 8959,
+      "sha256": "98c0a5d91dd75900a5af8ed8419d7920e80e5dd2b14d15c67771bd4e8a06723f"
+    },
+    {
+      "path": "tools/music/sources/Block D T3 (brass)-228482b58f3e.mid",
+      "bytes": 5061,
+      "sha256": "228482b58f3e0db5b713a851d555bfdda7f7d0ddd8fd73472425181fef4d166a"
+    },
+    {
+      "path": "tools/music/sources/Block H Fanfare (keyboard)-1c91df2db02a.mid",
+      "bytes": 1033,
+      "sha256": "1c91df2db02a08d07c318332d68aed96e66b5a0a4c2b66cdd5a187922dacb89f"
+    },
+    {
+      "path": "tools/music/sources/Block G T3 (bass)-9b545a1a05c1.mid",
+      "bytes": 12945,
+      "sha256": "9b545a1a05c13dc054043089845e24570588903ed5f348df0b21afbbf1a85982"
+    },
+    {
+      "path": "tools/music/sources/Block C Fanfare (strings)-8286cfb57dfc.mid",
+      "bytes": 1582,
+      "sha256": "8286cfb57dfc2f5efbbcd34058949b320fd60f07b60dfdd22ccf4b37c7ef7180"
+    },
+    {
+      "path": "tools/music/sources/Block G Fanfare (synth)-43cb3cb318a1.mid",
+      "bytes": 2518,
+      "sha256": "43cb3cb318a198e79c427ef52c53fb496289d31063d1ab81c9617df4a3b375bc"
+    },
+    {
+      "path": "tools/music/sources/Block E T4 (percussion)-4fd55e4cfd79.mid",
+      "bytes": 5501,
+      "sha256": "4fd55e4cfd79912a7b393e93af08276e06c303a03fedb37fcf40c4d984ac5225"
+    },
+    {
+      "path": "tools/music/sources/Block E Fanfare (keyboard)-813076a98b07.mid",
+      "bytes": 684,
+      "sha256": "813076a98b076de4bcfd74968fbea0cd47eacfae62b65b7478971d816695c956"
+    },
+    {
+      "path": "tools/music/sources/Block C T4 (percussion)-b683703b0d92.mid",
+      "bytes": 6288,
+      "sha256": "b683703b0d92559863d97e327bb6a613d8b336374d0127891072f53206d92b02"
+    },
+    {
+      "path": "tools/music/sources/Block F Boss (percussion)-0b5e2f0b0dee.mid",
+      "bytes": 12866,
+      "sha256": "0b5e2f0b0deebf379cc7567f7f95b6e530b5bbcadd0899971462e98dae9729fa"
+    },
+    {
+      "path": "tools/music/sources/Block C T4 (fx)-358426f49387.mid",
+      "bytes": 8294,
+      "sha256": "358426f493876cdf670c6f276eeca1fe4753ba4dba6116f9f28aa75503b7d34e"
+    },
+    {
+      "path": "tools/music/sources/Block H Fanfare (drums)-9d9f443abe24.mid",
+      "bytes": 512,
+      "sha256": "9d9f443abe24275df990725f3e2676da60a105800d0e883d8eeccf2cd12e27ce"
+    },
+    {
+      "path": "tools/music/sources/Block D T2 (drums)-b06cbfb8055c.mid",
+      "bytes": 13711,
+      "sha256": "b06cbfb8055cf8ca908acab7356e56ad990f48ec9d4e9db2d630466d83b9898c"
+    },
+    {
+      "path": "tools/music/sources/Block F T2 (fx)-0bcb9841cd84.mid",
+      "bytes": 5481,
+      "sha256": "0bcb9841cd84582da3cb6199385e76131fe93dab85b9b7ae0613a5aa588335bd"
+    },
+    {
+      "path": "tools/music/sources/Block G T2 (drums)-7f6f0446f71b.mid",
+      "bytes": 13934,
+      "sha256": "7f6f0446f71b35fd56e7e84db5d3075ce382e826c3518c1a7e4ff3d8a86c3708"
+    },
+    {
+      "path": "tools/music/sources/Block H T3 (woodwinds)-9888e47126e9.mid",
+      "bytes": 3780,
+      "sha256": "9888e47126e97a013bd2722e44fe2b2a9f730d00ffd2c06323e4a5b621b91319"
+    },
+    {
+      "path": "tools/music/sources/Block B T4 (keyboard)-b23f2fa0e712.mid",
+      "bytes": 20319,
+      "sha256": "b23f2fa0e712bc02ee50efc1738464de1df90cc1e6742ea6b6cf400a2feb815d"
+    },
+    {
+      "path": "tools/music/sources/Block E Chill (synth)-6b0cc5363106.mid",
+      "bytes": 14430,
+      "sha256": "6b0cc536310673343d6aa838e01342caf415938a0caf4832939817c5d7ea2836"
+    },
+    {
+      "path": "tools/music/sources/Block C T2 (drums)-e3250233b2d2.mid",
+      "bytes": 17921,
+      "sha256": "e3250233b2d2761a7e1fe6c395cb456d6dd56a72264946567d5e3dfdb4b571c8"
+    },
+    {
+      "path": "tools/music/sources/Block D Boss (keyboard)-7cf011ecbc3d.mid",
+      "bytes": 22891,
+      "sha256": "7cf011ecbc3d05e2342a2d2db03da9bf277d67b7021d638c4669d58d0b688473"
+    },
+    {
+      "path": "tools/music/sources/Block C Fanfare (drums)-fa213d1336d0.mid",
+      "bytes": 390,
+      "sha256": "fa213d1336d0408fe74eb932425f5c22f9a77af38fa9a3578103c7a221a3074f"
+    },
+    {
+      "path": "tools/music/sources/Block G T2 (guitar)-b2269f41016e.mid",
+      "bytes": 3426,
+      "sha256": "b2269f41016edbc07537da193ff88d62d95a0fb0b7063f665a2ef4bcaac8fed8"
+    },
+    {
+      "path": "tools/music/sources/Block F Fanfare (guitar)-659a182d7f24.mid",
+      "bytes": 437,
+      "sha256": "659a182d7f24d3aa8a5c48d68074c27b4d68070ae2714b588627a5ba582cc848"
+    },
+    {
+      "path": "tools/music/sources/Block C Chill (percussion)-7fac105603d1.mid",
+      "bytes": 6477,
+      "sha256": "7fac105603d170e58b0161bd5a3ed9e940c51e578fbc819fde161fabbfa1b7d4"
+    },
+    {
+      "path": "tools/music/sources/Block B T4 (drums)-9abd0bc47b6a.mid",
+      "bytes": 22939,
+      "sha256": "9abd0bc47b6a26c6f18daa92bbc439fe27c5b694900122f87ab35bf8ffb3943f"
+    },
+    {
+      "path": "tools/music/sources/Block F Boss (strings)-ff3111b81fcd.mid",
+      "bytes": 15389,
+      "sha256": "ff3111b81fcdbfb79a5e24a6c45c2ebf54fb3137c2d49b58b221eb3c15b08c8e"
+    },
+    {
+      "path": "tools/music/sources/Block H T3 (keyboard)-a968b82c4bc0.mid",
+      "bytes": 9920,
+      "sha256": "a968b82c4bc09d61cbd8811be464f5fcdf070cd52dc3856191e7fd4c2191837e"
+    },
+    {
+      "path": "tools/music/sources/Block H T2 (brass)-a2e8d9d10a6b.mid",
+      "bytes": 9266,
+      "sha256": "a2e8d9d10a6b62b3fd462bd3657a828252428100c5f23acf314a906b1d5b9fdb"
+    },
+    {
+      "path": "tools/music/sources/Block D T4 (woodwinds)-84995941883e.mid",
+      "bytes": 2979,
+      "sha256": "84995941883e9905849ada25417f6ba990dc986c7a24c5bae576084222b60a52"
+    },
+    {
+      "path": "tools/music/sources/Block H T4 (keyboard)-75c9135c9bb8.mid",
+      "bytes": 37426,
+      "sha256": "75c9135c9bb80ecccbdb90d87c0a6a278ce8ab21101b669d80e54907d571a173"
+    },
+    {
+      "path": "tools/music/sources/Block G T3 (synth)-f476e1b9f73c.mid",
+      "bytes": 18324,
+      "sha256": "f476e1b9f73c89ef2307a31d76aa5c3a2c0cbed618fe85b05ccfd8e2432afe24"
+    },
+    {
+      "path": "tools/music/sources/Block F Fanfare (woodwinds)-8e189040eac4.mid",
+      "bytes": 826,
+      "sha256": "8e189040eac4db0807b9132ac2bbabbaa5e86425f3c950dab2dd2579bcade39f"
+    },
+    {
+      "path": "tools/music/sources/Block E T2 (keyboard)-328c7cffc4d7.mid",
+      "bytes": 17498,
+      "sha256": "328c7cffc4d753fd004ffc50f5a7880d405f26668fa7a8ec6561b680ea51d80a"
+    },
+    {
+      "path": "tools/music/sources/Block G T4 (woodwinds)-01563a985ff6.mid",
+      "bytes": 5931,
+      "sha256": "01563a985ff6702d7ad27831700c5b59d59fecfc7e2b6b7927272a2e4f94fdf3"
+    },
+    {
+      "path": "tools/music/sources/Block E Chill (strings)-bc3bd09f5810.mid",
+      "bytes": 3069,
+      "sha256": "bc3bd09f5810a546fe25facb8318b58cf817ade6038b4a24782790cee137caa7"
+    },
+    {
+      "path": "tools/music/sources/Block B T2 (brass)-145a104f91fa.mid",
+      "bytes": 9680,
+      "sha256": "145a104f91fa4253bdab4db91287ca76c5ac7f2764bbf5d52ecb1fddd8d5e7b1"
+    },
+    {
+      "path": "tools/music/sources/Block G Chill (woodwinds)-3492d59913b3.mid",
+      "bytes": 4016,
+      "sha256": "3492d59913b3a2c134b53268e4ea8e6f6da90eaef9fa857073f636f7c827cda6"
+    },
+    {
+      "path": "tools/music/sources/Block H Boss (vocals)-0678953af42c.mid",
+      "bytes": 4556,
+      "sha256": "0678953af42c8862f6a6fdf07513a41ed8bd64cdd675f01b6c29a97b9f550171"
+    },
+    {
+      "path": "tools/music/sources/Block E T3 (synth)-afa4d624c069.mid",
+      "bytes": 21524,
+      "sha256": "afa4d624c0692e7f6f294d8509c71720afd33cd2758c2fff4e13666fde0b55fd"
+    },
+    {
+      "path": "tools/music/sources/Block G T3 (vocals)-e8a4033ce27d.mid",
+      "bytes": 7969,
+      "sha256": "e8a4033ce27d4dadfce66e185fe83263bd50d8bb1684ebd978077283dcbe4516"
+    },
+    {
+      "path": "tools/music/sources/Block B Boss (fx)-c226411f7a3f.mid",
+      "bytes": 9870,
+      "sha256": "c226411f7a3fb0a5d1f5e38f25b68124b38f35cdf27d32e3c7d2fb6438c47ddb"
+    },
+    {
+      "path": "tools/music/sources/Block G Fanfare (strings)-c1f6de2550b8.mid",
+      "bytes": 2460,
+      "sha256": "c1f6de2550b8e5209d1d050f51c0b6c1c568480b72681e4937091b81fcf977df"
+    },
+    {
+      "path": "tools/music/sources/Block H Fanfare (strings)-03534dbaf075.mid",
+      "bytes": 859,
+      "sha256": "03534dbaf075e5816e81821030b3222ccbf22713af7bcfdb04cda6013f7c6224"
+    },
+    {
+      "path": "tools/music/sources/Block A Boss (brass)-64493175dc97.mid",
+      "bytes": 9402,
+      "sha256": "64493175dc979a2419b312ad76af1186006584bc748adbf03b52dc837c252437"
+    },
+    {
+      "path": "tools/music/sources/Block D T2 (fx)-2d00f0912a6e.mid",
+      "bytes": 5709,
+      "sha256": "2d00f0912a6ee2f912bf8228f1b1f58fb0c8a3c7d66210f0b00ef21392097a9c"
+    },
+    {
+      "path": "tools/music/sources/Block G T4 (brass)-d9c8b8c2fc3a.mid",
+      "bytes": 15577,
+      "sha256": "d9c8b8c2fc3a317209341c32c902b32b03043e9ef7e91fdd4dd5d16eb2a8eee4"
+    },
+    {
+      "path": "tools/music/sources/Block A T4 (guitar)-74aff53d8574.mid",
+      "bytes": 4624,
+      "sha256": "74aff53d8574f11ed30d846562c5e682a1ec464317e19295c9be1a095da35836"
+    },
+    {
+      "path": "tools/music/sources/Block D T2 (percussion)-d147780fe0a8.mid",
+      "bytes": 11647,
+      "sha256": "d147780fe0a87a51216d75ed5033a4252a498653e0a0805d1c61bafe5fe0a558"
+    },
+    {
+      "path": "tools/music/sources/Block C T3 (synth)-c4450593e83e.mid",
+      "bytes": 18306,
+      "sha256": "c4450593e83e17cd82430bc7f91cf8a9ee4256443b27694f57bae9d83e5909ac"
+    },
+    {
+      "path": "tools/music/sources/Block B T3 (strings)-f78215b4fc34.mid",
+      "bytes": 17571,
+      "sha256": "f78215b4fc3441084afea681a260e42d46497d74d4285266ab874ea685316902"
+    },
+    {
+      "path": "tools/music/sources/Block B Boss (keyboard)-36da53736560.mid",
+      "bytes": 37123,
+      "sha256": "36da5373656047ffeaadea8e09c4853a0a69dc75fdd460d00613c2975bf2cc88"
+    },
+    {
+      "path": "tools/music/sources/Block F T2 (drums)-accf27d1def7.mid",
+      "bytes": 12469,
+      "sha256": "accf27d1def7bad53b39c3299b56685684b047824dee1a705d966e9c5a77b018"
+    },
+    {
+      "path": "tools/music/sources/Block G Chill (fx)-369a7d4aead3.mid",
+      "bytes": 4427,
+      "sha256": "369a7d4aead39e547d1e032d81377f84c4c01ca614d58e782b8a850c36af82dd"
+    },
+    {
+      "path": "tools/music/sources/Block H T4 (drums)-306c55feabe1.mid",
+      "bytes": 39320,
+      "sha256": "306c55feabe1ea1d7b86ded36dfa7aae4d37d4e3516a07fa7daaf20216bf92df"
+    },
+    {
+      "path": "tools/music/sources/Block F Chill (strings)-62dc5a3b93c7.mid",
+      "bytes": 3884,
+      "sha256": "62dc5a3b93c76d32ce43c47967cda53012a368c362319fa6dcbdc8d85574aea2"
+    },
+    {
+      "path": "tools/music/sources/Block D T3 (strings)-4ae0488442a9.mid",
+      "bytes": 9299,
+      "sha256": "4ae0488442a9fd2ef6be11c26c36dbcb1f624e75f9043942ac266eaefd1e69bf"
+    },
+    {
+      "path": "tools/music/sources/Block C Chill (woodwinds)-0e2c6bd8686d.mid",
+      "bytes": 2459,
+      "sha256": "0e2c6bd8686d9e6fba7bff136793bcc578cc5585ae49a8c1a867e2d0c9fc14c8"
+    },
+    {
+      "path": "tools/music/sources/Block F T4 (drums)-6c624e1c7f05.mid",
+      "bytes": 11097,
+      "sha256": "6c624e1c7f053ba3187d2507ae80213f95fcf7278b665b7415002eb73a6c311b"
+    },
+    {
+      "path": "tools/music/sources/Block C T3 (keyboard)-a9a231655f78.mid",
+      "bytes": 14353,
+      "sha256": "a9a231655f78bf71f92ca5f3b97679c85c43f17dac232ec37d8c60e2f05f9fd2"
+    },
+    {
+      "path": "tools/music/sources/Block F T3 (fx)-eccd1213a1ae.mid",
+      "bytes": 7790,
+      "sha256": "eccd1213a1aea7f32a19e2913e0c98b21b57f93938f24a6f4774f2d284785d66"
+    },
+    {
+      "path": "tools/music/sources/Block G Boss (woodwinds)-da2d811c92aa.mid",
+      "bytes": 5634,
+      "sha256": "da2d811c92aa3ec4e62a2ab784e9b0c963b25d60811796092345f2a1633aa6b4"
+    },
+    {
+      "path": "tools/music/sources/Block F Boss (keyboard)-6b42e3406c79.mid",
+      "bytes": 14187,
+      "sha256": "6b42e3406c79103a981090db37b66d1aa2cf83a70bbc3f69b394128214a43519"
+    },
+    {
+      "path": "tools/music/sources/Block H T4 (vocals)-63c6b707ba38.mid",
+      "bytes": 4463,
+      "sha256": "63c6b707ba3819019aadaf2f40d15d3b846eaf394cb9953c7b95e7915807e854"
+    },
+    {
+      "path": "tools/music/sources/Block C Boss (fx)-679754d69268.mid",
+      "bytes": 7370,
+      "sha256": "679754d6926885d60f6725d44a517ba55e7af360c9406b3b9b1c70a826f565b7"
+    },
+    {
+      "path": "tools/music/sources/Block B Boss (bass)-3a651495eada.mid",
+      "bytes": 13694,
+      "sha256": "3a651495eadad8a1edb5850e98ae23522365ef18b780bdce249f801f97a77db9"
+    },
+    {
+      "path": "tools/music/sources/Block E Boss (strings)-61198c3e3fa3.mid",
+      "bytes": 17711,
+      "sha256": "61198c3e3fa35d7824f3d91e64a6c61f2675b3a5f5341a4bd3868d0c280e10b1"
+    },
+    {
+      "path": "tools/music/sources/Block D T2 (vocals)-38aeeaca12b9.mid",
+      "bytes": 3370,
+      "sha256": "38aeeaca12b90ca7d72ef6d9d92643f5262f6d2a6a94dfb12a3ba8f9260c888a"
+    },
+    {
+      "path": "tools/music/sources/Block D T3 (guitar)-700fce2b1898.mid",
+      "bytes": 2730,
+      "sha256": "700fce2b189866c27e6f3d1c50377484c95f4274640e3a7f3ff0535e4bee7daa"
+    },
+    {
+      "path": "tools/music/sources/Block D T3 (keyboard)-e2f1962fe195.mid",
+      "bytes": 18161,
+      "sha256": "e2f1962fe19525ef79e0b8e47756c980b19ce25289ca7a73002244d02671df28"
+    },
+    {
+      "path": "tools/music/sources/Block H T4 (brass)-617d5b228e25.mid",
+      "bytes": 13018,
+      "sha256": "617d5b228e25488938ac3af7533014a426ffb0f48b4284fdf4876077e2ea70fb"
+    },
+    {
+      "path": "tools/music/sources/Block C Chill (keyboard)-48a6470dea6e.mid",
+      "bytes": 9672,
+      "sha256": "48a6470dea6ef33964501cd33504cf291d784037b7a3afbf8472a6dc1d817886"
+    },
+    {
+      "path": "tools/music/sources/Block G T2 (percussion)-0cc6de287fb7.mid",
+      "bytes": 3601,
+      "sha256": "0cc6de287fb7d919ab7fdb39af77b2e86d7c536b80a76932961bcf240f5a3dfe"
+    },
+    {
+      "path": "tools/music/sources/Block D Boss (guitar)-0acf42b2a2ea.mid",
+      "bytes": 3280,
+      "sha256": "0acf42b2a2eabb25ee480924c5f2bb99a8fbde07454a2bed47e459f42db5ba76"
+    },
+    {
+      "path": "tools/music/sources/Block C Boss (keyboard)-87d3e67133dd.mid",
+      "bytes": 8832,
+      "sha256": "87d3e67133dd6e96d3f681f499ad1f1234644da7ff6a0d6fce71a014a669b1b2"
+    },
+    {
+      "path": "tools/music/sources/Block G Boss (brass)-50cb85245a3e.mid",
+      "bytes": 14312,
+      "sha256": "50cb85245a3e7272048867126c8670b0187ce8b85e21068aed23894901b9563d"
+    },
+    {
+      "path": "tools/music/sources/Block A T2 (strings)-f486a07bdfa1.mid",
+      "bytes": 4739,
+      "sha256": "f486a07bdfa110513c426a83ab7d43017b95d90bd5bc652a250d84419e6967da"
+    },
+    {
+      "path": "tools/music/sources/Block G T4 (percussion)-56cda2225172.mid",
+      "bytes": 4466,
+      "sha256": "56cda22251723472adc74299d252a7a833c3414e8d51fcaef221298a2670de05"
+    },
+    {
+      "path": "tools/music/sources/Block D T3 (percussion)-3f105dbf814e.mid",
+      "bytes": 6035,
+      "sha256": "3f105dbf814ee69f3383b142eb1672934d932eb704b8320798d00a6ab275b694"
+    },
+    {
+      "path": "tools/music/sources/Block C Fanfare (keyboard)-8696e0422fce.mid",
+      "bytes": 1413,
+      "sha256": "8696e0422fceac33480e0ac50887d1bf8bac8cbf6e4b0a191cf43e69ee4e9480"
+    },
+    {
+      "path": "tools/music/sources/Block C T2 (percussion)-fe5e6f0b6f34.mid",
+      "bytes": 8531,
+      "sha256": "fe5e6f0b6f34c1e2e0eee55fa121576dd866e688ab4a861e57b66b18b309b389"
+    },
+    {
+      "path": "tools/music/sources/Block D T4 (synth)-c628b8cc62a9.mid",
+      "bytes": 15297,
+      "sha256": "c628b8cc62a9a714d2fa48f094f196c63dd00ca6b8e60124c8c50c8fe02b10b4"
+    },
+    {
+      "path": "tools/music/sources/Block F Fanfare (bass)-888ecbe7a131.mid",
+      "bytes": 432,
+      "sha256": "888ecbe7a1313b36982f42b57ebb480e166b9f81d648023c7d59b83d2bb63f00"
+    },
+    {
+      "path": "tools/music/sources/Block E T2 (drums)-96c3c0a7594a.mid",
+      "bytes": 14278,
+      "sha256": "96c3c0a7594a90d02714434430e34ece22c465012c524b83095da0ccfb76cc6e"
+    },
+    {
+      "path": "tools/music/sources/Block F Chill (guitar)-aaf41bb694e6.mid",
+      "bytes": 4899,
+      "sha256": "aaf41bb694e617b67ba5321d0a4a4b9af9ab831695dba7650901ce2c15779667"
+    },
+    {
+      "path": "tools/music/sources/Block A T2 (woodwinds)-9d63bf0d484e.mid",
+      "bytes": 4454,
+      "sha256": "9d63bf0d484e9f69d749e97e9f695faf89b55542dc153d5c582600d1969e996b"
+    },
+    {
+      "path": "tools/music/sources/Block D T2 (bass)-75413b89490a.mid",
+      "bytes": 10911,
+      "sha256": "75413b89490a93841dd479df7ac00bff714776d613a3411a6fce3fe7daddd8f4"
+    },
+    {
+      "path": "tools/music/sources/Block H Boss (drums)-4533348778a4.mid",
+      "bytes": 20908,
+      "sha256": "4533348778a4621e6038e73a314b53c40c1ec56ab11bec2917f0e15354840e23"
+    },
+    {
+      "path": "tools/music/sources/Block E T4 (keyboard)-9c0e6bd09ba5.mid",
+      "bytes": 19632,
+      "sha256": "9c0e6bd09ba5de67ce9e7247baad61e586d824f5a2279c5b8e7d17d9e0be7cad"
+    },
+    {
+      "path": "tools/music/sources/Block D Chill (synth)-8faad7f9d9ab.mid",
+      "bytes": 14811,
+      "sha256": "8faad7f9d9abd8c92a8c270546a50cd81b3f6a0ba3c13dea13ce8e0d1cf70bc6"
+    },
+    {
+      "path": "tools/music/sources/Block B Boss (guitar)-95ef6be5d4f1.mid",
+      "bytes": 4270,
+      "sha256": "95ef6be5d4f13ea2791a7a12149dfbe0d6cb8eaf3ebf1f3b671558a6254dd2d5"
+    },
+    {
+      "path": "tools/music/sources/Block A T4 (vocals)-fd567d01bfe1.mid",
+      "bytes": 5636,
+      "sha256": "fd567d01bfe1a0c0d07660e02d4d7df2078e1cdbcbd7e359528e0920945b01f3"
+    },
+    {
+      "path": "tools/music/sources/Block C T4 (brass)-c072a63ca626.mid",
+      "bytes": 16196,
+      "sha256": "c072a63ca62620e6ab10cf25eb1cbbd3500c26ac130cbe9506942694dadccd13"
+    },
+    {
+      "path": "tools/music/sources/Block F T2 (woodwinds)-b1876a93211f.mid",
+      "bytes": 3194,
+      "sha256": "b1876a93211fde401a333a85cc35571474036c076433b345b81f882032498476"
+    },
+    {
+      "path": "tools/music/sources/Block G T2 (keyboard)-8f4fdc6db877.mid",
+      "bytes": 12394,
+      "sha256": "8f4fdc6db877bf8ee5238e170f400c5e24e7299a4fd87cd76723b419a923d26b"
+    },
+    {
+      "path": "tools/music/sources/Block E T4 (drums)-87b1eda5cd9f.mid",
+      "bytes": 13914,
+      "sha256": "87b1eda5cd9fa3e5aa6fbe35a38b4d92dfd510d7a4d48831c8a5ad16996d185a"
+    },
+    {
+      "path": "tools/music/sources/Block F T3 (vocals)-cdb68f29a17f.mid",
+      "bytes": 3637,
+      "sha256": "cdb68f29a17f3443a5f295f51bc5acb6bcb1138f63c1aff528d843cd88bedffd"
+    },
+    {
+      "path": "tools/music/sources/Block B Boss (synth)-7af6936c4fb3.mid",
+      "bytes": 40902,
+      "sha256": "7af6936c4fb314aea550cd026c303a38189d23d1f628a4ed1c23567d690b3e92"
+    },
+    {
+      "path": "tools/music/sources/Block G Fanfare (drums)-bd6614a51f05.mid",
+      "bytes": 682,
+      "sha256": "bd6614a51f051cbb7c808b7f22c06b142736aae1ac96f7f6472f3d07e25e99ee"
+    },
+    {
+      "path": "tools/music/sources/Block A T2 (fx)-12228bc0f25c.mid",
+      "bytes": 7376,
+      "sha256": "12228bc0f25ceb431d3b721019c8c999570fc5ec3b4d89a3f08ca81c767b8b1a"
+    },
+    {
+      "path": "tools/music/sources/Block G Fanfare (percussion)-3a4e9d591e0c.mid",
+      "bytes": 221,
+      "sha256": "3a4e9d591e0c12699dbfeaea03ae180ab8ea7d8b8dcc6eb04176bc26acfdae2d"
+    },
+    {
+      "path": "tools/music/sources/Block A T3 (keyboard)-9e064067fadb.mid",
+      "bytes": 17283,
+      "sha256": "9e064067fadb9dc5e3d37cca8f19461ded24580ed677d7700fd0c7905338f370"
+    },
+    {
+      "path": "tools/music/sources/Block E Fanfare (woodwinds)-a0432cee29f4.mid",
+      "bytes": 1532,
+      "sha256": "a0432cee29f4374a8abc4cf47eb89945a6b6e7998c548dab6a99bb72152f3cdb"
+    },
+    {
+      "path": "tools/music/sources/Block C Boss (drums)-65c7ec2cac3a.mid",
+      "bytes": 9499,
+      "sha256": "65c7ec2cac3a0067d710c65bca0954cee41ad60f773c805bab6b3f1aa515f0a3"
+    },
+    {
+      "path": "tools/music/sources/Block A Boss (bass)-b8a9c8c81adf.mid",
+      "bytes": 7421,
+      "sha256": "b8a9c8c81adfdbca411b7440a3a4334d3a98499f426d9730023fe9084b440960"
+    },
+    {
+      "path": "tools/music/sources/Block A T4 (keyboard)-5de3a3ea65d6.mid",
+      "bytes": 18818,
+      "sha256": "5de3a3ea65d6d88bf7b48f2fa80bf5cd458e40b9d9a585b8742b6c6ce82d7c45"
+    },
+    {
+      "path": "tools/music/sources/Block E Boss (bass)-8ea20fa16851.mid",
+      "bytes": 9156,
+      "sha256": "8ea20fa16851872f2d2033bd9741a1a371f65f84f7cefdadfdc4f329b74f507a"
+    },
+    {
+      "path": "tools/music/sources/Block B Boss (percussion)-fadd8ae62ed0.mid",
+      "bytes": 7230,
+      "sha256": "fadd8ae62ed0e958a095282710ee97fcaa90d07390ecc8e3493649d56ab50379"
+    },
+    {
+      "path": "tools/music/sources/Block F Chill (keyboard)-c35df94f816c.mid",
+      "bytes": 31779,
+      "sha256": "c35df94f816c1c075c47771ce1ce754495ec17850e3c8b2304dd0f8be67316f3"
+    },
+    {
+      "path": "tools/music/sources/Block A Fanfare (synth)-cf6b5a476b8b.mid",
+      "bytes": 3240,
+      "sha256": "cf6b5a476b8bb9cd1819244c1e2c9bc2fa2824b687718dbb717adbde3f56767f"
+    },
+    {
+      "path": "tools/music/sources/Block F T2 (guitar)-7bdfae6d270f.mid",
+      "bytes": 2803,
+      "sha256": "7bdfae6d270f9ec5b953d5186aee0c25e769edbfa8d80fa754458804991d1c21"
+    },
+    {
+      "path": "tools/music/sources/Block D T2 (keyboard)-91132aae088b.mid",
+      "bytes": 16443,
+      "sha256": "91132aae088b5a0eed2e4e998322c238834ce31bfb2d66326ddc321154d74113"
+    },
+    {
+      "path": "tools/music/sources/Block D T4 (vocals)-6915e450111e.mid",
+      "bytes": 2954,
+      "sha256": "6915e450111e200345ce19f35fe9647f01b1075e2e40d9041c7c6c376192f9fb"
+    },
+    {
+      "path": "tools/music/sources/Block C Boss (woodwinds)-c2a784ebd54d.mid",
+      "bytes": 3262,
+      "sha256": "c2a784ebd54dd16d0f0a376636abbeb0e5219d09863882eb313ddd7bf055c264"
+    },
+    {
+      "path": "tools/music/sources/Block G Chill (vocals)-b36508a30973.mid",
+      "bytes": 6172,
+      "sha256": "b36508a3097363af9e07ed8e61301fa2aac9269adcfdd578aab01d520983ae91"
+    },
+    {
+      "path": "tools/music/sources/Block H T3 (guitar)-514c2e20e419.mid",
+      "bytes": 17251,
+      "sha256": "514c2e20e4195e3587f71353999a4e0454846dbd4d7546b2f85d84570d9bc9ee"
+    },
+    {
+      "path": "tools/music/sources/Block D Chill (drums)-9bb050ea0b77.mid",
+      "bytes": 18161,
+      "sha256": "9bb050ea0b77e2aa3ee38ad2308540aa30efa4f19dbdb706f9cdcc37669f1ab3"
+    },
+    {
+      "path": "tools/music/sources/Block F T3 (strings)-c5238a042cc3.mid",
+      "bytes": 9435,
+      "sha256": "c5238a042cc340ce899a47f3136f88db6f66fda133b2890576e4cd4aae21028b"
+    },
+    {
+      "path": "tools/music/sources/Block H Boss (fx)-02e2c6c932b1.mid",
+      "bytes": 10567,
+      "sha256": "02e2c6c932b127f7ac68f24588e134ce6427fb9bf6fee3c99feee13f1d23ea5d"
+    },
+    {
+      "path": "tools/music/sources/Block C Chill (vocals)-5487e1604dee.mid",
+      "bytes": 2718,
+      "sha256": "5487e1604dee70068bf1506596c32ef70c7b4d431b55c0dba71a413ea429e60e"
+    },
+    {
+      "path": "tools/music/sources/Block A Chill (bass)-4ab2c66dee0d.mid",
+      "bytes": 9051,
+      "sha256": "4ab2c66dee0d32c7dc0a959bba59e150c75f3f7d7531a650cfde2cfd3f3f7c37"
+    },
+    {
+      "path": "tools/music/sources/Block H Boss (keyboard)-4fb22d3315ca.mid",
+      "bytes": 24578,
+      "sha256": "4fb22d3315caf203fed97e2b40284a760cc5333d4f2e4dda86786f6cc382e217"
+    },
+    {
+      "path": "tools/music/sources/Block C Chill (bass)-e100721d9d6f.mid",
+      "bytes": 11050,
+      "sha256": "e100721d9d6ff1e05d4fb23b5116d608124b7909a4d5cb9381c64d6461b8fbfa"
+    },
+    {
+      "path": "tools/music/sources/Block C T2 (guitar)-4b5e4e41cdbb.mid",
+      "bytes": 4700,
+      "sha256": "4b5e4e41cdbbe904ae1f76c4f0c932ed06c42be8359ef451fe2aba7083061ba1"
+    },
+    {
+      "path": "tools/music/sources/Block B T2 (fx)-5fcc591034e1.mid",
+      "bytes": 11441,
+      "sha256": "5fcc591034e110bcf235f2d2b1fff374c708f336c12689e834d8e902e85aea22"
+    },
+    {
+      "path": "tools/music/sources/Block A T3 (strings)-a405d6dcf0cd.mid",
+      "bytes": 9083,
+      "sha256": "a405d6dcf0cd7c95c4d38e63ef46c1fcd64440c35539e3324c41cddf2c244f5f"
+    },
+    {
+      "path": "tools/music/sources/Block C T2 (fx)-fe4da76d1dc7.mid",
+      "bytes": 12872,
+      "sha256": "fe4da76d1dc7b1ab8a7d7bc58a69a3bdeb503cda5a24c01e447c542b7905cc3e"
+    },
+    {
+      "path": "tools/music/sources/Block D Boss (woodwinds)-5b838d4a915c.mid",
+      "bytes": 5566,
+      "sha256": "5b838d4a915c20eece63a4e0d8dab8d0c121040da3b2df73dc6ea324b83acad1"
+    },
+    {
+      "path": "tools/music/sources/Block B T2 (bass)-2d5458e96941.mid",
+      "bytes": 22295,
+      "sha256": "2d5458e969410277861d832444afd981f1cf86766a67c6b8c1967d5ed674ef9d"
+    },
+    {
+      "path": "tools/music/sources/Block F Boss (synth)-e88c1c27c514.mid",
+      "bytes": 31330,
+      "sha256": "e88c1c27c51406739a9996025420deb9436224b5514e7ec551a990a3fe3f4358"
+    },
+    {
+      "path": "tools/music/sources/Block D Chill (bass)-e37ab1268882.mid",
+      "bytes": 11444,
+      "sha256": "e37ab1268882a9e121a04301a3093b25fa13e3d4effb989fd0e627345091cd20"
+    },
+    {
+      "path": "tools/music/sources/Block B Chill (percussion)-9c9e2ffcee59.mid",
+      "bytes": 5930,
+      "sha256": "9c9e2ffcee591fc6ecf4a5d305779904c804d1dbca503c57ea9e14112620f1cc"
+    },
+    {
+      "path": "tools/music/sources/Block D T2 (guitar)-a638db957a47.mid",
+      "bytes": 2769,
+      "sha256": "a638db957a47e70d73f2cf2afe09181f13836d446a241c0c16192352e2cf6fb9"
+    },
+    {
+      "path": "tools/music/sources/Block G Boss (drums)-5ddc38d99033.mid",
+      "bytes": 16437,
+      "sha256": "5ddc38d99033a78380d1f66f882e6c47dfc0011fea648eeb5d6928ea74f674a6"
+    },
+    {
+      "path": "tools/music/sources/Block B Chill (bass)-0883722cf564.mid",
+      "bytes": 10007,
+      "sha256": "0883722cf5641df4c85606044e27e392b871a5f9860bff4e70511b52878826aa"
+    },
+    {
+      "path": "tools/music/sources/Block F T3 (percussion)-fd420c8ce0dd.mid",
+      "bytes": 8408,
+      "sha256": "fd420c8ce0ddc08cb6c2f1135d2ffcbb7d0812cda49e44cdcde51dc7eafe8578"
+    },
+    {
+      "path": "tools/music/sources/Block B Chill (brass)-92ae10e7edc9.mid",
+      "bytes": 3898,
+      "sha256": "92ae10e7edc953eed79440981068c094f05a7b2f349b95bf9f56bf15ac726f58"
+    },
+    {
+      "path": "tools/music/sources/Block B Chill (woodwinds)-b400df6bfd18.mid",
+      "bytes": 2883,
+      "sha256": "b400df6bfd18bc2d0cb2dd76e718822375b57dc7d59c8c088dc680a859f492dd"
+    },
+    {
+      "path": "tools/music/sources/Block F T4 (bass)-f5891591ccb7.mid",
+      "bytes": 11693,
+      "sha256": "f5891591ccb75ea9093a9d61bdd8976245374344ed09ae5cfd427906c931af45"
+    },
+    {
+      "path": "tools/music/sources/Block C T4 (keyboard)-43bdb031e341.mid",
+      "bytes": 17867,
+      "sha256": "43bdb031e341973a9aad3c4638ab628ce9d5f78fad910b0e82763d6276b9630c"
+    },
+    {
+      "path": "tools/music/sources/Block E Boss (drums)-bb13bf7d3996.mid",
+      "bytes": 11240,
+      "sha256": "bb13bf7d3996e90f305bc81ca1e97a2f9037ca8d72b7f6798989c302b4d19b3b"
+    },
+    {
+      "path": "tools/music/sources/Block G Boss (percussion)-88b99743c17d.mid",
+      "bytes": 10067,
+      "sha256": "88b99743c17d60fa8b246d0fb172543f52edcd7e63c138afcc780085502a719d"
+    },
+    {
+      "path": "tools/music/sources/Block D Boss (drums)-ff15656c4b5b.mid",
+      "bytes": 16579,
+      "sha256": "ff15656c4b5b85012361dc01c8262c5ae8b73cc9c8d6a63976f21fe4213dcd85"
+    },
+    {
+      "path": "tools/music/sources/Block C Fanfare (woodwinds)-cf7e79990a4c.mid",
+      "bytes": 1829,
+      "sha256": "cf7e79990a4c82edd36035073d81dde7372297fd32042c96dc386fa57a7b2c24"
+    },
+    {
+      "path": "tools/music/sources/Block G T2 (fx)-2ea48a95f794.mid",
+      "bytes": 19884,
+      "sha256": "2ea48a95f79434b311faef955b3414a1440f7691dd03ea2b274a9962905b6116"
+    },
+    {
+      "path": "tools/music/sources/Block C T4 (bass)-0c766ccb3fcd.mid",
+      "bytes": 13974,
+      "sha256": "0c766ccb3fcd4bc42bc9c317dbfe2c06c93326b7f99483086d579e906ef9e2df"
+    },
+    {
+      "path": "tools/music/sources/Block E T4 (synth)-32d1e986eeb2.mid",
+      "bytes": 27863,
+      "sha256": "32d1e986eeb2585634c11aaabf470ace9ac67f9eba0fe3de049728d843f3395e"
+    },
+    {
+      "path": "tools/music/sources/Block B T3 (bass)-9e9e86c9a4f3.mid",
+      "bytes": 14244,
+      "sha256": "9e9e86c9a4f3405daf5fdc6264901e20b5f51ff34b33235a81dd522237f63e8f"
+    },
+    {
+      "path": "tools/music/sources/Block F Chill (percussion)-551b79fc7c8e.mid",
+      "bytes": 8546,
+      "sha256": "551b79fc7c8eefd9c79ac29048896c7e094f5c58215e9b44e46b3859c6f5091b"
+    },
+    {
+      "path": "tools/music/sources/Block F T2 (brass)-feca061f44cf.mid",
+      "bytes": 10306,
+      "sha256": "feca061f44cfa5b4e3983b661b49c18abf400e5f4eb5980d9d5b719596d1a667"
+    },
+    {
+      "path": "tools/music/sources/Block A Chill (brass)-98030dfd59a5.mid",
+      "bytes": 4322,
+      "sha256": "98030dfd59a51d5a03cd4fd297edb8a6ecd5f910b13295a755866e7514448499"
+    },
+    {
+      "path": "tools/music/sources/Block A T3 (percussion)-cfab1ae50b84.mid",
+      "bytes": 4969,
+      "sha256": "cfab1ae50b84ed8c0e606bce8bd9dcaeb03776f4fc805cc43eecbdac809096fe"
+    },
+    {
+      "path": "tools/music/sources/Block E T2 (bass)-b94f8991cbf4.mid",
+      "bytes": 17752,
+      "sha256": "b94f8991cbf48c4e0e886ca2403b1828a09ef1ae5c0aaf5a3ab1918befa8792b"
+    },
+    {
+      "path": "tools/music/sources/Block C T3 (brass)-4976f1fc2287.mid",
+      "bytes": 15203,
+      "sha256": "4976f1fc228741c5274028b085a504338537300fdb0d821752f814c57dd42e32"
+    },
+    {
+      "path": "tools/music/sources/Block H Chill (keyboard)-f19e36b4ef6e.mid",
+      "bytes": 27920,
+      "sha256": "f19e36b4ef6e335c136475e552d560ee028f0f9b664b885a3575549f4152643d"
+    },
+    {
+      "path": "tools/music/sources/Block B Fanfare (fx)-2ea4dac91fad.mid",
+      "bytes": 651,
+      "sha256": "2ea4dac91fadf2881414c041548ab17ca57d4d3c503eb71d748b78ee269f659f"
+    },
+    {
+      "path": "tools/music/sources/Block E Fanfare (brass)-c9aac8b2bfa7.mid",
+      "bytes": 1312,
+      "sha256": "c9aac8b2bfa73b6daa87c8d6200e6a5cd2925e55ef591e5469711d5f2c779306"
+    },
+    {
+      "path": "tools/music/sources/Block F Fanfare (brass)-d89d901fe5da.mid",
+      "bytes": 1743,
+      "sha256": "d89d901fe5da08972b59211bee10ae37205e024a6699dff678792dc563a91821"
+    },
+    {
+      "path": "tools/music/sources/Block B T4 (vocals)-31f9f22e3dfa.mid",
+      "bytes": 9911,
+      "sha256": "31f9f22e3dfa4336f38b11f2ff9ab7a6e5231115d79d48d2de8e71dfeffa9fd6"
+    },
+    {
+      "path": "tools/music/sources/Block F T2 (bass)-ba3562ebdc99.mid",
+      "bytes": 10620,
+      "sha256": "ba3562ebdc99b1b573036e3d2affefb4d957d6283d552147396bc7754018a290"
+    },
+    {
+      "path": "tools/music/sources/Block A Chill (fx)-57fdf6cb8df5.mid",
+      "bytes": 4083,
+      "sha256": "57fdf6cb8df591ea282428da904cc7794ae9f4b03921df03c1e86fbbec2e3eee"
+    },
+    {
+      "path": "tools/music/sources/Block F T4 (keyboard)-6ec603105a51.mid",
+      "bytes": 14748,
+      "sha256": "6ec603105a516f95eaf85660c286b0d00e05388ace0b12ccd9a2908d6802a813"
+    },
+    {
+      "path": "tools/music/sources/Block F Chill (drums)-ae37e77ce38a.mid",
+      "bytes": 8319,
+      "sha256": "ae37e77ce38a8bc6265db46f2ea4faf2a2609f8276339d9d49c21232bf82007f"
+    },
+    {
+      "path": "tools/music/sources/Block D Chill (fx)-fd2eed4af455.mid",
+      "bytes": 4012,
+      "sha256": "fd2eed4af455658122cc6d88c432a2fb19045d8e1f1c1d4c81929191bd0af6bd"
+    },
+    {
+      "path": "tools/music/sources/Block D Boss (synth)-2ced3a07093c.mid",
+      "bytes": 29006,
+      "sha256": "2ced3a07093c1e7b98bf11f63d8e0f809da041c2b40e748fe97b1de24e743836"
+    },
+    {
+      "path": "tools/music/sources/Block E Boss (guitar)-3ea6cc21334a.mid",
+      "bytes": 2999,
+      "sha256": "3ea6cc21334a3f116c132d224e21b2ee21681e248682cabb2ca98f366f688f5a"
+    },
+    {
+      "path": "tools/music/sources/Block E T2 (brass)-f671a27d806e.mid",
+      "bytes": 9056,
+      "sha256": "f671a27d806e072395638ff024900b3e5a17bf3635b0b3cb9686899b7e476219"
+    },
+    {
+      "path": "tools/music/sources/Block D Fanfare (brass)-bc3be6826f60.mid",
+      "bytes": 869,
+      "sha256": "bc3be6826f6094d917c4b7e113fb5c5a02e27fc78e09e94c97bcd8f2256956be"
+    },
+    {
+      "path": "tools/music/sources/Block E T3 (brass)-944ee3b64a99.mid",
+      "bytes": 7906,
+      "sha256": "944ee3b64a997e7c55cabed3ec24c96ce6c51729ac45a89b305faf4bed1f4c6b"
+    },
+    {
+      "path": "tools/music/sources/Block H T2 (keyboard)-5e7f8da143ab.mid",
+      "bytes": 15493,
+      "sha256": "5e7f8da143abcff7cb50969a61ac693fb69134908b09273b3c1e4cf3ef732ba9"
+    },
+    {
+      "path": "tools/music/sources/Block E Chill (percussion)-5efce53d8742.mid",
+      "bytes": 2686,
+      "sha256": "5efce53d874286a9c364e12b180793295ede7f7289e9a2b93e26c70091c04821"
+    },
+    {
+      "path": "tools/music/sources/Block H T2 (percussion)-79fb52afe82d.mid",
+      "bytes": 8058,
+      "sha256": "79fb52afe82dd458e25d0363686cf2898b0e8c8b50b4a1a0f45847c99dae47f1"
+    },
+    {
+      "path": "tools/music/sources/Block H Boss (synth)-fd193c5df80c.mid",
+      "bytes": 22951,
+      "sha256": "fd193c5df80cf4a9faafdcf9c8c5451fceea2d3565b499ed1bae8a19f4c7029f"
+    },
+    {
+      "path": "tools/music/sources/Block H T3 (synth)-bb6a01ad31e0.mid",
+      "bytes": 26483,
+      "sha256": "bb6a01ad31e031ff4ded5de5bffa84ed6b494c300a9d7fc61919290bb0629fc6"
+    },
+    {
+      "path": "tools/music/sources/Block A T4 (drums)-13afb1b3d34e.mid",
+      "bytes": 12625,
+      "sha256": "13afb1b3d34e8abd61efe77ffd0354709e0a9b8071a90285f68817178563c15b"
+    },
+    {
+      "path": "tools/music/sources/Block F T2 (vocals)-16744c4fc232.mid",
+      "bytes": 2963,
+      "sha256": "16744c4fc2328fe29d49c20b519f3ca6456e876dbc51dca2949b565b3e1a1453"
+    },
+    {
+      "path": "tools/music/sources/Block G T4 (keyboard)-0cab4d557ac7.mid",
+      "bytes": 17490,
+      "sha256": "0cab4d557ac72e8b46120967bdb95aa8963ba5599b1d3f130585bb194a3a4fb5"
+    },
+    {
+      "path": "tools/music/sources/Block F Boss (drums)-118ffb6590e3.mid",
+      "bytes": 14796,
+      "sha256": "118ffb6590e336f035d7308e05e7dfeaa2557dabbe700ffb64e1b66430e63803"
+    },
+    {
+      "path": "tools/music/sources/Block E Chill (guitar)-574fb2080458.mid",
+      "bytes": 4457,
+      "sha256": "574fb20804584be92bdda9b83f6d87b8cbfd8596d5ca0312826db3f399fb95a8"
+    },
+    {
+      "path": "tools/music/sources/Block A Chill (strings)-25cc16243586.mid",
+      "bytes": 3361,
+      "sha256": "25cc1624358676af3b79e29bef8f7e06f1da5d0c7feba01b7c300df0882574bf"
+    },
+    {
+      "path": "tools/music/sources/Block G T3 (fx)-a02775feb851.mid",
+      "bytes": 10798,
+      "sha256": "a02775feb8517230b9cf6c2d0d2fe1a313a761d8c9410d6e644d17c7f115eef5"
+    },
+    {
+      "path": "tools/music/sources/Block F T2 (strings)-00b02a34a72b.mid",
+      "bytes": 11567,
+      "sha256": "00b02a34a72b1118ada8e2b0c314b5ce6fa4a5781c85da98ee15f344f58db8ec"
+    },
+    {
+      "path": "tools/music/sources/Block H T3 (brass)-9ede2dbb4b77.mid",
+      "bytes": 16572,
+      "sha256": "9ede2dbb4b777715f92fcd4d3c79b7d7622c8ab3a1110dd7a8b1599d318928db"
+    },
+    {
+      "path": "tools/music/sources/Block A Fanfare (woodwinds)-4137b177e153.mid",
+      "bytes": 2577,
+      "sha256": "4137b177e153cbc035707011316ccaca91c6a2bc2e2ca56bee9c2433f4d47c96"
+    },
+    {
+      "path": "tools/music/sources/Block B T2 (vocals)-4012e9348a1f.mid",
+      "bytes": 11231,
+      "sha256": "4012e9348a1f403c1004cdac87a3cec9c60f67c940a4ef80d368cf7a47e9ee9d"
+    },
+    {
+      "path": "tools/music/sources/Block H T2 (drums)-b18697d68ca0.mid",
+      "bytes": 23514,
+      "sha256": "b18697d68ca0607cf47901bac9efd18b6f2bf3396a79d0dbae0580417059c915"
+    },
+    {
+      "path": "tools/music/sources/Block G Boss (bass)-26d86e009e65.mid",
+      "bytes": 13155,
+      "sha256": "26d86e009e656acbbee16c3fb1b635cb107163d8ba90ff226d960643de572864"
+    },
+    {
+      "path": "tools/music/sources/Block H T4 (bass)-8169548fd039.mid",
+      "bytes": 22429,
+      "sha256": "8169548fd0391835a4334acc40d99bbfaff8444751b346757cae86abd59116e0"
+    },
+    {
+      "path": "tools/music/sources/Block A T2 (percussion)-3d5049729f02.mid",
+      "bytes": 6180,
+      "sha256": "3d5049729f026753f55147ce807ce9539992d3ea299bc2ad28fbed6e75701d5d"
+    },
+    {
+      "path": "tools/music/sources/Block A Chill (drums)-6d2c6bda5d41.mid",
+      "bytes": 9260,
+      "sha256": "6d2c6bda5d417a725fef421a6b4de60594837c935922a331b4d5960c66a354f9"
+    },
+    {
+      "path": "tools/music/sources/Block A Boss (strings)-fc4edd4be920.mid",
+      "bytes": 10767,
+      "sha256": "fc4edd4be9209769b2ca040ded501cb6ad8a8daa9247d39fd8fc18694dc11abb"
+    },
+    {
+      "path": "tools/music/sources/Block G T2 (synth)-216e75d66c6b.mid",
+      "bytes": 20907,
+      "sha256": "216e75d66c6b9d8ba8c717ad4a6f71fbea83d2ea55d984cec4aaf39c032f013e"
+    },
+    {
+      "path": "tools/music/sources/Block B T2 (woodwinds)-e7c319ab0258.mid",
+      "bytes": 7752,
+      "sha256": "e7c319ab0258d714902d7d2e6862f4548c4d907d5c7e9fca97c2abf0deb2a8b2"
+    },
+    {
+      "path": "tools/music/sources/Block G Boss (strings)-6dc4cad173ab.mid",
+      "bytes": 15727,
+      "sha256": "6dc4cad173ab78e905288006cbf97893b787dc9d1f06ba84d5f80ccee97855b3"
+    },
+    {
+      "path": "tools/music/sources/Block H Chill (synth)-93e03d155c11.mid",
+      "bytes": 18771,
+      "sha256": "93e03d155c11add1e5f6c1a586b86df1b940eb0b0e38c979a0262f22b72017d7"
+    },
+    {
+      "path": "tools/music/sources/Block A Fanfare (percussion)-815e663a6e14.mid",
+      "bytes": 743,
+      "sha256": "815e663a6e1468531579ae840d87808f4e76f687af80159312ba42f2813e5f68"
+    },
+    {
+      "path": "tools/music/sources/Block B Fanfare (brass)-f2df299fe3d1.mid",
+      "bytes": 1075,
+      "sha256": "f2df299fe3d19d5fb8eae70ee67c446f237c0465d5519268eb19387289247969"
+    },
+    {
+      "path": "tools/music/sources/Block C T2 (synth)-316839e571b9.mid",
+      "bytes": 27138,
+      "sha256": "316839e571b98b8998cef3cb0f3d280d40dc1203ca4f63dcea7de10154adf436"
+    },
+    {
+      "path": "tools/music/sources/Block E T3 (strings)-f0262bfa6af9.mid",
+      "bytes": 13824,
+      "sha256": "f0262bfa6af9367886860279ee40e965513d19ea28b79e5804b2e124b77df321"
+    },
+    {
+      "path": "tools/music/sources/Block A Chill (percussion)-89aa42bdb0da.mid",
+      "bytes": 5313,
+      "sha256": "89aa42bdb0da073464f092723270c2fceef7f05ff09998010f13edd135a3a79e"
+    },
+    {
+      "path": "tools/music/sources/Block A Chill (synth)-f88d0777b566.mid",
+      "bytes": 18416,
+      "sha256": "f88d0777b566651f4a6119863bae6742764dd0fa0e465d63a53c903703ca9feb"
+    },
+    {
+      "path": "tools/music/sources/Block E Chill (keyboard)-fb682097f172.mid",
+      "bytes": 22897,
+      "sha256": "fb682097f172707ac1bd97526f4319be1c76d851f34d3d461cb877edc94a062c"
+    },
+    {
+      "path": "tools/music/sources/Block B Boss (drums)-5b43e33ab409.mid",
+      "bytes": 17447,
+      "sha256": "5b43e33ab4095d874eccfedf44fe2627ebf1909448fe9230620fcab3fa7bf70f"
+    },
+    {
+      "path": "tools/music/sources/Block E Boss (percussion)-e8865344c743.mid",
+      "bytes": 4440,
+      "sha256": "e8865344c7431fd960e3a1c65874e44a62ba6f4ff09e6109504e351759cc327f"
+    },
+    {
+      "path": "tools/music/sources/Block B T4 (fx)-4a22edb09d36.mid",
+      "bytes": 7214,
+      "sha256": "4a22edb09d3687fe78c601c30a0f85519c6a96dec0af25b5b3e7320aaba1715d"
+    },
+    {
+      "path": "tools/music/sources/Block E T4 (strings)-9fef491dd5f8.mid",
+      "bytes": 29891,
+      "sha256": "9fef491dd5f8886900ec3c64ba320a3173d0707c0e5c002c395ee19af9717b6a"
+    },
+    {
+      "path": "tools/music/sources/Block D Fanfare (synth)-5037b6132228.mid",
+      "bytes": 3494,
+      "sha256": "5037b6132228ba520af054211a40eba0d3c43fc0df40f8d36a588f483b1b9345"
+    },
+    {
+      "path": "tools/music/sources/Block E Fanfare (strings)-f14071c3db0b.mid",
+      "bytes": 812,
+      "sha256": "f14071c3db0bd51b0359ffc075875ee74386b6d52743ce04e8faa4ee9e1cbf0c"
+    },
+    {
+      "path": "tools/music/sources/Block A Fanfare (keyboard)-c6718501e26a.mid",
+      "bytes": 3808,
+      "sha256": "c6718501e26ad7eefa2df891edab45d87b51f79ca16e7bfc455ccb60b46396ea"
+    },
+    {
+      "path": "tools/music/sources/Block E Boss (fx)-d37ac9c2a95f.mid",
+      "bytes": 13183,
+      "sha256": "d37ac9c2a95f136261ee726e8510fdd1c1ab12626354084b9567dc2ab711bc8c"
+    },
+    {
+      "path": "tools/music/sources/Block D Fanfare (strings)-93fdc0201a87.mid",
+      "bytes": 2136,
+      "sha256": "93fdc0201a87f8e97af4908eebc7242c0965f1679a89932d7f3fc4cdc94d39f3"
+    },
+    {
+      "path": "tools/music/sources/Block C T2 (brass)-5f2cc377cec6.mid",
+      "bytes": 8474,
+      "sha256": "5f2cc377cec6c0aaa3bf289ee1542238612e2a49038b4d52bb0ce5478c8ed49e"
+    },
+    {
+      "path": "tools/music/sources/Block A Chill (woodwinds)-0a03ef25ffda.mid",
+      "bytes": 2876,
+      "sha256": "0a03ef25ffda8f80f047d6000df235720636724171c042ef1dc2eb3ce57a7b22"
+    },
+    {
+      "path": "tools/music/sources/Block H Boss (woodwinds)-b4068d736a96.mid",
+      "bytes": 4008,
+      "sha256": "b4068d736a96cb7ee906105e7de6bf45fd8d2031ee269ede20ffc05128c0e588"
+    },
+    {
+      "path": "tools/music/sources/Block F Chill (brass)-317e4cd6e5f0.mid",
+      "bytes": 3532,
+      "sha256": "317e4cd6e5f0eaf9060a4074d999717ffbc96c74c1b1128ad4435a95fdd66a55"
+    },
+    {
+      "path": "tools/music/sources/Block A T4 (brass)-ce4c0db01a40.mid",
+      "bytes": 15224,
+      "sha256": "ce4c0db01a40924165eb418df08e0518b1bd3c29f3c00d4a67b72521f2d99f28"
+    },
+    {
+      "path": "tools/music/sources/Block B T2 (percussion)-994a94d96783.mid",
+      "bytes": 14267,
+      "sha256": "994a94d967835d63e1a135f69dbe85f8ce37e25eb5145bb43775d4cd2ae693c0"
+    },
+    {
+      "path": "tools/music/sources/Block C T4 (woodwinds)-54a43981ddff.mid",
+      "bytes": 5748,
+      "sha256": "54a43981ddff6b60428aea5646219a2ba2daaae6e8b686dcf9022aac8c25da7e"
+    },
+    {
+      "path": "tools/music/sources/Block G T4 (synth)-2e9700f27a5f.mid",
+      "bytes": 20557,
+      "sha256": "2e9700f27a5f00fb76e89461f6860c3506a25fb710d866d0db8e630ef46eafad"
+    },
+    {
+      "path": "tools/music/sources/Block H Fanfare (synth)-19789d901e58.mid",
+      "bytes": 1669,
+      "sha256": "19789d901e58491b3c525ff7e868057cf98ebffc22b6d19923152ce008a676c8"
+    },
+    {
+      "path": "tools/music/sources/Block C Boss (brass)-03dbdd65bc90.mid",
+      "bytes": 11424,
+      "sha256": "03dbdd65bc908fc675eb10a1f30e7d0191ebb2d83da0114e8eb7056a1aa19f3a"
+    },
+    {
+      "path": "tools/music/sources/Block G Chill (percussion)-266882781874.mid",
+      "bytes": 5059,
+      "sha256": "2668827818742210515f52415d8bc766736a7892dde0e277a544cdc1ef08b97b"
+    },
+    {
+      "path": "tools/music/sources/Block B T3 (drums)-d94ed644c79b.mid",
+      "bytes": 34444,
+      "sha256": "d94ed644c79bc5c3583a5c383d796dbd571906a53dec2817e6da7a5d9abb65bc"
+    },
+    {
+      "path": "tools/music/sources/Block B Fanfare (strings)-6d4b627a7256.mid",
+      "bytes": 1011,
+      "sha256": "6d4b627a72562f50e87d1410d1b47a3a9f2bad839e181aef00bcf34157ca1bff"
+    },
+    {
+      "path": "tools/music/sources/Block C Boss (synth)-82e67bef6ad6.mid",
+      "bytes": 19999,
+      "sha256": "82e67bef6ad6accf2e8614162608e601403daea85e5e0e32824222ab55d76a8e"
+    },
+    {
+      "path": "tools/music/sources/Block D Chill (guitar)-cc25f45ef7f5.mid",
+      "bytes": 3710,
+      "sha256": "cc25f45ef7f5d531a8403266a9be90f31f49c9d38240884513046c8789ee4b47"
+    },
+    {
+      "path": "tools/music/sources/Block F T2 (keyboard)-22a004c4cac2.mid",
+      "bytes": 10370,
+      "sha256": "22a004c4cac25442d2709e848c92b1120db13c0479902640986313e01b7d5f41"
+    },
+    {
+      "path": "tools/music/sources/Block B Boss (strings)-8419cc7e6f22.mid",
+      "bytes": 25726,
+      "sha256": "8419cc7e6f226444b8f0bd0ed87701ceeb533f9e21114781e4bcd4dfcf733521"
+    },
+    {
+      "path": "tools/music/sources/Block D T3 (vocals)-c0afda93acfd.mid",
+      "bytes": 4275,
+      "sha256": "c0afda93acfd49263c1575ef12e575595ad6d78da0cca00157b968b0065eedba"
+    },
+    {
+      "path": "tools/music/sources/Block H Boss (guitar)-f0bb2e48c5d2.mid",
+      "bytes": 21728,
+      "sha256": "f0bb2e48c5d28fb9591f668899c6adc0ff6eb9e1a526a49728b8308b6444c9d7"
+    },
+    {
+      "path": "tools/music/sources/Block C T2 (strings)-52a555bd48c5.mid",
+      "bytes": 10324,
+      "sha256": "52a555bd48c55f8ae4fd26db7d04e52644313e6807b759f9b26e6a3a745b1abc"
+    },
+    {
+      "path": "tools/music/sources/Block E Fanfare (bass)-ac897165fc1b.mid",
+      "bytes": 401,
+      "sha256": "ac897165fc1b7c32f826c6719db21a613c6d4c7e271e44adfa80c0ffd59457ae"
+    },
+    {
+      "path": "tools/music/sources/Block H T3 (strings)-abed28147dd9.mid",
+      "bytes": 25436,
+      "sha256": "abed28147dd9b3eaa49d847342c6c40aaa77ef58321e2599015f752dbc6c144b"
+    },
+    {
+      "path": "tools/music/sources/Block C Fanfare (percussion)-3daeb51b8ee2.mid",
+      "bytes": 345,
+      "sha256": "3daeb51b8ee2f549cf4884fc59d427e5eecc63d9136e11b58cf9d42c110f2242"
+    },
+    {
+      "path": "tools/music/sources/Block D T4 (fx)-5b932af6ccbe.mid",
+      "bytes": 6815,
+      "sha256": "5b932af6ccbe8e31197d50ac405e0745b0a2f223ced953ed02acc848ae1df76e"
+    },
+    {
+      "path": "tools/music/sources/Block G Chill (bass)-48fd263aa23a.mid",
+      "bytes": 7135,
+      "sha256": "48fd263aa23ad8c771f09b858efd02fa4c64a05f8e6d1f57834acca319e1cc95"
+    },
+    {
+      "path": "tools/music/sources/Block B Chill (drums)-a6fd104ebdf6.mid",
+      "bytes": 8442,
+      "sha256": "a6fd104ebdf6d19c246f484d64f2ce6cba2cc279f686757bfead29c7bc9aa9bf"
+    },
+    {
+      "path": "tools/music/sources/Block F Boss (bass)-b4795d348d83.mid",
+      "bytes": 9251,
+      "sha256": "b4795d348d835f0b03edcc47f4e50f681f383f348663f9f194862e36d2be6426"
+    },
+    {
+      "path": "tools/music/sources/Block H T4 (woodwinds)-5cbfc42c16d7.mid",
+      "bytes": 4209,
+      "sha256": "5cbfc42c16d726b643cb9019ee8a442f8c28c7e8a3c8d459cc085d0e0fa170a2"
+    },
+    {
+      "path": "tools/music/sources/Block A T4 (synth)-d2b0269f961f.mid",
+      "bytes": 20273,
+      "sha256": "d2b0269f961f688c3df1b8f51455302bb043a9770c42edf4f87b9ba1d5d55914"
+    },
+    {
+      "path": "tools/music/sources/Block F Chill (bass)-dcab72123b9b.mid",
+      "bytes": 6358,
+      "sha256": "dcab72123b9b7c54548964894e52ad615a39367fc2c4f62b844cea451b5908de"
+    },
+    {
+      "path": "tools/music/sources/Block E T2 (fx)-6f40bd2b1bb6.mid",
+      "bytes": 7038,
+      "sha256": "6f40bd2b1bb6ba47a40dd6a4a9d37658f5988c8544f1001fbd6e23676cc7c471"
+    },
+    {
+      "path": "tools/music/sources/Block F T4 (brass)-603feb649218.mid",
+      "bytes": 8829,
+      "sha256": "603feb64921890bfaeacf35cad85094b7714f726d3b393791aa98cccb08f7e34"
+    },
+    {
+      "path": "tools/music/sources/Block H T2 (synth)-47b9b8039448.mid",
+      "bytes": 18190,
+      "sha256": "47b9b8039448d5864ba5404b6064e0206489a3756f43b121e33e27c63c505e02"
+    },
+    {
+      "path": "tools/music/sources/Block H T4 (percussion)-a428a0d7c60e.mid",
+      "bytes": 9324,
+      "sha256": "a428a0d7c60ecc9a5c88d3783713e7c2518f6773d0b29dabbf3d5f2cc11c54c5"
+    },
+    {
+      "path": "tools/music/sources/Block C Chill (guitar)-b03959ee101b.mid",
+      "bytes": 2812,
+      "sha256": "b03959ee101bc5b2f4571a65d4ace8f47accd6d0416e18fcd4efdac463a0afb0"
+    },
+    {
+      "path": "tools/music/sources/Block A Fanfare (brass)-5bb186fe0186.mid",
+      "bytes": 1384,
+      "sha256": "5bb186fe0186055ab67862ca7777f6130333bc68c47c628f0e2909256cc200eb"
+    },
+    {
+      "path": "tools/music/sources/Block E T4 (woodwinds)-0a9059137551.mid",
+      "bytes": 3341,
+      "sha256": "0a9059137551613a8ffc46936e8154b01411faafebbce543dea82f6e2a4d906c"
+    },
+    {
+      "path": "tools/music/sources/Block A T2 (drums)-e96f5f7a42aa.mid",
+      "bytes": 15089,
+      "sha256": "e96f5f7a42aaf8aa1e2760b1ee489aa2c14bbcf59e77c58ca89068bea3be8f47"
+    },
+    {
+      "path": "tools/music/sources/Block B Boss (vocals)-3a38a8149898.mid",
+      "bytes": 4494,
+      "sha256": "3a38a81498985282e6798f2993fefa8f3bbb45864952f77c3db130a08c186d39"
+    },
+    {
+      "path": "tools/music/sources/Block C Fanfare (synth)-43c199100ed0.mid",
+      "bytes": 2026,
+      "sha256": "43c199100ed0afc4151ddf65af79f8c3bd6b8cf5ae4561987e13fd6ee85bcc35"
+    },
+    {
+      "path": "tools/music/sources/Block B Fanfare (bass)-850c4211baaf.mid",
+      "bytes": 334,
+      "sha256": "850c4211baaf4881fb19f184ff43a856365d53c48f4f99a3526c1227ac42f098"
+    },
+    {
+      "path": "tools/music/sources/Block F T3 (keyboard)-5c59d51ab71f.mid",
+      "bytes": 16164,
+      "sha256": "5c59d51ab71fc817a3be95f229a570d836793e6f24c5479a28ad838eddc5b0a5"
+    },
+    {
+      "path": "tools/music/sources/Block H T4 (fx)-f57fc1686f3b.mid",
+      "bytes": 18491,
+      "sha256": "f57fc1686f3b472b1aa44dd9c4eeb1cc058a25a369d1d2166c7c4f118c4041e8"
+    },
+    {
+      "path": "tools/music/sources/Block E Chill (drums)-536d18e320b2.mid",
+      "bytes": 10416,
+      "sha256": "536d18e320b24d0b3dc6f2865a1f78d273cba410e8e89f6e896f65965fdd8c37"
+    },
+    {
+      "path": "tools/music/sources/Block A T4 (percussion)-4f22d71eaf6a.mid",
+      "bytes": 5432,
+      "sha256": "4f22d71eaf6a01555cab8e21055488eba2ed2c47e9ad2b106f65ac2c611883f8"
+    },
+    {
+      "path": "tools/music/sources/Block D T3 (synth)-c9031e3cd71f.mid",
+      "bytes": 18657,
+      "sha256": "c9031e3cd71f62e77c33d6fc3407462bdbb6f0e4df088afd4515080497b548d3"
+    },
+    {
+      "path": "tools/music/sources/Block B Chill (keyboard)-518eaba5fa7a.mid",
+      "bytes": 11333,
+      "sha256": "518eaba5fa7a24d366a83c6c149eb4e0355d26f7a467c65e465d87de17fac1ed"
+    },
+    {
+      "path": "tools/music/sources/Block B Chill (synth)-d344409e059d.mid",
+      "bytes": 14604,
+      "sha256": "d344409e059d7cc04a59d296034cff08e03ebe3ae2505f74b81ee6c24e45db33"
+    },
+    {
+      "path": "tools/music/sources/Block B Boss (brass)-7d3793891d6f.mid",
+      "bytes": 18170,
+      "sha256": "7d3793891d6f0110e93fe1fb8ef6952a515957f5fb6f803edf9f5ce57ee9af8d"
+    },
+    {
+      "path": "tools/music/sources/Block D T4 (bass)-31ca7dbb2521.mid",
+      "bytes": 8142,
+      "sha256": "31ca7dbb25210177d9c47925b988e948c9e6f912c7833acdf2d999206fb98dd8"
+    },
+    {
+      "path": "tools/music/sources/Block C T3 (fx)-f4d35c1e554b.mid",
+      "bytes": 7663,
+      "sha256": "f4d35c1e554b329b4ffe9dabf934c2a4f630073c818466dc838248f491949ad0"
+    },
+    {
+      "path": "tools/music/sources/Block C Chill (strings)-e2196a2b2b23.mid",
+      "bytes": 2840,
+      "sha256": "e2196a2b2b2359570afca5626285c7c8a18ac29e8f9e2bf9394572a2848fcb77"
+    },
+    {
+      "path": "tools/music/sources/Block A Fanfare (drums)-cbc92f945d50.mid",
+      "bytes": 709,
+      "sha256": "cbc92f945d5053b10c9eb18159a339754a558f4f66c008995862b8295c2177f5"
+    },
+    {
+      "path": "tools/music/sources/Block D Chill (percussion)-bda10de6237d.mid",
+      "bytes": 5047,
+      "sha256": "bda10de6237dd31439fd03f9c32323da9e0b81dd1fe630a5a77d80ebf93b0ad4"
+    },
+    {
+      "path": "tools/music/sources/Block C Fanfare (brass)-6780b574e4a7.mid",
+      "bytes": 1576,
+      "sha256": "6780b574e4a717ce5d9191151c679e593cab2945fc7eb787d017cd9265a543e1"
+    },
+    {
+      "path": "tools/music/sources/Block G Boss (keyboard)-4ff2ef1de7e5.mid",
+      "bytes": 31371,
+      "sha256": "4ff2ef1de7e5a26699858a0ce2909292d710c4da058454749dc2e7ef9bd26267"
+    },
+    {
+      "path": "tools/music/sources/Block H Chill (drums)-6e4b934b3177.mid",
+      "bytes": 16836,
+      "sha256": "6e4b934b3177a144beff257ae897d1cecd9fec3d07e95098fb7d70798306cee9"
+    },
+    {
+      "path": "tools/music/sources/Block D T3 (fx)-d5cd1c49db23.mid",
+      "bytes": 6923,
+      "sha256": "d5cd1c49db236fbbc70c3df11666711cf8eb4bc30f31e062b5a3ba07a2a2a237"
+    },
+    {
+      "path": "tools/music/sources/Block F Fanfare (fx)-f245bd7129ff.mid",
+      "bytes": 293,
+      "sha256": "f245bd7129ff14e4a77b9a6c77a71fce044ab2a7c81a4c94da1739661d327764"
+    },
+    {
+      "path": "tools/music/sources/Block B T3 (fx)-53a146abfb39.mid",
+      "bytes": 9552,
+      "sha256": "53a146abfb39e4e06a3529cc72253c9ad42327f09b4f2a13ea66667ded1ced4d"
+    },
+    {
+      "path": "tools/music/sources/Block A Boss (percussion)-11b263f24ac8.mid",
+      "bytes": 5266,
+      "sha256": "11b263f24ac8ce350abfe3976a4113c4b004149a9458bce8d9ca9e6366cff474"
+    },
+    {
+      "path": "tools/music/sources/Block C Boss (strings)-ec63a86e31b0.mid",
+      "bytes": 11707,
+      "sha256": "ec63a86e31b0829b169e0bbf43e605008657cd227a8f8fdd7d822564e25351de"
+    },
+    {
+      "path": "tools/music/sources/Block E T2 (strings)-7ce4a4935827.mid",
+      "bytes": 3142,
+      "sha256": "7ce4a4935827eb8520f7c6419ba3223316c6aecadc0c687011c4adf6154fba96"
+    },
+    {
+      "path": "tools/music/sources/Block D T4 (percussion)-046a167b9a10.mid",
+      "bytes": 9627,
+      "sha256": "046a167b9a10c06ee7554f86a9f6f1a9a23e67ab351f6e4bf36595f00b208e0e"
+    },
+    {
+      "path": "tools/music/sources/Block F Fanfare (keyboard)-dd455f727cb5.mid",
+      "bytes": 599,
+      "sha256": "dd455f727cb5f0e85751fde007fbec0f4efc77bfb677376e7e84481dd876815a"
+    },
+    {
+      "path": "tools/music/sources/Block G T4 (vocals)-80853f87a7a0.mid",
+      "bytes": 7379,
+      "sha256": "80853f87a7a0d5a75ba2206a085e07ee763c9f31075d44121e6446a9a9a435ec"
+    },
+    {
+      "path": "tools/music/sources/Block A Boss (woodwinds)-ce9b1d6fc78d.mid",
+      "bytes": 5256,
+      "sha256": "ce9b1d6fc78dab3ecaee18f989548a5569ecb6ad687d9db8fd389d39dfea6293"
+    },
+    {
+      "path": "tools/music/sources/Block G Chill (synth)-94939a7b52b6.mid",
+      "bytes": 15036,
+      "sha256": "94939a7b52b60506709a25e3dee138c7dd812c12e32941ec14e84bd3102697a2"
+    },
+    {
+      "path": "tools/music/sources/Block G Boss (fx)-16fec67a6e97.mid",
+      "bytes": 7700,
+      "sha256": "16fec67a6e9711b18e494762ffd1ba06f0b0ae32f9b37d76d084cac8ed334c9e"
+    },
+    {
+      "path": "tools/music/sources/Block A T2 (bass)-638904d78d07.mid",
+      "bytes": 17031,
+      "sha256": "638904d78d07087f1f2ec27a24b3e37351182271b2c131579331784efe3d2931"
+    },
+    {
+      "path": "tools/music/sources/Block E T4 (brass)-b00e32ad6b8d.mid",
+      "bytes": 14607,
+      "sha256": "b00e32ad6b8da871b82490b3bd844a0fae4a488703608fadb7b1bf4a4e09bf31"
+    },
+    {
+      "path": "tools/music/sources/Block E T4 (fx)-dab2c9de9664.mid",
+      "bytes": 16635,
+      "sha256": "dab2c9de9664dbafe313a7d68f1c6946d9b98dd2446cf84be6cdecabef4cbcc0"
+    },
+    {
+      "path": "tools/music/sources/Block F Fanfare (strings)-5f98acfbba15.mid",
+      "bytes": 1533,
+      "sha256": "5f98acfbba15a270edec0928d03283613324af98c15314e9f53d92feda916ae8"
+    },
+    {
+      "path": "tools/music/sources/Block F Boss (woodwinds)-f29b587b723b.mid",
+      "bytes": 3144,
+      "sha256": "f29b587b723bf9d10d0fa5750b80bdd569f1018c73318ba4f1e5f38a008268e2"
+    },
+    {
+      "path": "tools/music/sources/Block G Fanfare (woodwinds)-6544b13092d4.mid",
+      "bytes": 672,
+      "sha256": "6544b13092d4ae65bdfddedbe71b92e99693fe309b1fbc107dc26435558ad01d"
+    },
+    {
+      "path": "tools/music/sources/Block D Fanfare (keyboard)-8b2e82aa49f6.mid",
+      "bytes": 1852,
+      "sha256": "8b2e82aa49f66d8a97748257c0632661526eed48d52f4f9fefda7ca6e8a6c7ee"
+    },
+    {
+      "path": "tools/music/sources/Block D Fanfare (drums)-984751a5b132.mid",
+      "bytes": 1320,
+      "sha256": "984751a5b13259da2fbd484013860613f2eb994da857d1b4f5b74c92a281b1fe"
+    },
+    {
+      "path": "tools/music/sources/Block C T4 (guitar)-654509a129bc.mid",
+      "bytes": 5026,
+      "sha256": "654509a129bcf1a87548a65b019af3471a1672f7ca58433cf16f357cb71ac6d6"
+    },
+    {
+      "path": "tools/music/sources/Block D T2 (strings)-5d0581367fd5.mid",
+      "bytes": 3220,
+      "sha256": "5d0581367fd540ebbfe54e525e0f45b04abc35405f5caf5735cd8a5f870b6a2d"
+    },
+    {
+      "path": "tools/music/sources/Block H T3 (fx)-2283d1fd0658.mid",
+      "bytes": 15772,
+      "sha256": "2283d1fd06586f812d5c64be11b7811b823e5221807b200020ddd462988c26a8"
+    },
+    {
+      "path": "tools/music/sources/Block H Fanfare (brass)-82e7aac08b2d.mid",
+      "bytes": 1220,
+      "sha256": "82e7aac08b2dafb8c18946914371a6e04377ff5bdfb8fb68802bd082de24ec3e"
+    },
+    {
+      "path": "tools/music/sources/Block A T2 (synth)-6e069e582275.mid",
+      "bytes": 17560,
+      "sha256": "6e069e582275892b251db7967e9834b6ec8cd2edcbea17557f038a7ed030db94"
+    },
+    {
+      "path": "tools/music/sources/Block A Boss (guitar)-5a094feb414b.mid",
+      "bytes": 3289,
+      "sha256": "5a094feb414b479ca09572c9ff5aad5893f49249e63bf55f809989ac84a2c9c0"
+    },
+    {
+      "path": "tools/music/sources/Block B Fanfare (drums)-12dd99099492.mid",
+      "bytes": 603,
+      "sha256": "12dd99099492b004ec5d4f623427b26a07fe854c2e4dcf161de8e63b6ec7a3b1"
+    },
+    {
+      "path": "tools/music/sources/Block G Fanfare (keyboard)-0e75c8b4ec66.mid",
+      "bytes": 3576,
+      "sha256": "0e75c8b4ec66c88ceb45db02140ebac8389576c1d0186bff88d85decbf9d4d7e"
+    },
+    {
+      "path": "tools/music/sources/Block D Fanfare (woodwinds)-7ef7c9231bc6.mid",
+      "bytes": 2158,
+      "sha256": "7ef7c9231bc6b0849f39e21cc354f7dfd89ceb95033ea49cf588c1de30375f07"
+    },
+    {
+      "path": "tools/music/sources/Block A T2 (brass)-f6856497e2fc.mid",
+      "bytes": 7503,
+      "sha256": "f6856497e2fc08c3980ca4314ae1ad4c9cb79e5a6d0e09659a0d259177663983"
+    },
+    {
+      "path": "tools/music/sources/Block H Chill (fx)-d260a57ddb41.mid",
+      "bytes": 6446,
+      "sha256": "d260a57ddb41dcaf77a83c2adaf0477822a5f243f5419637336493bfc1a3b467"
+    },
+    {
+      "path": "tools/music/sources/Block E Chill (fx)-f1f78812ca32.mid",
+      "bytes": 2966,
+      "sha256": "f1f78812ca32625da681357b321a4b65de8ae516548daa526f96945255ab196f"
+    },
+    {
+      "path": "tools/music/sources/Block C Chill (synth)-ee99d6cee3fa.mid",
+      "bytes": 12317,
+      "sha256": "ee99d6cee3fad664fe51685e7fae6e5fd78fe6d8612fce4c1a23e0d70225b6cc"
+    },
+    {
+      "path": "tools/music/sources/Block F Fanfare (drums)-c1e1545dcbdc.mid",
+      "bytes": 547,
+      "sha256": "c1e1545dcbdc1866a0fdf190e7861b58550cfa3ba653136e577c8a8ae23a45dd"
+    },
+    {
+      "path": "tools/music/sources/Block H Chill (brass)-3d425f24dc1e.mid",
+      "bytes": 3995,
+      "sha256": "3d425f24dc1e19e754112f356c2a9320a33dd42bbeaf0b3246acec32b6f8682f"
+    },
+    {
+      "path": "tools/music/sources/Block H Fanfare (woodwinds)-9a4694a93944.mid",
+      "bytes": 1239,
+      "sha256": "9a4694a9394427fc199d42f49b39f9563ec2a027a85c28f975aa83a99605211d"
+    },
+    {
+      "path": "tools/music/sources/Block D T2 (brass)-84c5a290bd9a.mid",
+      "bytes": 2854,
+      "sha256": "84c5a290bd9ad2aca24aef6a85ebfdc46932d069d016db42742867c5baa97909"
+    },
+    {
+      "path": "tools/music/sources/Block B T4 (bass)-291b0a85ec43.mid",
+      "bytes": 13976,
+      "sha256": "291b0a85ec43f5b133d827128c38d0252517126a38b17ace5456aacc250e5c57"
+    },
+    {
+      "path": "tools/music/sources/Block D Boss (strings)-da4dafc41f1d.mid",
+      "bytes": 32151,
+      "sha256": "da4dafc41f1dd842bb213268cf07a577e8c4988842b8c6629371f68ad39d943d"
+    },
+    {
+      "path": "tools/music/sources/Block A T3 (drums)-25752665d4b9.mid",
+      "bytes": 12232,
+      "sha256": "25752665d4b9aa92648bdfb88a54e4fc173527267c0f08e66499c57096095fb0"
+    },
+    {
+      "path": "tools/music/sources/Block D Fanfare (bass)-905d7e40dd27.mid",
+      "bytes": 1018,
+      "sha256": "905d7e40dd275d5ca7efd053bbdf09e58cf12a7ea4d1d817b1582f12e083f613"
+    },
+    {
+      "path": "tools/music/sources/Block G T4 (drums)-d3c16b0a27c2.mid",
+      "bytes": 10445,
+      "sha256": "d3c16b0a27c22bc9092c48eeb3646e1e75bd7d1888c5fc9e4cfe2f2374328b7c"
+    },
+    {
+      "path": "tools/music/sources/Block D T3 (woodwinds)-5f2925842e3d.mid",
+      "bytes": 4151,
+      "sha256": "5f2925842e3d99076ee7e0cdb434d7e5ff09ebfd5a6978fbb694682a2b6e850a"
+    },
+    {
+      "path": "tools/music/sources/Block H Boss (strings)-40237acbcdba.mid",
+      "bytes": 20940,
+      "sha256": "40237acbcdbaca2962098f93ca1e5949c55e325646bc147cc2d45ae9ae983143"
+    },
+    {
+      "path": "tools/music/sources/Block A Boss (fx)-4159312bbbf3.mid",
+      "bytes": 17817,
+      "sha256": "4159312bbbf3cfbb4ce7fd19fe0924e6b08613ffe0d68c4b64ee3a9ae59f4935"
+    },
+    {
+      "path": "tools/music/sources/Block A T3 (woodwinds)-fd4df7e9cabd.mid",
+      "bytes": 3498,
+      "sha256": "fd4df7e9cabd59aca55ffb4be68a5388819bc34b81b8dcb0dcbbedc91e86478d"
+    },
+    {
+      "path": "tools/music/sources/Block A T3 (bass)-d3619945d246.mid",
+      "bytes": 9101,
+      "sha256": "d3619945d246fd4f55eb61eb0caa5c59d80cb0e6448387b8aff63a0241536bf8"
+    },
+    {
+      "path": "tools/music/sources/Block G T3 (woodwinds)-10b32059e4a4.mid",
+      "bytes": 4535,
+      "sha256": "10b32059e4a4a6bbc14a21166a2cf210206ef851d5efd4d2d366003c87e45f3d"
+    },
+    {
+      "path": "tools/music/sources/Block C T4 (drums)-2c54031c7f29.mid",
+      "bytes": 21460,
+      "sha256": "2c54031c7f2994f393b579f7465fd50a34c586d4582a4d44b484cc0ddbdcbca8"
+    },
+    {
+      "path": "tools/music/sources/Block D Boss (percussion)-a070be4e7624.mid",
+      "bytes": 11113,
+      "sha256": "a070be4e7624ebcb863d42e3b8522ec5ad89803e0ad62e53164e9fc2cd14e9f5"
+    },
+    {
+      "path": "tools/music/sources/Block A T4 (fx)-5dafa05bf193.mid",
+      "bytes": 12679,
+      "sha256": "5dafa05bf193406e51a7111259e5835cd9062cb30c7e5dfa4d424ae589aa080a"
+    },
+    {
+      "path": "tools/music/sources/Block H T4 (guitar)-49ba8a7393a6.mid",
+      "bytes": 22946,
+      "sha256": "49ba8a7393a61254fca632d78d2f77c974afd63a235423f86514c110f7f39ffe"
+    },
+    {
+      "path": "tools/music/sources/Block G Fanfare (bass)-bfe5b1880baf.mid",
+      "bytes": 555,
+      "sha256": "bfe5b1880bafa3bd07e918fab6c05aef78feab86e2e61967a8e1ca2597bea7de"
+    },
+    {
+      "path": "tools/music/sources/Block A Boss (keyboard)-281e50a78599.mid",
+      "bytes": 17846,
+      "sha256": "281e50a7859959aab09cab015ba4112e8db6e9f4a64ed1f31bafe0b34866beb0"
+    },
+    {
+      "path": "tools/music/sources/Block H Chill (percussion)-7fa8be1b9311.mid",
+      "bytes": 13557,
+      "sha256": "7fa8be1b93117c8939b969fd01162713a566593e40631fffb2fd7d4ecea3a025"
+    },
+    {
+      "path": "tools/music/sources/Block B Chill (strings)-ee4523c69c76.mid",
+      "bytes": 5408,
+      "sha256": "ee4523c69c764faff1149f509169b25034a9c42bf8028290152925a6041b65d5"
+    },
+    {
+      "path": "tools/music/sources/Block C T3 (percussion)-9c50d32eb8f6.mid",
+      "bytes": 7013,
+      "sha256": "9c50d32eb8f66100ac12d26fb02e48dde11e867c5b755401eabac0420f01dd3c"
+    },
+    {
+      "path": "tools/music/sources/Block H Chill (guitar)-aaa86581fed8.mid",
+      "bytes": 5604,
+      "sha256": "aaa86581fed82d34652b57b8493edf6fb7a4da9bc1fd2ecf87a923cd16680810"
+    },
+    {
+      "path": "tools/music/sources/Block G T2 (brass)-68f9a596bbbf.mid",
+      "bytes": 11459,
+      "sha256": "68f9a596bbbff3335bc84bf6ff38e00b8a3c47b22a53c68957ba95ac43e189d5"
+    },
+    {
+      "path": "tools/music/sources/Block A T3 (fx)-348bf819d994.mid",
+      "bytes": 13794,
+      "sha256": "348bf819d99438d664a93f2283707abc6de6e64f4caacced8d96e1b5896df021"
+    },
+    {
+      "path": "tools/music/sources/Block H T3 (bass)-165f1c868f4c.mid",
+      "bytes": 15737,
+      "sha256": "165f1c868f4cd78757f5d05f0699150489044139b7ba284469da5bdef32e84bb"
+    },
+    {
+      "path": "tools/music/sources/Block B Fanfare (keyboard)-305b03d776d5.mid",
+      "bytes": 1137,
+      "sha256": "305b03d776d58c91383c75026b50a1d9559ffa86a8327edac06c8489514e281b"
+    },
+    {
+      "path": "tools/music/sources/Block G T3 (keyboard)-a60e743aa6d0.mid",
+      "bytes": 13678,
+      "sha256": "a60e743aa6d00720ce4b14066a932b475e1b4d09cd240690dc065cd37b59c08a"
+    },
+    {
+      "path": "tools/music/sources/Block E Chill (bass)-2e8485eb03bf.mid",
+      "bytes": 9306,
+      "sha256": "2e8485eb03bf17a741167c85790b6043dfd99ef39955a4e3ce406733c45b8a7e"
+    },
+    {
+      "path": "tools/music/sources/Block B T4 (brass)-e6a99591c5f2.mid",
+      "bytes": 22718,
+      "sha256": "e6a99591c5f239b7a662dc0e480ddde0b4989b2595f9341de2322c97b731c042"
+    },
+    {
+      "path": "tools/music/sources/Block E Boss (brass)-eed249eb4350.mid",
+      "bytes": 10477,
+      "sha256": "eed249eb43504fc4a3615c2465a620643afee47fd59516c633320ca51ddb22b8"
+    },
+    {
+      "path": "tools/music/sources/Block A T4 (bass)-95818ccee440.mid",
+      "bytes": 11762,
+      "sha256": "95818ccee4405761358a7e65060b092fd799945db0dd4eaefcef32a2c5a866bb"
+    },
+    {
+      "path": "tools/music/sources/Block G T3 (percussion)-734b9b58585c.mid",
+      "bytes": 7831,
+      "sha256": "734b9b58585c53523f8966c5791df43d3edd7a20b66ab8b04baf6e7421fb9574"
+    },
+    {
+      "path": "tools/music/sources/Block G T4 (strings)-6b1851409635.mid",
+      "bytes": 16625,
+      "sha256": "6b185140963571379dcdd3e127e9e095261847d92e0186b88697911c71dde2e2"
+    },
+    {
+      "path": "tools/music/sources/Block E T3 (keyboard)-8444e70896f3.mid",
+      "bytes": 16613,
+      "sha256": "8444e70896f38fbd1dd42a6bc0a86e979d0e267cfce023bb5c06486e06c09427"
+    },
+    {
+      "path": "tools/music/sources/Block E T3 (bass)-1d826aa6a1db.mid",
+      "bytes": 11702,
+      "sha256": "1d826aa6a1db02b64246e05d8a04e2023d2d382877c1bf857019e20b083634e6"
+    },
+    {
+      "path": "tools/music/sources/Block F Fanfare (synth)-f0e80192c947.mid",
+      "bytes": 1465,
+      "sha256": "f0e80192c947a0e9489687fd6b246557747377ce206382b6ed93ae6846df9fb6"
+    },
+    {
+      "path": "tools/music/sources/Block H Chill (bass)-2b1e34815330.mid",
+      "bytes": 8964,
+      "sha256": "2b1e348153303a99b9602b0c6ec79ef49e33bbf6e952d869373d5de6b05e6f49"
+    },
+    {
+      "path": "tools/music/sources/Block B Chill (guitar)-5d5c65f77016.mid",
+      "bytes": 3869,
+      "sha256": "5d5c65f770163ad77a2302ffd4a1882b38ca80046afd3b884ccbba66c373ff2f"
+    },
+    {
+      "path": "tools/music/sources/Block G Chill (backing vocals)-adc6ec2687ab.mid",
+      "bytes": 2857,
+      "sha256": "adc6ec2687ab787d94b0c27bdb6a206fe02cf209269e092e5d4be7dfa2549137"
+    },
+    {
+      "path": "tools/music/sources/Block E T3 (percussion)-50f4fb3a3eb0.mid",
+      "bytes": 9852,
+      "sha256": "50f4fb3a3eb00c22bda2c44672c2a5ef76e126630132b5d4a8562263145a2f13"
+    },
+    {
+      "path": "tools/music/sources/Block H T4 (strings)-7be63656a90b.mid",
+      "bytes": 34111,
+      "sha256": "7be63656a90b69b98d4072e60cd3dff8616db696fbf40c44cd04d7327ab6bcdd"
+    },
+    {
+      "path": "tools/music/sources/Block G Chill (guitar)-12e4a5f1a526.mid",
+      "bytes": 3853,
+      "sha256": "12e4a5f1a52646740e2c044758e14d0085fb7fa7ab42de312a2c2f363cbae6fb"
+    },
+    {
+      "path": "tools/music/sources/Block C Boss (guitar)-24ce730da830.mid",
+      "bytes": 4081,
+      "sha256": "24ce730da8305bbfe30ff33b3c7ad07c04100f919b71a34ec1ff1bfd36f3a127"
+    },
+    {
+      "path": "tools/music/sources/Block C Chill (fx)-bda49041ba29.mid",
+      "bytes": 2501,
+      "sha256": "bda49041ba29a6113d16a6ad19baf116afb7e6c7e9bd4b2f4d4175cbadf04877"
+    },
+    {
+      "path": "tools/music/sources/Block C T4 (synth)-25df1ed15729.mid",
+      "bytes": 27711,
+      "sha256": "25df1ed15729324c1285be6f1af9b969248442ce79fe442e6c7bac7b03f12598"
+    },
+    {
+      "path": "tools/music/sources/Block D T3 (backing vocals)-7937e25e9969.mid",
+      "bytes": 2733,
+      "sha256": "7937e25e99699ff94508da28a9847f312187c5f683e710b242ae0c3a7b4b7e79"
+    },
+    {
+      "path": "tools/music/sources/Block F Fanfare (percussion)-e5375f790d56.mid",
+      "bytes": 537,
+      "sha256": "e5375f790d56d97f008927e7e4ab739154d19c22fa0d55855af8b70263203c4c"
+    },
+    {
+      "path": "tools/music/sources/Block F Chill (fx)-83e621344943.mid",
+      "bytes": 3476,
+      "sha256": "83e621344943625d0f07a5aec7284ea5a50531f7812acc345abeab5b18e5a9ef"
+    },
+    {
+      "path": "tools/music/sources/Block F Chill (vocals)-aa81dd5977a1.mid",
+      "bytes": 3377,
+      "sha256": "aa81dd5977a14600cc91400d4e40032196d0594b6f0e68cbc83a6756529d65ed"
+    },
+    {
+      "path": "tools/music/sources/Block A Boss (drums)-ccfab124a3ad.mid",
+      "bytes": 10662,
+      "sha256": "ccfab124a3adf90372429b5e6e9a11d9c9980f1b69a12b20360bd1acb06f718f"
+    },
+    {
+      "path": "tools/music/sources/Block G T4 (fx)-0e9ed4b051e2.mid",
+      "bytes": 14444,
+      "sha256": "0e9ed4b051e259a03072562f3c642b5d43d1713ae5e576f43ee29a47563cfd2e"
+    },
+    {
+      "path": "tools/music/sources/Block B T3 (brass)-99dcc5d75593.mid",
+      "bytes": 16139,
+      "sha256": "99dcc5d75593f3fa58563a6c93048a644aa94ff4b5fea802b38205ca4f13e951"
+    },
+    {
+      "path": "tools/music/sources/Block G Boss (vocals)-32e4f7fcc5cd.mid",
+      "bytes": 15205,
+      "sha256": "32e4f7fcc5cd63ea259bc577e8fb805c76f80c1cee36ccd0651d9791907cc5b8"
+    },
+    {
+      "path": "tools/music/sources/Block A T3 (vocals)-91f9d330c67b.mid",
+      "bytes": 4057,
+      "sha256": "91f9d330c67bdbd3d70c8dc5391e44f34a262edd09bfe70311f0fbe7c676ee73"
+    },
+    {
+      "path": "tools/music/sources/Block F Chill (woodwinds)-06eb938392f3.mid",
+      "bytes": 3696,
+      "sha256": "06eb938392f3f14171b841930fcc6640cbfa29aa52120e5cccabcb5caf33ee12"
+    },
+    {
+      "path": "tools/music/sources/Block C T2 (keyboard)-8a3dc72a9f12.mid",
+      "bytes": 22701,
+      "sha256": "8a3dc72a9f12e58a140d56e3d3f37b590a4f5b5a1b4712f510643ef67c5e7684"
+    },
+    {
+      "path": "tools/music/sources/Block D Chill (vocals)-638f3e83dec2.mid",
+      "bytes": 6441,
+      "sha256": "638f3e83dec2b711b766ad242d4d64133960c41d19691dcced3d3fec91276ccd"
+    },
+    {
+      "path": "tools/music/sources/Block F T3 (bass)-f1d9caf01452.mid",
+      "bytes": 9558,
+      "sha256": "f1d9caf0145247dbd2332b115997e150523d9a8fc8c2ffd094d857d4f6d672a6"
+    },
+    {
+      "path": "tools/music/sources/Block A Boss (vocals)-7e5249907893.mid",
+      "bytes": 3778,
+      "sha256": "7e52499078934469e58a5c4ef65f3b474f1c715b5ad32cf081e30765f96bcbab"
+    },
+    {
+      "path": "tools/music/sources/Block H T3 (percussion)-d4fd95445361.mid",
+      "bytes": 4998,
+      "sha256": "d4fd9544536134218b190310feeb74caa7b6f5b74014dad271d2285977a3be24"
+    },
+    {
+      "path": "tools/music/sources/Block F T2 (synth)-4c6866743f1a.mid",
+      "bytes": 14115,
+      "sha256": "4c6866743f1af473e64a96ab921b34a0356eb34846c1db48e47770cae91e2d3f"
+    },
+    {
+      "path": "tools/music/sources/Block G Boss (synth)-8aa3dff2a0cf.mid",
+      "bytes": 35342,
+      "sha256": "8aa3dff2a0cf03c8780b5d6d0b824945ebbcdec5acefa9b6a3111d9d1b202f87"
+    },
+    {
+      "path": "tools/music/sources/Block C T3 (strings)-087602b602c0.mid",
+      "bytes": 13106,
+      "sha256": "087602b602c050363e3524c5cfdd464bdbe95f7f78700e6bc1e4b8ec4dfe39ad"
+    },
+    {
+      "path": "tools/music/sources/Block A T4 (strings)-3ccb546a9fe5.mid",
+      "bytes": 16593,
+      "sha256": "3ccb546a9fe5e5f04c4233ab1257e2f5bf7ac05efb8518e7efaa148d4316afb1"
+    },
+    {
+      "path": "tools/music/sources/Block H T4 (synth)-f3471adeced3.mid",
+      "bytes": 45577,
+      "sha256": "f3471adeced38cac327ffc55ecf60a7b4434b1f81878ecca915c3b21e1f814ba"
+    },
+    {
+      "path": "tools/music/sources/Block D T4 (drums)-9f4f20b45314.mid",
+      "bytes": 12328,
+      "sha256": "9f4f20b45314541b594d0119fff7802ffc5e1878b5a8a7a352a8e450f0b1396e"
+    },
+    {
+      "path": "tools/music/sources/Block H T2 (guitar)-eaf7c075c959.mid",
+      "bytes": 18994,
+      "sha256": "eaf7c075c9597566f324b771e8f3af9e225f55dfdcf4a78214bcd47ed2e3dcde"
+    },
+    {
+      "path": "tools/music/sources/Block A T3 (brass)-98bdc76d1b65.mid",
+      "bytes": 11222,
+      "sha256": "98bdc76d1b65c2106b1d5adc05d61c0c45df990e5d623ac32e55b38e5fe18ce3"
+    },
+    {
+      "path": "tools/music/sources/Block H T2 (strings)-42cc31689be1.mid",
+      "bytes": 7154,
+      "sha256": "42cc31689be10887d0e61ef20c2e73348908493ed1254eb258be6642950ea1db"
+    },
+    {
+      "path": "tools/music/sources/Block F T2 (percussion)-82078b7c55c9.mid",
+      "bytes": 9315,
+      "sha256": "82078b7c55c9896dc442e6e5bb1ef5e990c0a5b9f7fbbb651cc43abe84f46c12"
+    },
+    {
+      "path": "tools/music/sources/Block G Fanfare (brass)-a4e0b6bc69fd.mid",
+      "bytes": 1196,
+      "sha256": "a4e0b6bc69fdffdc255b1f43aa40bd38fea3ef7b2ac5515d25ee1faeadc7af1c"
+    },
+    {
+      "path": "tools/music/sources/Block A Boss (synth)-9ebdb4236bf9.mid",
+      "bytes": 18407,
+      "sha256": "9ebdb4236bf9e4f9b11516118c3817be9d35188916abc9e28bde31c33f9c26fe"
+    },
+    {
+      "path": "tools/music/sources/Block C T3 (bass)-140a358751cf.mid",
+      "bytes": 11338,
+      "sha256": "140a358751cfcd0f2cace1a60bb0b122a8e633a75f286a415c079a753851a8e4"
+    },
+    {
+      "path": "tools/music/sources/Block G T3 (drums)-f817a333cadc.mid",
+      "bytes": 13099,
+      "sha256": "f817a333cadc949f304aad91db290d813703df37b85777d4a53ac9cefb50bab0"
+    },
+    {
+      "path": "tools/music/sources/Block D Chill (strings)-bb249b88296d.mid",
+      "bytes": 3314,
+      "sha256": "bb249b88296d8dd833ffc9a50df35c34ff9a59affed56fdaa2f9063a07a94bd7"
+    },
+    {
+      "path": "tools/music/sources/Block C Chill (drums)-93c1e507064b.mid",
+      "bytes": 8992,
+      "sha256": "93c1e507064baaa7c4ab9a1ea49d74b2e5df56ff34d6d58fc36ffdc6bd6a2e63"
+    },
+    {
+      "path": "tools/music/sources/Block B T4 (percussion)-417ef748c933.mid",
+      "bytes": 11519,
+      "sha256": "417ef748c93369f292ae00795db9bcecca56a3f4407a3c68d1be7bd40d653479"
+    },
+    {
+      "path": "tools/music/sources/Block G Fanfare (fx)-141f5e39e347.mid",
+      "bytes": 238,
+      "sha256": "141f5e39e347ff19a6e758d7fe37917df302c3e3428338b801f50fe9ec76ef7b"
+    },
+    {
+      "path": "tools/music/sources/Block A Chill (keyboard)-8f28956ebdd6.mid",
+      "bytes": 21361,
+      "sha256": "8f28956ebdd6524b3672dacb37082d55850851e4efab9f71906f1e61aaa1245e"
+    },
+    {
+      "path": "tools/music/sources/Block H Fanfare (bass)-864ba65a5fd2.mid",
+      "bytes": 351,
+      "sha256": "864ba65a5fd2bd62ddcedee88dbc2d465460c3c03d8497d7ad35ddc654b19e93"
+    },
+    {
+      "path": "tools/music/sources/Block E T3 (vocals)-588ca9051f52.mid",
+      "bytes": 4112,
+      "sha256": "588ca9051f526b1731c6a232573dd09e26fa6db8fe602040f0a39380077e35fd"
+    },
+    {
+      "path": "tools/music/sources/Block D Boss (brass)-48cc109a8b7b.mid",
+      "bytes": 16197,
+      "sha256": "48cc109a8b7b0a5c5e3f7431ac4c35cb9546442cc6939ac28841630efd17c9c1"
+    },
+    {
+      "path": "tools/music/sources/Block D T3 (bass)-b1099a1b452a.mid",
+      "bytes": 23222,
+      "sha256": "b1099a1b452aefb067570f0fb34efa5244150e7349f55f032ae5478deba78bde"
+    },
+    {
+      "path": "tools/music/sources/Block D T2 (synth)-11515755e67b.mid",
+      "bytes": 15824,
+      "sha256": "11515755e67bd905211fc4a149afaded60cca6d35be8e6734371ff7a3a4ae3d8"
+    },
+    {
+      "path": "tools/music/sources/Block D Boss (bass)-5a288b0237e3.mid",
+      "bytes": 10249,
+      "sha256": "5a288b0237e3c1554a83c338bb95ba0711b9fa5800e673f29fb7eb56a9357286"
+    },
+    {
+      "path": "tools/music/sources/Block F T3 (synth)-466f7bcd0b31.mid",
+      "bytes": 18814,
+      "sha256": "466f7bcd0b31c626bf14efa67ee24ef7cc7b8359f1f704d77a1058707fa6d314"
+    },
+    {
+      "path": "tools/music/sources/Block A T2 (keyboard)-d178d621da61.mid",
+      "bytes": 15929,
+      "sha256": "d178d621da616157d227be6d93229c959ab495dd491d4bad845a4e5cbe56483e"
+    },
+    {
+      "path": "tools/music/sources/Block B T3 (woodwinds)-fadc72c767b9.mid",
+      "bytes": 6068,
+      "sha256": "fadc72c767b92c4d133e76299e50ab6c98a47d6cf098951adf0d31b223c99e5d"
+    },
+    {
+      "path": "tools/music/sources/Block D T3 (drums)-beb49ed9a840.mid",
+      "bytes": 24613,
+      "sha256": "beb49ed9a84016889dbcefce7d7f88475c1351ee17525af586cec0d278ec7ecc"
+    },
+    {
+      "path": "tools/music/sources/Block H T2 (bass)-d8c60b971821.mid",
+      "bytes": 9284,
+      "sha256": "d8c60b971821657ca9ea5594141084b8b4464822d8feae2e64581f8a912d50b6"
+    },
+    {
+      "path": "tools/music/sources/Block H Chill (strings)-4150d128dbcc.mid",
+      "bytes": 5167,
+      "sha256": "4150d128dbcc15c91f935c365c99a8a1738c42533038d86488683d3c4cd0b14b"
+    },
+    {
+      "path": "tools/music/sources/Block D T4 (keyboard)-1d6e72f4fc28.mid",
+      "bytes": 13703,
+      "sha256": "1d6e72f4fc282aaecc086b6f012bd13679bd11a985f9cb67f74ae15e862041d1"
+    },
+    {
+      "path": "tools/music/sources/Block B T3 (keyboard)-add1bcc4fe4c.mid",
+      "bytes": 20900,
+      "sha256": "add1bcc4fe4c89de6f2dc5bf91c83479f664bc8a82dc7977bf93ff7c9135277e"
+    },
+    {
+      "path": "tools/music/sources/Block D Boss (fx)-5b8feea843c6.mid",
+      "bytes": 10157,
+      "sha256": "5b8feea843c60292487c75e91f86b5030885bedc5fec4fbb58ac79a23c5a8063"
+    },
+    {
+      "path": "tools/music/sources/Block G T2 (vocals)-d4008cc9c9a5.mid",
+      "bytes": 5014,
+      "sha256": "d4008cc9c9a5d46a6ce0da2d7eceb330e39a8b7aa87fd6d99037ae6dd964a692"
+    },
+    {
+      "path": "tools/music/sources/Block H T3 (drums)-b2be1c30be47.mid",
+      "bytes": 29828,
+      "sha256": "b2be1c30be4706c4d9cca0b9b5e0bdd958446663cab808d7eddc9700d0ac7b0d"
+    },
+    {
+      "path": "tools/music/sources/Block E T2 (percussion)-d597911ce035.mid",
+      "bytes": 4993,
+      "sha256": "d597911ce035f079165b56c98f973f4e038e5a62d1d9bd6b9b1eaf2d5ec20395"
+    },
+    {
+      "path": "tools/music/sources/Block F T4 (fx)-1a298bcc8082.mid",
+      "bytes": 10864,
+      "sha256": "1a298bcc80824a0d191424d97e204169c93134338a4a8ed030bb15cac55cc498"
+    },
+    {
+      "path": "tools/music/sources/Block A T2 (vocals)-0e4f05a3ad65.mid",
+      "bytes": 3276,
+      "sha256": "0e4f05a3ad65ecdebdeeb8ebf9dc48f8a06ce2f0bff017b4257d95d419eae736"
+    },
+    {
+      "path": "tools/music/sources/Block A Fanfare (strings)-90dc2956ba68.mid",
+      "bytes": 3463,
+      "sha256": "90dc2956ba6816f41af44b70a62a0196dc1b21ac2a580ee77966911fa45c916a"
+    },
+    {
+      "path": "tools/music/sources/Block G Chill (brass)-312056ca28d0.mid",
+      "bytes": 5681,
+      "sha256": "312056ca28d03943cf2bcfebd14254ab19acda3e56dea43ebf4f52141aa2d5ca"
+    },
+    {
+      "path": "tools/music/sources/Block H T2 (fx)-a30ee3ae75dc.mid",
+      "bytes": 13222,
+      "sha256": "a30ee3ae75dc2e58f5d0c1f72357d41e4afed2ff014f5442ee3a37facea23599"
+    },
+    {
+      "path": "tools/music/sources/Block C T2 (bass)-9cd7a692a7f3.mid",
+      "bytes": 18074,
+      "sha256": "9cd7a692a7f3cef93f5609205c445f1cb9d42db536def2fc0ba32231419e28cc"
+    },
+    {
+      "path": "tools/music/sources/Block E T2 (guitar)-bfa651bd60d7.mid",
+      "bytes": 5596,
+      "sha256": "bfa651bd60d7388a46c55cfd25ada4036d9e8b2568a6a1ffb91c895c80eb7e50"
+    },
+    {
+      "path": "tools/music/sources/Block E Chill (woodwinds)-6f5c304a322c.mid",
+      "bytes": 2898,
+      "sha256": "6f5c304a322c6fd4c3ccf8d14cc683f6630baa02eb3a82a7f16d879782de045b"
+    },
+    {
+      "path": "tools/music/sources/Block G Chill (drums)-7d7c7cb4a267.mid",
+      "bytes": 14876,
+      "sha256": "7d7c7cb4a26718a7b28b14cc445a9cf657828196ec59af67f5a2ab498889d9ad"
+    },
+    {
+      "path": "tools/music/sources/Block D Chill (keyboard)-5564b1f8c5fc.mid",
+      "bytes": 9659,
+      "sha256": "5564b1f8c5fc6e43574ac5a7143c58a2ad858daaf9138ebc10e2aad2b2028675"
+    },
+    {
+      "path": "tools/music/sources/Block H T2 (vocals)-a1bcf47e54da.mid",
+      "bytes": 4334,
+      "sha256": "a1bcf47e54da69fd1ca0a921ba40e76dfea5c51eefc4b9e4746d94e4f20ac214"
+    },
+    {
+      "path": "tools/music/sources/Block H Boss (brass)-f1ee0bde4eb5.mid",
+      "bytes": 12501,
+      "sha256": "f1ee0bde4eb5b5ac242552879a848351e25239c2fd02b089f51e8bbaf71c208a"
+    },
+    {
+      "path": "tools/music/sources/Block B T2 (drums)-ecfd3a958481.mid",
+      "bytes": 14672,
+      "sha256": "ecfd3a9584815badc3001a5af0c8ba5ce88739983bb5a75f4601c5b6ec8f324f"
+    },
+    {
+      "path": "tools/music/sources/Block B T2 (synth)-edad9298e984.mid",
+      "bytes": 22150,
+      "sha256": "edad9298e984a677103c0500b6d226dcd38d1d21e8fb88ad3c3369232e0c7c0f"
+    },
+    {
+      "path": "tools/music/sources/Block F T3 (brass)-e36c30d945d6.mid",
+      "bytes": 6411,
+      "sha256": "e36c30d945d6af5021d3d0e12c3a4505cb3df86ad08b1f1848a0369e087e884a"
+    },
+    {
+      "path": "tools/music/sources/Block C Fanfare (bass)-5e981c38aa57.mid",
+      "bytes": 342,
+      "sha256": "5e981c38aa575ac72d578b80e1bcce0f25bb91e87341768cde3e7b14c8806e53"
+    },
+    {
+      "path": "tools/music/sources/Block G Chill (strings)-983a6065e9b0.mid",
+      "bytes": 9318,
+      "sha256": "983a6065e9b003a2754ec7730196f68462992b9d55142690d4d033a66ff0009e"
+    },
+    {
+      "path": "tools/music/sources/Block F Boss (brass)-cdba427ebdad.mid",
+      "bytes": 9272,
+      "sha256": "cdba427ebdad5a89505e80fdaa3bdfa4091e0add706ac5a4ec30b57d083cddeb"
+    },
+    {
+      "path": "tools/music/sources/Block F T4 (guitar)-f5ac0f1cd946.mid",
+      "bytes": 2801,
+      "sha256": "f5ac0f1cd9467c645642ecf1e8d56ec71525dbe597df393ff56dab93acc9e44a"
+    },
+    {
+      "path": "tools/music/sources/Block B T3 (percussion)-b5c0f872cb87.mid",
+      "bytes": 9369,
+      "sha256": "b5c0f872cb87c400a25d7a2a36df058f0f87674b7e729bd0473ae242b978f5c6"
+    },
+    {
+      "path": "tools/music/sources/Block C T3 (drums)-d6abe542771e.mid",
+      "bytes": 17622,
+      "sha256": "d6abe542771eb55685b0e670a739aa884899884f6f8ae4c2d225de7adb8f9e1c"
+    },
+    {
+      "path": "tools/music/sources/Block G Chill (keyboard)-7bf5ccae9663.mid",
+      "bytes": 20620,
+      "sha256": "7bf5ccae9663cac8662fe6ca51d414b029519773c4d50675752078fc5296c4c4"
+    },
+    {
+      "path": "tools/music/sources/Block G T2 (strings)-056c49f52039.mid",
+      "bytes": 14742,
+      "sha256": "056c49f520397457ac59fa9a2ef63215076ea1ddbdb61e0a607f13fa2eb66a67"
+    },
+    {
+      "path": "tools/music/sources/Block E T4 (bass)-9616a3f81a49.mid",
+      "bytes": 9572,
+      "sha256": "9616a3f81a494e3beee74bd489d02d591ce61676812ebdfc3eb5f0e367236679"
+    },
+    {
+      "path": "tools/music/sources/Block H Boss (bass)-b975d65ad635.mid",
+      "bytes": 8255,
+      "sha256": "b975d65ad635a477df592d00ffa53fac82903769da23e7dda0706c628e420178"
+    },
+    {
+      "path": "tools/music/sources/Block E T3 (fx)-42384eed44e3.mid",
+      "bytes": 7598,
+      "sha256": "42384eed44e33c3644eaa75fddb624fc790513a68168337a4749cc56d68e8070"
+    },
+    {
+      "path": "tools/music/sources/Block E T2 (woodwinds)-b9b46abd9bfd.mid",
+      "bytes": 2742,
+      "sha256": "b9b46abd9bfd5df9dbfa7a0e23028ac63e680feda0c8b55ff26507fac48b7bc6"
+    },
+    {
+      "path": "tools/music/sources/Block F T4 (strings)-8f723e0a352d.mid",
+      "bytes": 20835,
+      "sha256": "8f723e0a352d2be1803186edbe176d27d86b7e4d3dc3edfee5a11a9e9a7de126"
+    },
+    {
+      "path": "tools/music/sources/Block E Boss (synth)-e35511d6559b.mid",
+      "bytes": 20083,
+      "sha256": "e35511d6559b3c74b0b9f91ff7b2a0137b64d2afb96dd61be04ea5e7740cb30b"
+    },
+    {
+      "path": "tools/music/sources/Block E T3 (drums)-a0022b4b447b.mid",
+      "bytes": 22323,
+      "sha256": "a0022b4b447b37146322a6406c1067ffbbdf6c6a93bc4cbd15aa1c118f261383"
+    },
+    {
+      "path": "tools/music/sources/Block E Fanfare (percussion)-794e93494ff3.mid",
+      "bytes": 244,
+      "sha256": "794e93494ff34688339f3623ea43bfc5ce2b16f0087087787f71d42e75144973"
+    },
+    {
+      "path": "tools/music/sources/Block A T3 (synth)-a016e19de950.mid",
+      "bytes": 18520,
+      "sha256": "a016e19de9509fbc0c0f20acfd0517cd8d14a50bad47aab8bd148b84908b4f9a"
+    },
+    {
+      "path": "tools/music/sources/Block B T2 (keyboard)-175f7f3eaacd.mid",
+      "bytes": 20551,
+      "sha256": "175f7f3eaacdf2540fc83a904739ad6845a8d350c6a573fc1422771835f6df90"
+    },
+    {
+      "path": "tools/music/sources/Block C Boss (bass)-d2c7e5079f9a.mid",
+      "bytes": 8648,
+      "sha256": "d2c7e5079f9a41781550593f30b2773a3449d17be09315549dcdae69d2416f08"
+    },
+    {
+      "path": "tools/music/sources/Block A Fanfare (bass)-4e54cc31417e.mid",
+      "bytes": 570,
+      "sha256": "4e54cc31417e77de7efb1cac1bd3e75d36374be48ccd8d46a505d897da1f0799"
+    },
+    {
+      "path": "tools/music/sources/Block F T3 (drums)-241300a8e027.mid",
+      "bytes": 11087,
+      "sha256": "241300a8e027e938dbfd93283ccd643f2de9bdfff074ccba7fe0353156478a4b"
+    },
+    {
+      "path": "tools/music/sources/Block D T4 (brass)-cc7c8ccc6f13.mid",
+      "bytes": 4560,
+      "sha256": "cc7c8ccc6f13b423200c4c19f12be47022cda5a17e7488adaccff5e4a498cb9e"
+    },
+    {
+      "path": "tools/music/sources/Block F Boss (fx)-33a592039336.mid",
+      "bytes": 9153,
+      "sha256": "33a592039336056af8a3bb617523f797b27007361c554fe4723beb78b7b811e0"
+    },
+    {
+      "path": "tools/music/sources/Block C Boss (percussion)-0bf9f9eae7da.mid",
+      "bytes": 8199,
+      "sha256": "0bf9f9eae7da7ab3e1b7a8732d01d1b3dec13926fffaa88261473dea5748c2ef"
+    },
+    {
+      "path": "tools/music/surge/patches.json",
+      "bytes": 12514,
+      "sha256": "ebfb7a78dc95b6cb06b328af5ee59d134fe3a7f0f30703433c541e32cbbed7ba"
+    },
+    {
+      "path": "tools/music/surge/lock.json",
+      "bytes": 566,
+      "sha256": "52fb7fd7ccf0108ffc244cc925ea03c97ff00c37017a373f89f1972ce72a7d61"
+    },
+    {
+      "path": "tools/music/surge/prepare.py",
+      "bytes": 3123,
+      "sha256": "8aed7681cb4bd41beb8a68b188ca8f88573a9142786e6d7084f3c65698dd3b60"
+    },
+    {
+      "path": "tools/music/surge/bank.py",
+      "bytes": 4041,
+      "sha256": "69fd018bc12dd1d3c96ed9aedd711beb3887ee96331b66faf27b5d8dbeaaa2f2"
+    },
+    {
+      "path": "tools/music/surge/README.md",
+      "bytes": 4561,
+      "sha256": "cd070f8e797ea494f21ad4a98ef36450b329903d9bf08923b7dc2aa95031fca7"
+    },
+    {
+      "path": "tools/music/surge/surgepy_lod.patch",
+      "bytes": 2969,
+      "sha256": "accb4349923f8e30b6b1e9bcf0387a8555a59279e1ac5715316e9d1a2a7f9f2e"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/sv_music.lua",
+      "bytes": 19345,
+      "sha256": "cc80f629b0a52760e978de6a24659c00cb5d2b999699b776f975492f0f536eac"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/cl_music_native.lua",
+      "bytes": 16433,
+      "sha256": "efa417fac0045fdea60b6e776d15532dad96b014989f39e99305e7b65628361a"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/cl_music.lua",
+      "bytes": 18475,
+      "sha256": "438b04df2da9f0df1aa30db958ae3716f07029ebfe0974cbe9959fede7098637"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/sh_music.lua",
+      "bytes": 11950,
+      "sha256": "4c5aabb1b1243ab8fa5792aacd0d0eb8e14803bcf92b2b1d42d42efeb18c8c24"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_066.lua",
+      "bytes": 39546,
+      "sha256": "7c0dca8ff21e93fc0898d7b9084684af4a5bfad0ae8595ea2799347a240f647e"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_013.lua",
+      "bytes": 43752,
+      "sha256": "2234322d396a48c2383890c67d4040218e05fd54056e24e6389accdee6be6bad"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_004.lua",
+      "bytes": 44419,
+      "sha256": "25bb63d957402d91b8d8df3af52292a7f3aaabc2c45eb24a75c360c082e61c6c"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_011.lua",
+      "bytes": 44889,
+      "sha256": "309acd1e117fe1f211e11300b15e70ed0931bc42cdefbcd604137e6a1fb0b47d"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_076.lua",
+      "bytes": 31550,
+      "sha256": "5a4f8ef1241c9cf5a44381143b232b5bb318e6dea697f4b979e84aa0d3cb0d2f"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_027.lua",
+      "bytes": 44129,
+      "sha256": "7c9e57754ecd003a0d9dbaaee06998f0452643d7f4c9a5b7f4244d3da2542eba"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_038.lua",
+      "bytes": 35845,
+      "sha256": "c7977d2bc8607e80a38d7e2c5f87f2fd78677c0612ccb60a2fd2a5b3d8ffe080"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_030.lua",
+      "bytes": 38461,
+      "sha256": "4b9fd52bfafdd0bf561a9a45281f1a90351c8281ad65e932179160651972a66c"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_018.lua",
+      "bytes": 30199,
+      "sha256": "9272384462e702ff0ff60129d9c0f62623c2eb12e4fbe32946ded10248c8ef6b"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_014.lua",
+      "bytes": 41061,
+      "sha256": "76d1b88655bbe1adf754f7e67be6b543ffeeab8ccd3d16395b3f09ed6fe8eb0a"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_044.lua",
+      "bytes": 45462,
+      "sha256": "e27036ba798aa739c813f4edc34b865303740a03e6f5e912d8ddf08159a5d57b"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_075.lua",
+      "bytes": 41188,
+      "sha256": "5af27217eded54f8035033049eb60fa4da0f4ae6b39db935ae9a0af76ec34478"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_059.lua",
+      "bytes": 42355,
+      "sha256": "887d6821e0a7090cb502f220f2078d3811363e02f9eb4fa5bd9834f3bb60cfc8"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_024.lua",
+      "bytes": 45896,
+      "sha256": "cf4dff8c3b5551673617ad2ad7a76ba53feb4ef21bfe50876a9dc4ed77514125"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_078.lua",
+      "bytes": 24986,
+      "sha256": "11f9f8efdffe15b2f4ce3665f96c2b399b0a49499250b88dafeaee4ca18ff1bc"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_060.lua",
+      "bytes": 38503,
+      "sha256": "f51a99ff7cdd452b7cef9930bbafa1a08142b6789dbcf47b93a1e62c811623c4"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_015.lua",
+      "bytes": 37957,
+      "sha256": "2f4bd2d448b783a54a84dba1dc902e05e58b843294f3e85a01847d204908861f"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_077.lua",
+      "bytes": 38790,
+      "sha256": "2bed99d0f0c0697f4b93bb6f24996685110d19d3a3a3792a5039f4669c703d62"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_052.lua",
+      "bytes": 42531,
+      "sha256": "a69e099a5ede38233483748ac212a3526b04c6fdef0ed604a9224cf1ebb3cfeb"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_083.lua",
+      "bytes": 30709,
+      "sha256": "545db3ca102e305d3761f4bccebc7411f53d9d4004bf08675e920e9b1e4b2ec2"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_061.lua",
+      "bytes": 35821,
+      "sha256": "c5289aedb155b2341f7b8662b844075079195a63ac4dbf2c9dff32c16066e31a"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_028.lua",
+      "bytes": 24839,
+      "sha256": "938a505e7370df8620a9b4530fc71dff731db89c898a4d95af3ad3775203e152"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_042.lua",
+      "bytes": 40577,
+      "sha256": "4aa38ee6c446fa4ec8128b61b14ebf4488071e45087ed306d3b8551da70b648f"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_023.lua",
+      "bytes": 41916,
+      "sha256": "2f35a6f21953fbd83893686ab856aff3311eb66e86324ea6ae55599a19756d38"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_033.lua",
+      "bytes": 45720,
+      "sha256": "49b597614a940dea6e3c988fedae1006665e119453eaaaeadccaeae519e70c53"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_049.lua",
+      "bytes": 42215,
+      "sha256": "24c46bc53466281848326779dc86d2bfec550a309ae0e0ebb404aa8f104f2db9"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_068.lua",
+      "bytes": 44713,
+      "sha256": "4997ea823bfa51de08df70e71eae6e446e58721ad1c55cc48b207e7437d3738a"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_007.lua",
+      "bytes": 37829,
+      "sha256": "a551d3e9c2ca421bb08fff398cde86fc068571af503d1c8c2208fedc1727b3f0"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_019.lua",
+      "bytes": 45468,
+      "sha256": "562773669ee0f187e418edc005f33b1be6918c864f0ffdaf3df2c8a15de67a0b"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_064.lua",
+      "bytes": 43918,
+      "sha256": "5a15acf39b6c0aed84edca9f2851cb1dcf9f7ed8f4230ceae3c50c114c2352db"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_069.lua",
+      "bytes": 43207,
+      "sha256": "c558b6715049ee0e4df698de163158ef2f006c8235f35fff39675f3df1aa3a1b"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_017.lua",
+      "bytes": 45148,
+      "sha256": "330a14488b9533434d642f8c4b434792cd58a60990cf95c6fa275814bbfd778b"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_000.lua",
+      "bytes": 45981,
+      "sha256": "2eed265cb052a35a159d6523373cfdf823eec6c9d2309561eb9606002e29fb61"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_050.lua",
+      "bytes": 44681,
+      "sha256": "580d3b0809762cd074e85a0eec335e59d804b039ffbcea1676fe698eac8acffe"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_080.lua",
+      "bytes": 25087,
+      "sha256": "1df77e80db12bf2bd4d3be08d4a1d44fd3c9eae3c6cbf4a67a518b83598a835e"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_040.lua",
+      "bytes": 40774,
+      "sha256": "67eb3d5d7a4c53f38c533d42d81983bffc68541a8ce937adfd2d9015ffe89df1"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_063.lua",
+      "bytes": 35422,
+      "sha256": "1bb05d8e0e51d2c797ec35362b7b1cdb98bdd7d6a2e88ea06f7cc15b80572db8"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_009.lua",
+      "bytes": 36180,
+      "sha256": "b053d45ca620783e8028a9ff09a8f01b84303b0fcdfb5b4ad2d0ba35d328a52d"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_058.lua",
+      "bytes": 30133,
+      "sha256": "5a9971a2e607e559cbf4485e6f7ca008f2460c0e8a464d4e35cb25ab5ead5880"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_010.lua",
+      "bytes": 29093,
+      "sha256": "d947392ec25da63c650a25dd33c65ce6420517b9ea8c0f5d66fafbac583d3786"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_039.lua",
+      "bytes": 39983,
+      "sha256": "7d18bfcadbe31543476d3dd758113c138f329ace2bb8e6e97d88a3f2cf7e53a0"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_074.lua",
+      "bytes": 36860,
+      "sha256": "0b6f5f3bcf25b1e7a104d48bb9658cdc152f0d524c6a1ac54dc3014b4c1a6ed7"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_055.lua",
+      "bytes": 41839,
+      "sha256": "e301b7f0510293561be84d8e1d056dd924bfc8682366ae61556797311f657b7f"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_037.lua",
+      "bytes": 38093,
+      "sha256": "0ce700f3cb08441fe18ce394b2f72ef93cb4b3309ef4ffae37545b87cd48f557"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_003.lua",
+      "bytes": 40673,
+      "sha256": "73c4f31b77cc56ca2774f629201019dc1469eea4c5a1989b47396921ab3a041d"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_073.lua",
+      "bytes": 30425,
+      "sha256": "9a6e9071c40b6d146ae552262fb53abd6850114d4a21ba7848bc8d126830f073"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_029.lua",
+      "bytes": 24603,
+      "sha256": "2eab4e077ddceaf88c4a078af97323740eb5ecc392cf88deca4aa529ed6d0661"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_045.lua",
+      "bytes": 33099,
+      "sha256": "e457a4a03650a4b73bbb7b7dc497d219945af2cab3df6e7ff232951067aeb014"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_021.lua",
+      "bytes": 45846,
+      "sha256": "f6081102aa328b7485ecccd0cbc0f5b3b7f965f3dafc3fc9678a565b4eb6b84a"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_046.lua",
+      "bytes": 36739,
+      "sha256": "acc38003fe2caf9501517acfc36ee0ca52e61f5fa4dcf06000d2e12490cff83c"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_001.lua",
+      "bytes": 44536,
+      "sha256": "0ca6e01d79424959a64db741fb45d340c20dd1343d93b67bb3b6a1cd843a1b6c"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/files.lua",
+      "bytes": 1367,
+      "sha256": "695b74e52927b8e0984509c26370918c63b0ec8cdf7c915bd9a97d4855cb4472"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_057.lua",
+      "bytes": 44937,
+      "sha256": "6382eb8a9df877fc79cc9f517f51b2e97a6bde07af8398ab647d90704a170365"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_032.lua",
+      "bytes": 37795,
+      "sha256": "f4452dff086aeec2c14b50937b0e9fc3efac679f855af4a60938f2e234fe0626"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_056.lua",
+      "bytes": 25935,
+      "sha256": "ddb9489c1137f799a1b76aff79c79b37102e9f9242c8072dc9b89921d648010c"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_043.lua",
+      "bytes": 40349,
+      "sha256": "1347e6936faa4976f6802180f0622a963d0ea3921962fa2f10f6983aa60fd84d"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_047.lua",
+      "bytes": 29694,
+      "sha256": "24dd574dcc5fd998cb38bcef48f2e5f91b2a052cee0f31b688c5bd70c17872f4"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_020.lua",
+      "bytes": 38997,
+      "sha256": "de88934ac960e9620161fc56b97ea1240c9aee9123a6546f6a8f373f21335f20"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_036.lua",
+      "bytes": 33442,
+      "sha256": "43e0dc37d358ccb1481bc9d20b4c38b70eb0bcf1d3c2f584d6479eebd179c924"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_006.lua",
+      "bytes": 28800,
+      "sha256": "cf03003aac4d7b0a62b768172f41ded896d60e59796568eca9b86a592ad3b0cb"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_065.lua",
+      "bytes": 42420,
+      "sha256": "3e03599aefa6ec2a9f43cfaa38085aab5bbf46560a69623c9054504687f1e7ef"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_008.lua",
+      "bytes": 33472,
+      "sha256": "cc63b9faf2fa3ff66aedac66381c199edcd2aa9744858058ee713c2c83b41355"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_051.lua",
+      "bytes": 39656,
+      "sha256": "d32c4d9f29fcb68c65ec4b08ac7d7baabf9f85433ef80f5f0b339eaf89e0865e"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_012.lua",
+      "bytes": 33214,
+      "sha256": "8dfca83f6b4c0ff32fd8ca81e89183513c2d757774edc9902b2f34718ef9f7b4"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_035.lua",
+      "bytes": 43745,
+      "sha256": "c283ee3d7e2be6a48860983e90e16e4e0f1e7045adf3cfb74ca5a5b87385e5c9"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_005.lua",
+      "bytes": 32633,
+      "sha256": "29117f053252bf125599f3e28330659214b273d1f336eaa515f59754d9e667ef"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/catalog.lua",
+      "bytes": 87625,
+      "sha256": "bd9b89bf2ddeca4595095308c997b967fd574e5fea7a8904d8959effb80d3388"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_054.lua",
+      "bytes": 41392,
+      "sha256": "85dfb8e00f213c293ceff876ceb8a97fc178b02a20b068d9cd5a88f7f71da20b"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_053.lua",
+      "bytes": 33501,
+      "sha256": "965cd7cd7c1b765bd877bea7b6be4aad242a2397d2f8b9caea24f8606da7cb26"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_034.lua",
+      "bytes": 40013,
+      "sha256": "95c155822b63ef9cd14cbd258fc63f8ccec12af3886128b61b6fbfbc79a0c369"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/render.lua",
+      "bytes": 31488,
+      "sha256": "a92636b2e35c058a1b391e81940a9327502a1c713418b500f30adfd1830b39da"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_070.lua",
+      "bytes": 31374,
+      "sha256": "20cc2fff8c8cd7ad120c2f8a131e0266a43611c93dfbfb84899977354c620788"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_081.lua",
+      "bytes": 28601,
+      "sha256": "b7fa610a192860a9c478d98c726bb30991dafed1b1b8ab8769923a9456693bee"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_067.lua",
+      "bytes": 33836,
+      "sha256": "fdf4b3cee58356e096182491eb39081f1402d4298c1c45e4aec9dead80b6a763"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_079.lua",
+      "bytes": 26362,
+      "sha256": "997cafef48265af9f1f546b5fc499c8e2dda98135a8b05b863f9992ff9f98ae1"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_022.lua",
+      "bytes": 35144,
+      "sha256": "07c55c8f37288aeba6787f3fb4d59a60dc4c509ade5fb2fe192759d2fca985a5"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_041.lua",
+      "bytes": 42047,
+      "sha256": "9a0e3a68b5d303a7a388fb59521c7a4cd945fd39372ac081c4761497b5760962"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_031.lua",
+      "bytes": 42908,
+      "sha256": "6220d0dddc746ea8117a925937210b7c7b67d9f6cbf4af8cd5a216d3c306545f"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_002.lua",
+      "bytes": 36270,
+      "sha256": "fa7f5b3043a62ba4180b6eb4af0b1d999f09b24d6aa2b285c1d93f67993811d7"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_016.lua",
+      "bytes": 45726,
+      "sha256": "a36cd9241ee7b2e3c2c57dba4b85bc38cdbd1cb7e6f2a45acd10a074d3c95cc5"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_062.lua",
+      "bytes": 32546,
+      "sha256": "54bc1018d26adb9201d47c4b06250a45e0384d8064f02c45e61b79fdfaf95e7b"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_026.lua",
+      "bytes": 32916,
+      "sha256": "95963802979eb72f6e591c53afecd8857bf7f4cc6576f412b11657aa49291359"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_048.lua",
+      "bytes": 42288,
+      "sha256": "17c59b4417edf8e8c253801943d748c37c0a55dde9f46f2e260593f90691aa10"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/engine.lua",
+      "bytes": 36146,
+      "sha256": "71705fda09e3d1c48a74c3286b164b40dee3b4d2c99f45f5de86e1ea24dce75b"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_082.lua",
+      "bytes": 25756,
+      "sha256": "eab0a2ee8de45405f87ebf615338d71d999efbead9278e9dd4f09e80c1609837"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_025.lua",
+      "bytes": 39333,
+      "sha256": "7b4d957c533c3c3cbeaffa908bdd386e55f210767f8b3cb721ce85b1bae3294a"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_072.lua",
+      "bytes": 36217,
+      "sha256": "8dbdba4f8114083694b5531d0ef94b99bc42e8e46d2f4c277061de4d5ea03722"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/gamemode/lod/ms2/notes_071.lua",
+      "bytes": 35226,
+      "sha256": "9e40ec4a1db7eae4847feda5fe775f0c96cd56d23858bdaba04dd6370f0dd7f5"
+    },
+    {
+      "path": "docs/validation/MS2_SURGE_RECOVERY.md",
+      "bytes": 3132,
+      "sha256": "60ae3a9543c69de6f3cfd97c6c1ff914561e3a9bc433489a98e8eea2b89724bc"
+    },
+    {
+      "path": "docs/validation/MS2_LOADING_CHECKS.json",
+      "bytes": 73361,
+      "sha256": "f757fcda5bb66ced425b4cca769846f4f4c3850c0e513a5713274d31adb5638f"
+    },
+    {
+      "path": "docs/validation/MS2_CONTINUITY.md",
+      "bytes": 5948,
+      "sha256": "b4be07c5bc37568767f842e3fda292ab1bee5f4ef853c538adc0dde2fd83b06d"
+    },
+    {
+      "path": "docs/validation/MS3_SONG_GDD_AMENDMENT.md",
+      "bytes": 2848,
+      "sha256": "7943b442c9b31be45aa8c4c627a1d85a956c531dc339ba10ef446915fb8be44b"
+    },
+    {
+      "path": "docs/validation/MS2_OPTIONS_REPAIR.md",
+      "bytes": 3029,
+      "sha256": "8334f6fa1e30a702b8eade91fc0857438d8d1ca4146b56f56012546b1af27809"
+    },
+    {
+      "path": "docs/validation/MS3_CI_RECEIPT.json",
+      "bytes": 2908,
+      "sha256": "3c0e398817d30e8caa42a90003f7bb95a52c8a5d29ba9f3da851ad104718d27f"
+    },
+    {
+      "path": "docs/validation/MS2_CONTINUITY_CHECKS.json",
+      "bytes": 73578,
+      "sha256": "1c2fed232f9403878c9f6858f00b7c174e47577efa95c2b8c114aed45924ac2f"
+    },
+    {
+      "path": "docs/validation/MS2_LOUDNESS.md",
+      "bytes": 5221,
+      "sha256": "6778de4e70fbb1b95812b7205bb37b7e0070e058f29631194f148cfbc2d37651"
+    },
+    {
+      "path": "docs/validation/MS2_SURGE_GDD_AMENDMENTS.json",
+      "bytes": 7481,
+      "sha256": "ae8faadfcdb1541c34b9af87e6cd0a8958781cca149ce2aff85b6ed6293bfec9"
+    },
+    {
+      "path": "docs/validation/MS3_SONG_RECEIPT.json",
+      "bytes": 760136,
+      "sha256": "fd22d829989f006aa8fe6f481c6a6582217101408ec06b05db7fce1e5fb0ce77"
+    },
+    {
+      "path": "docs/validation/MS3_LONGFORM_GDD_AMENDMENT.md",
+      "bytes": 2889,
+      "sha256": "41d883576fc2b25642c34357a57e6d7f2ddf9deaff36d1e26a1b0bd7d09f71c0"
+    },
+    {
+      "path": "docs/validation/MS2_JOINS_CHECKS.json",
+      "bytes": 73578,
+      "sha256": "e97b3568a69ae8a803d30ac18d7518b01ef07791baafa51ebb030a73e81495db"
+    },
+    {
+      "path": "docs/validation/MS2_JSON_CHECKS.json",
+      "bytes": 73087,
+      "sha256": "ce197a281ff88341b844bf04a034721b8ca67b5ded192cb1c2aa0dccf48e8398"
+    },
+    {
+      "path": "docs/validation/MS2_CONTINUITY_AUDIO.json",
+      "bytes": 198,
+      "sha256": "4d51be11ded07e3a586974c2a4b74c006cbe7dfc942c05d198f4dff331100487"
+    },
+    {
+      "path": "docs/validation/MS3_LONGFORM_RECEIPT.json",
+      "bytes": 660982,
+      "sha256": "c3bc330681fd47688d52f1efb51df65026ca44438f89cc9fb34a0a7b1a0a0386"
+    },
+    {
+      "path": "docs/validation/MS2_SURGE_RECOVERY_AUDIO.json",
+      "bytes": 198,
+      "sha256": "4d51be11ded07e3a586974c2a4b74c006cbe7dfc942c05d198f4dff331100487"
+    },
+    {
+      "path": "docs/validation/MS2_SURGE_INTEGRATION.json",
+      "bytes": 204523,
+      "sha256": "141eaa720a25e9a364ee17faab86b88e3eeb6297151dc95a8c173efd7b16c3fa"
+    },
+    {
+      "path": "docs/validation/MS2_SURGE_RECOVERY_CHECKS.json",
+      "bytes": 73578,
+      "sha256": "d1e5b31bf01d56b2988a3d23a38556ba21888dc40c69a74c7d4d947b634417b1"
+    },
+    {
+      "path": "docs/validation/MS2_SURGE_RECOVERY_INTEGRATION.json",
+      "bytes": 204534,
+      "sha256": "cbfed81de318a6a2f021c7307a53061baa40e7732929b5948eb4f6f06efc9ee9"
+    },
+    {
+      "path": "docs/validation/MS2_JSON_REPAIR.md",
+      "bytes": 3264,
+      "sha256": "74f6be580d1b70881b61cffd12254d6fdef6abc1ecb4afd4645cebb743d6b7bf"
+    },
+    {
+      "path": "docs/validation/MS2_SURGE_AUDITION.json",
+      "bytes": 1278,
+      "sha256": "e1965e74f4bd436b7fd88d0f78a7897f556bf7cfaa63fdfe8809d893aa95598c"
+    },
+    {
+      "path": "docs/validation/MS2_LOUDNESS_CHECKS.json",
+      "bytes": 73578,
+      "sha256": "64c1abf781779c06cd60b0942b9d8a49d29b0ed60faff394d883fa3f9190b391"
+    },
+    {
+      "path": "docs/validation/MS2_SURGE_CHECKS.json",
+      "bytes": 73578,
+      "sha256": "6ca46987691a9a1e4c1850a9b0d197daa755b0c863cadbc220e88a30c216d684"
+    },
+    {
+      "path": "docs/validation/MS2_ATTEMPT_01.json",
+      "bytes": 75050,
+      "sha256": "6b794f0cca4e34c3af591308bc5875b98c7bfc0f350fd3c9066014546e77cf8d"
+    },
+    {
+      "path": "docs/validation/MS3_SAMPLE_CLOCK.md",
+      "bytes": 5757,
+      "sha256": "107728505ddb7e2f0e725da568df233ae73312b62273dea21923d78a4d5444ce"
+    },
+    {
+      "path": "docs/validation/MS2_SURGE_AUDIO.json",
+      "bytes": 608,
+      "sha256": "214d108a8abe00b851150c3f02f6c0913b36ff42ea10219878c47cfc5d08eb76"
+    },
+    {
+      "path": "docs/validation/MS2_OPTIONS_CHECKS.json",
+      "bytes": 73471,
+      "sha256": "311a05d0905f5387fef0c76e983f94136bb93f726a71e043f5187b86e3a49135"
+    },
+    {
+      "path": "docs/validation/MS3_NATIVE_BRIDGE_20261003.md",
+      "bytes": 2878,
+      "sha256": "ea6430f4adea74dc1b67bd4e10b97aba6d744809c12227d3cc9b658f35d114fa"
+    },
+    {
+      "path": "docs/validation/MS2_LOUDNESS_INTEGRATION.json",
+      "bytes": 204531,
+      "sha256": "99865becd2d4878a1cb61147673ebe239f30958097df3dee83f7dcc2463f74f7"
+    },
+    {
+      "path": "docs/validation/MS2_JOINS_INTEGRATION.json",
+      "bytes": 204534,
+      "sha256": "fb22f089bd26e48ce581aab2f056bb68cd12baf3066a6b0106b9474d900c4a1c"
+    },
+    {
+      "path": "docs/validation/MS2_SURGE_AUDITION.ogg",
+      "bytes": 1626049,
+      "sha256": "0c60d62a4b03dda491a841b0a5433aa72a404241d39d77fe5ec1eb844f2e67df"
+    },
+    {
+      "path": "docs/validation/MS3_LONGFORM.md",
+      "bytes": 6050,
+      "sha256": "31643194bcbabcba9e74f344bca620c8e67480d5eafae0e218aa875157f65b71"
+    },
+    {
+      "path": "docs/validation/MS2_JOINS_AUDIO.json",
+      "bytes": 198,
+      "sha256": "4d51be11ded07e3a586974c2a4b74c006cbe7dfc942c05d198f4dff331100487"
+    },
+    {
+      "path": "docs/validation/MS2_CHECKS.json",
+      "bytes": 72850,
+      "sha256": "231ad1223cfa918a926c65f2ed34a544985f53410b03624b6914c147c708804d"
+    },
+    {
+      "path": "docs/validation/MS2_LOUDNESS_LEVELS.json",
+      "bytes": 2032,
+      "sha256": "db1b7bc7b7a4bcffce826579d8c21485336963a9c5d609190779efd7b62dd17a"
+    },
+    {
+      "path": "docs/validation/MS2_CONTINUITY_GDD_AMENDMENTS.json",
+      "bytes": 2776,
+      "sha256": "c31f2129fe43e9b783f693c264419ae9c4c762c241871d00426261e87a2585eb"
+    },
+    {
+      "path": "docs/validation/MS2_CONTINUITY_NATIVE_REPORT.json",
+      "bytes": 1671,
+      "sha256": "95e98879033944799517921b9a05de64ef59be124b27f83d504d99d5ae6a2c83"
+    },
+    {
+      "path": "docs/validation/MS3_GDD_AMENDMENT.md",
+      "bytes": 2797,
+      "sha256": "a55d7036636941f5c39ca8cdfc16dd614485b3154ce0c034c898a6e5594101e0"
+    },
+    {
+      "path": "docs/validation/MS2_LOUDNESS_AUDIO.json",
+      "bytes": 198,
+      "sha256": "4d51be11ded07e3a586974c2a4b74c006cbe7dfc942c05d198f4dff331100487"
+    },
+    {
+      "path": "docs/validation/MS2_CONTINUITY_INTEGRATION.json",
+      "bytes": 204523,
+      "sha256": "eab3e64196ac8041d83a1a7545c395a168724bd751047c1201f267d6214411d8"
+    },
+    {
+      "path": "docs/validation/MS2_JOINS.md",
+      "bytes": 4024,
+      "sha256": "dfdbd4a87a588615d05d646cefd10ff6aefd7692cdfa292e4b5772c2cbe347d4"
+    },
+    {
+      "path": "docs/validation/MS2_LOADING_REPAIR.md",
+      "bytes": 2548,
+      "sha256": "0c851c19cba03b68c63abe7ccc3b8cbdeb65728f7c1798ca7924ac8c57dc5c91"
+    },
+    {
+      "path": "docs/validation/MS2_AUDIO.json",
+      "bytes": 11991,
+      "sha256": "6b58d1a74be62851ec3742dbc40e31c8ebad4ad51c92af3993c36e8f9fd44424"
+    },
+    {
+      "path": "docs/validation/MS2_SURGE.md",
+      "bytes": 6464,
+      "sha256": "6746aaca1cb34c160488773cc957369ff643d3a05d64af1a1c7d5ff4de5e3880"
+    },
+    {
+      "path": "docs/validation/MS2_JOINS_GDD_AMENDMENTS.json",
+      "bytes": 5783,
+      "sha256": "4f9b536d90d2f4aa0ad7a005678fc8f4bc953d0c8d598bb6f08382a16c75cb8f"
+    },
+    {
+      "path": "docs/validation/MS3_SONG.md",
+      "bytes": 6586,
+      "sha256": "88de495d176a3e6dd145120338d7d9547262e1e8faa4f52d88a926b9645990aa"
+    },
+    {
+      "path": "docs/validation/MS2_GDD_AMENDMENTS.json",
+      "bytes": 15420,
+      "sha256": "10f6c89b83968f8bce5a7ee8139b0df87223f77b7808026055c9ff908d5ce120"
+    },
+    {
+      "path": "docs/validation/MS2.md",
+      "bytes": 5081,
+      "sha256": "89b49e4687ea692a22d0850fbd73c44bca9a4cf16b42f64daada445ab8d422e9"
+    },
+    {
+      "path": "docs/validation/MS2_JOINS_REGRESSIONS.json",
+      "bytes": 972,
+      "sha256": "db6fad29199623d906523af92492222785fa0982be4fa3f8633e10a1e46b4b00"
+    },
+    {
+      "path": "docs/validation/MS2_LOUDNESS_GDD_AMENDMENTS.json",
+      "bytes": 2378,
+      "sha256": "cdbdb260b10c8132218f64586164556faf804efe89bb37448f372e421cc1a868"
+    },
+    {
+      "path": "docs/validation/MS2_AUDITION.ogg",
+      "bytes": 287695,
+      "sha256": "bc5a22de97d532f41366edeeca8d01bec85e75fa360aa3770a6eb9acdb371c2e"
+    },
+    {
+      "path": "docs/validation/music/evidence.zip",
+      "bytes": 148009,
+      "sha256": "f4012b497da32cd3e94bf115470e72308aeffc3f11d5fd1485e6f34504c98ebf"
+    },
+    {
+      "path": "docs/validation/music/receipt.json",
+      "bytes": 64579,
+      "sha256": "44cf0ad5a67910acf4920f020c66c188c6011455575c9df971c153ce7651ebe2"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/f_t0_song_001.ogg",
+      "relocatedTo": "bank/audio/f_t0_song_001.ogg",
+      "bytes": 269574,
+      "sha256": "985e24b8be4c41ed8730bc7d6ca263fe4315a3682a2192ffa765eb24c6c1056a"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/a_t2_song_002.ogg",
+      "relocatedTo": "bank/audio/a_t2_song_002.ogg",
+      "bytes": 306494,
+      "sha256": "c41c61898c9305e62bedc4b7d6611ea4256a959325a9d81f1367d8fdeb878bc5"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_t2_song_002.ogg",
+      "relocatedTo": "bank/audio/e_t2_song_002.ogg",
+      "bytes": 302563,
+      "sha256": "ca48ce34928077c2e4070df22482dae47bcf3cbc05b8c88a0549c2c25008476c"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/c_boss_song_000.ogg",
+      "relocatedTo": "bank/audio/c_boss_song_000.ogg",
+      "bytes": 316869,
+      "sha256": "7a640876c800995cad202d5b0fb6ed57d9ffd0fbf20c9e23332c75a9a58e620e"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_boss_song_004.ogg",
+      "relocatedTo": "bank/audio/e_boss_song_004.ogg",
+      "bytes": 133866,
+      "sha256": "3049cfdabce0e10140f2a0b0a9e2f2f99f91009744adde84e331d3925eef36eb"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_t3_song_001.ogg",
+      "relocatedTo": "bank/audio/b_t3_song_001.ogg",
+      "bytes": 294217,
+      "sha256": "1d0be88109f0a374026806508fbf7031a4f7720c613bc2d2610e1b8feec90f98"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_boss_song_000.ogg",
+      "relocatedTo": "bank/audio/b_boss_song_000.ogg",
+      "bytes": 305264,
+      "sha256": "cc5c5a96cc05b13da06ed0773b17f22d1d912d89877eabd2b7ccc3d30bdf227d"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/c_t1_song_002.ogg",
+      "relocatedTo": "bank/audio/c_t1_song_002.ogg",
+      "bytes": 301441,
+      "sha256": "76fcead809881314eee02fec624934d48900b5e31362c9b90cb56361b841872a"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_t0_song_002.ogg",
+      "relocatedTo": "bank/audio/b_t0_song_002.ogg",
+      "bytes": 276340,
+      "sha256": "18cf4460d74c4955710e3e9896c5a21aaaa3b42b3e4a3412ac80103fcae31e48"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/g_t2_song_001.ogg",
+      "relocatedTo": "bank/audio/g_t2_song_001.ogg",
+      "bytes": 294118,
+      "sha256": "ff50fad494236f54582adbc349d32d81fc6e49ed91deb649973ebb2c9560e74a"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/g_t0_song_001.ogg",
+      "relocatedTo": "bank/audio/g_t0_song_001.ogg",
+      "bytes": 288741,
+      "sha256": "e90d343b24fee9850fcd0e4fde11d2a1e31a29493b36ef213db5239cc175e39b"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_t1_song_002.ogg",
+      "relocatedTo": "bank/audio/e_t1_song_002.ogg",
+      "bytes": 304733,
+      "sha256": "0c0c64c22b62f524e3c061b4ad67360e0ae7c04dddfd9bf2cab4d76469b91a9f"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/c_t3_song_000.ogg",
+      "relocatedTo": "bank/audio/c_t3_song_000.ogg",
+      "bytes": 307582,
+      "sha256": "a0f0cd58a3a05e0ecaa1fc8ef0d3f75a267d6842c2fe7bfa31feeff42b3db10e"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/g_victory_song_000.ogg",
+      "relocatedTo": "bank/audio/g_victory_song_000.ogg",
+      "bytes": 61216,
+      "sha256": "b5a152f8493052413ba030b929edcecea3cd7e5df910d72d03a21324eb5ed138"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_t1_song_004.ogg",
+      "relocatedTo": "bank/audio/b_t1_song_004.ogg",
+      "bytes": 312370,
+      "sha256": "6dcbaff1f252c363045ccdfbf5a1e0cb4f68f9ad72fb63cb3028b22be2e4790f"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_boss_song_004.ogg",
+      "relocatedTo": "bank/audio/b_boss_song_004.ogg",
+      "bytes": 290757,
+      "sha256": "eb2def02af04d8086169367b60e7397ae7f68378ae6d21be65ecfa05800b99ec"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/a_t0_song_002.ogg",
+      "relocatedTo": "bank/audio/a_t0_song_002.ogg",
+      "bytes": 286215,
+      "sha256": "13f48be7c11279f58642cbf3ce761f9680e235a9dbc9e89e4b6874c8735b3065"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_t0_song_004.ogg",
+      "relocatedTo": "bank/audio/e_t0_song_004.ogg",
+      "bytes": 282100,
+      "sha256": "df25a848fca4f66a96c70259c27b41020f652917734d4ce48672bd239f61e150"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/g_t1_song_003.ogg",
+      "relocatedTo": "bank/audio/g_t1_song_003.ogg",
+      "bytes": 292275,
+      "sha256": "f37f38e0dae233f50bae44168b150211c6ae2e41a0f0b10bffd6eac23b91a67d"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/d_boss_song_000.ogg",
+      "relocatedTo": "bank/audio/d_boss_song_000.ogg",
+      "bytes": 308264,
+      "sha256": "30379020cf92b20e55b310624c1134d4b2a821618e33f735653cac5cbef7ff3a"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_boss_song_005.ogg",
+      "relocatedTo": "bank/audio/h_boss_song_005.ogg",
+      "bytes": 287341,
+      "sha256": "1178660c756020278c9a1f278511603e8b56255d5d0f7327f9b149039228c384"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/d_victory_song_000.ogg",
+      "relocatedTo": "bank/audio/d_victory_song_000.ogg",
+      "bytes": 64804,
+      "sha256": "c83b4bdda00650f58b5149c35444aa3307fb275425ab76c3c2c9cfc80ee43b7d"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/c_t3_song_004.ogg",
+      "relocatedTo": "bank/audio/c_t3_song_004.ogg",
+      "bytes": 302658,
+      "sha256": "d3fb0409f585d655c9cd4d20c83805f4b466588df2fb7a58f51e4340a6a68c94"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/g_t2_song_003.ogg",
+      "relocatedTo": "bank/audio/g_t2_song_003.ogg",
+      "bytes": 302294,
+      "sha256": "a41d827938b7fa7b09bc085b9f67477616f0e2d0ef909e23199ddc718896f8ff"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/d_t2_song_001.ogg",
+      "relocatedTo": "bank/audio/d_t2_song_001.ogg",
+      "bytes": 293933,
+      "sha256": "2c63515f0670baa6dce5f7b58f9c50dd3cdd6ffe9f9687f9b07aec3ebdc3842b"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/f_t2_song_002.ogg",
+      "relocatedTo": "bank/audio/f_t2_song_002.ogg",
+      "bytes": 314139,
+      "sha256": "672cbbe8140cef439ac9e6723d735a13685678f8e061691f293033381001c674"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t1_song_006.ogg",
+      "relocatedTo": "bank/audio/h_t1_song_006.ogg",
+      "bytes": 142316,
+      "sha256": "d2506eb1352dc82a35edc250e6808d5bf2a5e526f13e0b1b61fdeed137ebdd95"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/f_t0_song_002.ogg",
+      "relocatedTo": "bank/audio/f_t0_song_002.ogg",
+      "bytes": 272317,
+      "sha256": "1729aba0ceb2a082063166e9e269eff30fd357d585b30f00df96c95623aefcdf"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/c_t2_song_002.ogg",
+      "relocatedTo": "bank/audio/c_t2_song_002.ogg",
+      "bytes": 316969,
+      "sha256": "d95367421ee5eb315d3df4869650e8744b5b15b28460f900c1a35e1d7f17e8b2"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/d_t3_song_004.ogg",
+      "relocatedTo": "bank/audio/d_t3_song_004.ogg",
+      "bytes": 14731,
+      "sha256": "15c9ac80821cba2749135a4decab1191c00394696bfd86007eaf7682fa7b372c"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/d_t1_song_002.ogg",
+      "relocatedTo": "bank/audio/d_t1_song_002.ogg",
+      "bytes": 298213,
+      "sha256": "fe5a20498c42011f6c545fa4a663e65a7cb2eb4c652901ff65013abf522a8b31"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/f_t1_song_002.ogg",
+      "relocatedTo": "bank/audio/f_t1_song_002.ogg",
+      "bytes": 305601,
+      "sha256": "e9b0e93dbe477ef3fd3cf38f88bd3bda3b6816114cc32cb7699c3bfe3ee340a9"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_t2_song_000.ogg",
+      "relocatedTo": "bank/audio/b_t2_song_000.ogg",
+      "bytes": 314896,
+      "sha256": "a1ae3219babdf1d30956869cfa868fabbddb700c85cb6d6cc1c3b24afac851d1"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/c_t2_song_003.ogg",
+      "relocatedTo": "bank/audio/c_t2_song_003.ogg",
+      "bytes": 236570,
+      "sha256": "85226087f5a1173345c0e8db8c44a0373e81efe3102c7cd6046a6861071f8f5d"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_boss_song_001.ogg",
+      "relocatedTo": "bank/audio/h_boss_song_001.ogg",
+      "bytes": 294568,
+      "sha256": "89961c3b3befae02777f0e837da4c95a0ea37e75a9cad04ddf4688913b6c687c"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_t2_song_004.ogg",
+      "relocatedTo": "bank/audio/e_t2_song_004.ogg",
+      "bytes": 207915,
+      "sha256": "5d51f2f6560fbfb2f3ad3eafa8362acdcccb46cdf5e0a9d21d28731a14e0468f"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/g_t2_song_002.ogg",
+      "relocatedTo": "bank/audio/g_t2_song_002.ogg",
+      "bytes": 300873,
+      "sha256": "1442723c2cb420f1cacae111a76d140d3983d87ae7f9a4009b9f4df53a6a377e"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/g_t0_song_000.ogg",
+      "relocatedTo": "bank/audio/g_t0_song_000.ogg",
+      "bytes": 284738,
+      "sha256": "4aabdbdbc3c0fbf92013bbdc64df37ea750421aa1c136188823547f64ac3a975"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/f_t1_song_000.ogg",
+      "relocatedTo": "bank/audio/f_t1_song_000.ogg",
+      "bytes": 309006,
+      "sha256": "f226c91a5ef791a0f0e55c0e3840f3e5da387b5bd30b00d35815e035a994b90a"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/g_t1_song_002.ogg",
+      "relocatedTo": "bank/audio/g_t1_song_002.ogg",
+      "bytes": 320134,
+      "sha256": "9d97076718883bc3b395f8159775cc7fe4d320f685d278d9fecb763c55331266"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t2_song_001.ogg",
+      "relocatedTo": "bank/audio/h_t2_song_001.ogg",
+      "bytes": 293965,
+      "sha256": "bb071f4e65a8709bbbac11f8dc0df9da446020789e42d6bf1ed23bdf4dae3c4b"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/c_t1_song_004.ogg",
+      "relocatedTo": "bank/audio/c_t1_song_004.ogg",
+      "bytes": 296088,
+      "sha256": "e4aa0a1cae1a43dd4ffad2e5d883e299b50d18181e3d5a66b4f46c81216f1838"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/d_boss_song_003.ogg",
+      "relocatedTo": "bank/audio/d_boss_song_003.ogg",
+      "bytes": 236186,
+      "sha256": "46a28077902602489c3bf2a54e3f2a4f70903cc5d796d8bb2f000dac07b119a1"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_t3_song_003.ogg",
+      "relocatedTo": "bank/audio/b_t3_song_003.ogg",
+      "bytes": 288538,
+      "sha256": "46c13271b456a7d98386de94aaae269e9e21373c37ad84d6474e5e62f8670ba3"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_t2_song_000.ogg",
+      "relocatedTo": "bank/audio/e_t2_song_000.ogg",
+      "bytes": 305226,
+      "sha256": "12937a9380d42e857cfb697e9a80d0a1a8c606de099959bfdffa4f5c5c4eed61"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/c_t3_song_002.ogg",
+      "relocatedTo": "bank/audio/c_t3_song_002.ogg",
+      "bytes": 297512,
+      "sha256": "973bcb3145cd2303160740bdcfb2299f3077c6e5a92661a2875473c4ff4e5853"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_t3_song_000.ogg",
+      "relocatedTo": "bank/audio/e_t3_song_000.ogg",
+      "bytes": 310040,
+      "sha256": "71eb7f072ec8bc024fc2b784e6e94eb8057f913b0be79901855824b65fbd33ae"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/c_t2_song_001.ogg",
+      "relocatedTo": "bank/audio/c_t2_song_001.ogg",
+      "bytes": 307578,
+      "sha256": "ae8bb1afe8e0af99486b3649163d78fa9951c572702b024f8cf05c2fdab407db"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/a_t1_song_005.ogg",
+      "relocatedTo": "bank/audio/a_t1_song_005.ogg",
+      "bytes": 77316,
+      "sha256": "fea8cbcd4350ad16aa932136fea7f98c1f3ab50bbaa99f6103eba49b6995d050"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/d_t1_song_000.ogg",
+      "relocatedTo": "bank/audio/d_t1_song_000.ogg",
+      "bytes": 309865,
+      "sha256": "4d0699b3de90a6f2fbb50c2cfe7d257916fdfeb4f5cbbb36619056e09548cb81"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/c_t1_song_003.ogg",
+      "relocatedTo": "bank/audio/c_t1_song_003.ogg",
+      "bytes": 326284,
+      "sha256": "f392574abd4491748e938bbfe2a73b34236f4ac9264515d45696131ef7f38870"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t0_song_004.ogg",
+      "relocatedTo": "bank/audio/h_t0_song_004.ogg",
+      "bytes": 270878,
+      "sha256": "09baf0129aabc21b18647774909f02ee332f0ca05cce56a259f0501d82af8c6c"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/a_t1_song_002.ogg",
+      "relocatedTo": "bank/audio/a_t1_song_002.ogg",
+      "bytes": 302959,
+      "sha256": "28af111d39b6efae438768269aa477fdebe7ca425d8257cf591d93712133b9a2"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/a_t3_song_001.ogg",
+      "relocatedTo": "bank/audio/a_t3_song_001.ogg",
+      "bytes": 298750,
+      "sha256": "452902965e71e9a79a38c3bb175c71a19176b18c719a9f090891b30e46bbf486"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/f_boss_song_004.ogg",
+      "relocatedTo": "bank/audio/f_boss_song_004.ogg",
+      "bytes": 153152,
+      "sha256": "b101a52ec8937833ffbed750fcdec822dc5068ac7bfeb2786ab32d7e78c1ea89"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_boss_song_003.ogg",
+      "relocatedTo": "bank/audio/h_boss_song_003.ogg",
+      "bytes": 286582,
+      "sha256": "1b073f180d3ff6dcdd773834d9a3ff18b3627ef8bd0db5bb87cbf3184782f9dd"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_t2_song_003.ogg",
+      "relocatedTo": "bank/audio/e_t2_song_003.ogg",
+      "bytes": 302802,
+      "sha256": "c673363a03b529feafe638589bf302e3c3b36e1483c3def25e652925de69481a"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_boss_song_001.ogg",
+      "relocatedTo": "bank/audio/e_boss_song_001.ogg",
+      "bytes": 298883,
+      "sha256": "02bba64d61e686cf9f0655705f33c9470e81b0661b3348c9499d7b918900f5d7"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/f_t3_song_002.ogg",
+      "relocatedTo": "bank/audio/f_t3_song_002.ogg",
+      "bytes": 320760,
+      "sha256": "76c6b1b96e822a2d0b98f546cb25464307972ff00233ef013e17dd8f107fc839"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_t0_song_001.ogg",
+      "relocatedTo": "bank/audio/e_t0_song_001.ogg",
+      "bytes": 296316,
+      "sha256": "f5bb9f38ddfba13fec4cb78c6be8c7a26439ee4f76aa7f881b6d5f0172963c52"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t0_song_002.ogg",
+      "relocatedTo": "bank/audio/h_t0_song_002.ogg",
+      "bytes": 271093,
+      "sha256": "5a31fb826251e20a1992a0495da60650e3b0b73289b801c527f971241b3a19a3"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_t3_song_002.ogg",
+      "relocatedTo": "bank/audio/b_t3_song_002.ogg",
+      "bytes": 290093,
+      "sha256": "eb6069ba9503bfdaa929f48cb38bfc2cb09062db84117a2aac3726f63a45d8ad"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/d_t2_song_000.ogg",
+      "relocatedTo": "bank/audio/d_t2_song_000.ogg",
+      "bytes": 304543,
+      "sha256": "caf219305aaa6c3ccae54c88e2d6e1776092c6bf9186a5aa552f9195093e84c8"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_t1_song_002.ogg",
+      "relocatedTo": "bank/audio/b_t1_song_002.ogg",
+      "bytes": 317310,
+      "sha256": "af1d4c5166dd986754ef65851987ca5b0eb2ca8ae188c26d7a1150d795afc078"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_t0_song_005.ogg",
+      "relocatedTo": "bank/audio/e_t0_song_005.ogg",
+      "bytes": 44882,
+      "sha256": "bb0456ce355355e8d7126a6bc07af0b9d30b1d4f339c25cba9665e7ee8c7770b"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/c_t0_song_001.ogg",
+      "relocatedTo": "bank/audio/c_t0_song_001.ogg",
+      "bytes": 274762,
+      "sha256": "7dd7235d96645e8c9e0fcc8ee5892900dfd46896657916e959a0f95bcac883ad"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_t0_song_000.ogg",
+      "relocatedTo": "bank/audio/b_t0_song_000.ogg",
+      "bytes": 274653,
+      "sha256": "c238c10cd84def58c2cb21dc24f039ad1c663f1f9e62a193022245d60276abdc"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/a_boss_song_001.ogg",
+      "relocatedTo": "bank/audio/a_boss_song_001.ogg",
+      "bytes": 305012,
+      "sha256": "d0b36cf96c68e07ddbe9552a556dcc19bf6de671e87d95df72083eaee957c82f"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t0_song_003.ogg",
+      "relocatedTo": "bank/audio/h_t0_song_003.ogg",
+      "bytes": 281888,
+      "sha256": "d4ce6a3e8fbece9af2b913c92f61ee4ee62a57500f84ff56dcfd0b0f31373e12"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_t3_song_005.ogg",
+      "relocatedTo": "bank/audio/b_t3_song_005.ogg",
+      "bytes": 281822,
+      "sha256": "c670500bcf8f35c0372bb4661667256695457e2b2226deb54a98f64f24215ae3"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_t3_song_006.ogg",
+      "relocatedTo": "bank/audio/b_t3_song_006.ogg",
+      "bytes": 216135,
+      "sha256": "5228ecbff2118104cac8fa96feb8f4563f7cf469c99ff31a67821168165d34ae"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/d_boss_song_002.ogg",
+      "relocatedTo": "bank/audio/d_boss_song_002.ogg",
+      "bytes": 297165,
+      "sha256": "3fcaf1f1d70a7208b8ca388117afbe250c9a5b2ed27fc658283c846ecf45b4f6"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_boss_song_003.ogg",
+      "relocatedTo": "bank/audio/b_boss_song_003.ogg",
+      "bytes": 290731,
+      "sha256": "98f2757babb33a74bafcd857690be6afb830eb45010d987189b7ac2a1242936c"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_t3_song_003.ogg",
+      "relocatedTo": "bank/audio/e_t3_song_003.ogg",
+      "bytes": 288386,
+      "sha256": "accf5d16bedbee904db2e950ef27ba8a9f9b5c31776656e28f86bbcaa5d5df53"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/c_t0_song_004.ogg",
+      "relocatedTo": "bank/audio/c_t0_song_004.ogg",
+      "bytes": 232342,
+      "sha256": "d3f6eebe56c24fa39ceae3a874c99836b89012f5b14c093e2ebf3cc5ed178d6a"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/g_t2_song_004.ogg",
+      "relocatedTo": "bank/audio/g_t2_song_004.ogg",
+      "bytes": 49960,
+      "sha256": "c26e388e6060bc361aa83b2f200b7e15c4b71bd3b0dc008b7980ec0b55bc1eec"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/g_t0_song_005.ogg",
+      "relocatedTo": "bank/audio/g_t0_song_005.ogg",
+      "bytes": 44434,
+      "sha256": "bd2793b55c5126de5d4fc037850c11eea86ce7451bfe88d3204d734eca91becd"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_t3_song_004.ogg",
+      "relocatedTo": "bank/audio/b_t3_song_004.ogg",
+      "bytes": 295233,
+      "sha256": "f48c75bdbb2c4733edfc03c7a78366df2825687d23c7cad4ba48e36b018363f7"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t3_song_001.ogg",
+      "relocatedTo": "bank/audio/h_t3_song_001.ogg",
+      "bytes": 315763,
+      "sha256": "7f69d625996753591410b55839b603008f177eedb69c62e475d744f97bbb65dd"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/a_t0_song_000.ogg",
+      "relocatedTo": "bank/audio/a_t0_song_000.ogg",
+      "bytes": 270059,
+      "sha256": "a770b2d98c03b459566b92ead2312601cda4b449af491c1bc2e0aca64798315e"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/g_boss_song_000.ogg",
+      "relocatedTo": "bank/audio/g_boss_song_000.ogg",
+      "bytes": 322571,
+      "sha256": "88f169e3d9e598a19b816bd839e45ad0d553dc994513836e1f66bdfa7443db2f"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/g_t1_song_000.ogg",
+      "relocatedTo": "bank/audio/g_t1_song_000.ogg",
+      "bytes": 320996,
+      "sha256": "ea0f20da6f92924a219e2dcb5d30420e6621321bea51c48042b3526725cb6009"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/f_victory_song_000.ogg",
+      "relocatedTo": "bank/audio/f_victory_song_000.ogg",
+      "bytes": 54802,
+      "sha256": "5c62d385b908e4f12fb199ee4486805b468e005ae67dd85a3c655d78fb973288"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t1_song_001.ogg",
+      "relocatedTo": "bank/audio/h_t1_song_001.ogg",
+      "bytes": 295586,
+      "sha256": "e7bd854286b3ad31f40045f07adce8aafd64b14873b53e98a327536a15dd2421"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/a_boss_song_000.ogg",
+      "relocatedTo": "bank/audio/a_boss_song_000.ogg",
+      "bytes": 305524,
+      "sha256": "6caff05d79eaef1febd8574bb1e70ce1f3a2bc699ebf25245935ff864804271f"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_t2_song_003.ogg",
+      "relocatedTo": "bank/audio/b_t2_song_003.ogg",
+      "bytes": 297195,
+      "sha256": "898a17e36247c451ac5eda344a920e7254d4067ef2b25bb74ae2d4e9a4f2de99"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/f_boss_song_003.ogg",
+      "relocatedTo": "bank/audio/f_boss_song_003.ogg",
+      "bytes": 308121,
+      "sha256": "fde90e8ae2b239f634a809266f0b8507f4bd9d3d19354e33d36100b75756aa3f"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_t0_song_001.ogg",
+      "relocatedTo": "bank/audio/b_t0_song_001.ogg",
+      "bytes": 272420,
+      "sha256": "6c1c07cd7de16ce220c68d2a75984b9f02a3f5d12a581698dfc301c5ef965826"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/g_t0_song_002.ogg",
+      "relocatedTo": "bank/audio/g_t0_song_002.ogg",
+      "bytes": 297514,
+      "sha256": "1c167b4ec5407afa8002d55b6b8e7c586820940a059a4d403a9e246a3e66c178"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/a_t0_song_005.ogg",
+      "relocatedTo": "bank/audio/a_t0_song_005.ogg",
+      "bytes": 59454,
+      "sha256": "50184b592071b30725c7881cd6d898379c0a42c6e13184721a1fa39ed50ca12a"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_boss_song_002.ogg",
+      "relocatedTo": "bank/audio/b_boss_song_002.ogg",
+      "bytes": 303107,
+      "sha256": "c8d5fbcaee8b2df3bffe5bda5c317b6ccd61f73ce220739fb1accd5aa6204584"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_t2_song_005.ogg",
+      "relocatedTo": "bank/audio/b_t2_song_005.ogg",
+      "bytes": 292071,
+      "sha256": "3f1d3f6158844a80817b636c5ef7e6131b6c391c9c7dd301bef413ef9f7d707e"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_t2_song_004.ogg",
+      "relocatedTo": "bank/audio/b_t2_song_004.ogg",
+      "bytes": 297429,
+      "sha256": "6fd27aab89c51a23c2b76b282e3137ffcff3a804814b4a0b043c42ee3b401625"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t1_song_005.ogg",
+      "relocatedTo": "bank/audio/h_t1_song_005.ogg",
+      "bytes": 280062,
+      "sha256": "6c1c82ab37f97866bb16acb1b0840e3ccc8e51dc2f927c09d958a8abb559dc74"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_t1_song_001.ogg",
+      "relocatedTo": "bank/audio/b_t1_song_001.ogg",
+      "bytes": 298614,
+      "sha256": "c4b52523fef7fa5ac4690b8524b29154acc3e43681ee0c5696288137cda52b8d"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/f_t3_song_001.ogg",
+      "relocatedTo": "bank/audio/f_t3_song_001.ogg",
+      "bytes": 308982,
+      "sha256": "2ad4cebe32cd6a3876bbb20cb2d689e9ea168c75d2369b2e9f42125ce7ac1f2c"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/d_t0_song_001.ogg",
+      "relocatedTo": "bank/audio/d_t0_song_001.ogg",
+      "bytes": 292317,
+      "sha256": "6812fde47043a5af30d6cbd1480c2cbef436d8bce16a528c4fa68fbac78cce2a"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_t2_song_001.ogg",
+      "relocatedTo": "bank/audio/b_t2_song_001.ogg",
+      "bytes": 305982,
+      "sha256": "bb5509392b4399614259f227dd9170d74f1e7176f0daf576de71d6a8965a7154"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/g_t3_song_004.ogg",
+      "relocatedTo": "bank/audio/g_t3_song_004.ogg",
+      "bytes": 66476,
+      "sha256": "89a35b924e8e265ba0b6dcd924c5e6fb94533865bdbaed0f38d4b1fade7ec7fe"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/a_t2_song_001.ogg",
+      "relocatedTo": "bank/audio/a_t2_song_001.ogg",
+      "bytes": 298732,
+      "sha256": "2460624ae3e636580e54acb48be5b6418541aeb57ae32174a790a8107892970c"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_t0_song_002.ogg",
+      "relocatedTo": "bank/audio/e_t0_song_002.ogg",
+      "bytes": 303497,
+      "sha256": "f8ae867a46deb1b204307d3d536d3d2dc281bae22404d46ebf64796b165c96f3"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t3_song_006.ogg",
+      "relocatedTo": "bank/audio/h_t3_song_006.ogg",
+      "bytes": 336131,
+      "sha256": "c2c79cea6a170c2a9658d507b0d0eff79d2e549587919c6b60446b217a83be26"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/a_t3_song_003.ogg",
+      "relocatedTo": "bank/audio/a_t3_song_003.ogg",
+      "bytes": 148504,
+      "sha256": "ace8c54d7197aba8224490661fef2929d75abe8886088b9e3f41a09252e91a04"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/f_t0_song_000.ogg",
+      "relocatedTo": "bank/audio/f_t0_song_000.ogg",
+      "bytes": 274747,
+      "sha256": "472b88451f013afd4c3f2e120e54e6cb68d3f6a90ff587e8d0e60b23ed9f6b6b"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/f_t0_song_005.ogg",
+      "relocatedTo": "bank/audio/f_t0_song_005.ogg",
+      "bytes": 266579,
+      "sha256": "95d3a0197d12a872e0495b4abe7eda9eb65c67047ef7b3d7980e378fb12f724f"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t3_song_003.ogg",
+      "relocatedTo": "bank/audio/h_t3_song_003.ogg",
+      "bytes": 331527,
+      "sha256": "8f7f43b9abfcbfe6f5aa8ee081fb03aae07d49933d0f7323a0d43c1b3b8e0119"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/d_t1_song_004.ogg",
+      "relocatedTo": "bank/audio/d_t1_song_004.ogg",
+      "bytes": 152927,
+      "sha256": "7d39ffb6280fb76f25e8b2b8b96420e8acc0f7203fbee46c5d53c9cdc411b7f7"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_boss_song_000.ogg",
+      "relocatedTo": "bank/audio/e_boss_song_000.ogg",
+      "bytes": 315340,
+      "sha256": "55fbcb8997ae4367b728b2bfffff44568cd874afb37d97c0272f5da44fc146d3"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t3_song_002.ogg",
+      "relocatedTo": "bank/audio/h_t3_song_002.ogg",
+      "bytes": 331389,
+      "sha256": "d40bdd333eb769131df681d41720413b2b14c8f9faf9161c422b57af5a7098c6"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t3_song_004.ogg",
+      "relocatedTo": "bank/audio/h_t3_song_004.ogg",
+      "bytes": 336211,
+      "sha256": "7b2dd4ef0522bfa90d3e0ea150fb16b3a01fa89d2fa0060bc96ecb26e75a2ec3"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/c_t3_song_001.ogg",
+      "relocatedTo": "bank/audio/c_t3_song_001.ogg",
+      "bytes": 297647,
+      "sha256": "28716c80feec3b3620581893902999c8da23f9bd5f18ade05b0f6f70e38eb764"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_t1_song_005.ogg",
+      "relocatedTo": "bank/audio/b_t1_song_005.ogg",
+      "bytes": 216152,
+      "sha256": "ce6ea30e5837c5f7d16298bea8be8007c3fb7121d7bfef0e656d31bd7eb228d5"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_victory_song_000.ogg",
+      "relocatedTo": "bank/audio/b_victory_song_000.ogg",
+      "bytes": 59306,
+      "sha256": "fe7749031742d68168eeae8ee9f27b481827c9c6e863174a7217cc00fffd4eef"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/c_t1_song_005.ogg",
+      "relocatedTo": "bank/audio/c_t1_song_005.ogg",
+      "bytes": 162049,
+      "sha256": "fdbb102fe0359f2009575a855b8ac39fe86b4e3d715813767c9c61f7d5fc9cbe"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t0_song_001.ogg",
+      "relocatedTo": "bank/audio/h_t0_song_001.ogg",
+      "bytes": 267884,
+      "sha256": "fbe9cf21be531790fde7649e38b415ac5a29b0a2d33fdc916a6ba8f147961181"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/bridge.ogg",
+      "relocatedTo": "bank/audio/bridge.ogg",
+      "bytes": 29361,
+      "sha256": "bb0cf0936343bd110abd0e277752e5142d2ad7e493b5b5baaf5f306b68c010c1"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t0_song_008.ogg",
+      "relocatedTo": "bank/audio/h_t0_song_008.ogg",
+      "bytes": 12436,
+      "sha256": "cd976dc31546ebb4953c5bb295eb17867cffbd54fb4bf80cf959822e8b9e7138"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/c_t0_song_002.ogg",
+      "relocatedTo": "bank/audio/c_t0_song_002.ogg",
+      "bytes": 294916,
+      "sha256": "9d3e67d023a4dc41885851a2b7226aa7beaf41084b6be8e25b5456784cb7fb45"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t3_song_000.ogg",
+      "relocatedTo": "bank/audio/h_t3_song_000.ogg",
+      "bytes": 300704,
+      "sha256": "055b6087824416eb66fc4318e9c0d40af0898ec318fc544d646e94e3680fd2dd"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t2_song_002.ogg",
+      "relocatedTo": "bank/audio/h_t2_song_002.ogg",
+      "bytes": 308262,
+      "sha256": "60947a4d71bcec957aa269c5ff9ae4881bfd365482a9926d1abf0c6221b305b2"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_t0_song_004.ogg",
+      "relocatedTo": "bank/audio/b_t0_song_004.ogg",
+      "bytes": 224130,
+      "sha256": "9c805227608e37750631858ed30eecff81c8e828432e1bcb8dcef6e4175779a8"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t0_song_007.ogg",
+      "relocatedTo": "bank/audio/h_t0_song_007.ogg",
+      "bytes": 258866,
+      "sha256": "3cbaef9ec3053b3d5b3e2029dc9470535abaa2e75e7602c9102c8fb856419ac9"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/f_t0_song_006.ogg",
+      "relocatedTo": "bank/audio/f_t0_song_006.ogg",
+      "bytes": 193096,
+      "sha256": "497e07b1a98976a683acb7b28a27a56932b88d15f6af6e84baf056497fed6d14"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/d_t3_song_002.ogg",
+      "relocatedTo": "bank/audio/d_t3_song_002.ogg",
+      "bytes": 317155,
+      "sha256": "41fe19428581215c150e6a0561f9a137099d0f20b113e255cb7c11c4db6f8608"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t2_song_000.ogg",
+      "relocatedTo": "bank/audio/h_t2_song_000.ogg",
+      "bytes": 284756,
+      "sha256": "48a8415f57e199f7ff176bdda941aaebaaf9100bdf45f11e0497051a2ee4463f"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/f_t0_song_004.ogg",
+      "relocatedTo": "bank/audio/f_t0_song_004.ogg",
+      "bytes": 267763,
+      "sha256": "62c48627129a4efb7a81405111a73e568220a884533828cee816cb68a9fef3e1"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/d_t0_song_000.ogg",
+      "relocatedTo": "bank/audio/d_t0_song_000.ogg",
+      "bytes": 290996,
+      "sha256": "d51f28515b8e805f842963e5f6b72db812e87178b50f21308aec7617419ae7c7"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t3_song_005.ogg",
+      "relocatedTo": "bank/audio/h_t3_song_005.ogg",
+      "bytes": 347542,
+      "sha256": "0bcade86d7fd7f194c58efc8f58c696c49dfc38ab351775f1ef245f97cd692b4"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/a_boss_song_002.ogg",
+      "relocatedTo": "bank/audio/a_boss_song_002.ogg",
+      "bytes": 229048,
+      "sha256": "bfcb53dc409f0a17590fed166a2332e300cb5ec0c18507eef2d75a1110e5638b"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/g_t0_song_003.ogg",
+      "relocatedTo": "bank/audio/g_t0_song_003.ogg",
+      "bytes": 286848,
+      "sha256": "d956b03f8a4267074ae52adde81a4b6ea3ce1b7dae306752342f456ec6898c0c"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_t1_song_004.ogg",
+      "relocatedTo": "bank/audio/e_t1_song_004.ogg",
+      "bytes": 219435,
+      "sha256": "83592d5001888837cbcd9587dc5f93739e19200fba19fd2553a0253bdc6c3bbb"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/c_t2_song_000.ogg",
+      "relocatedTo": "bank/audio/c_t2_song_000.ogg",
+      "bytes": 308665,
+      "sha256": "45739c496028b5a609b2275fe4968be57aa2705903d11ea330acfaf62104275e"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/g_t1_song_001.ogg",
+      "relocatedTo": "bank/audio/g_t1_song_001.ogg",
+      "bytes": 296558,
+      "sha256": "bc9a410ccdf8fd5f351fbf00e498ae09c216f374550cb1a96c463834299ca3e8"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/a_t3_song_002.ogg",
+      "relocatedTo": "bank/audio/a_t3_song_002.ogg",
+      "bytes": 310793,
+      "sha256": "b13b0fae4c7645fffde45e0edc5394ba62d8a0603fee651d7607116d1a83f2b9"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/f_t0_song_003.ogg",
+      "relocatedTo": "bank/audio/f_t0_song_003.ogg",
+      "bytes": 270480,
+      "sha256": "1c2df84ceb24e76f6c816ae1235f6a5698bdf21d4e4580d6bdec75bca60933e2"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_boss_song_004.ogg",
+      "relocatedTo": "bank/audio/h_boss_song_004.ogg",
+      "bytes": 303160,
+      "sha256": "e5192b7531972762e586e7b1b5bfa96fdab4a82137a851b1e73484b291cd3434"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/f_boss_song_000.ogg",
+      "relocatedTo": "bank/audio/f_boss_song_000.ogg",
+      "bytes": 308703,
+      "sha256": "16293eaef63ca4a495a963c16525fbc2c223990030d519aabed8eb8f76bed6d8"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_boss_song_003.ogg",
+      "relocatedTo": "bank/audio/e_boss_song_003.ogg",
+      "bytes": 281887,
+      "sha256": "91bca4732d3b1be308d5a5bc042bdcb1431921f42c3bca22ccbfc9eb53a328dd"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/c_boss_song_001.ogg",
+      "relocatedTo": "bank/audio/c_boss_song_001.ogg",
+      "bytes": 305159,
+      "sha256": "54a997af1672c2ec250b740b4eac80f70579e13cbddcb9ea9024b3cdda5223f1"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/a_t1_song_001.ogg",
+      "relocatedTo": "bank/audio/a_t1_song_001.ogg",
+      "bytes": 281883,
+      "sha256": "aabd4488577b025fcbdeded9e1d310eb36c467367035dceda98906fbac4852df"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_t3_song_004.ogg",
+      "relocatedTo": "bank/audio/e_t3_song_004.ogg",
+      "bytes": 155057,
+      "sha256": "9661610d19664a729cbc0ff54d7b8d4d5c48ca84a4bfddd6def06b3cabb4d366"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/d_t3_song_001.ogg",
+      "relocatedTo": "bank/audio/d_t3_song_001.ogg",
+      "bytes": 314792,
+      "sha256": "43d9b1e8bd4cb42612e20f9f1cd49cf4661c3d8bae4acdfa87a84cb5da105428"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/c_t0_song_003.ogg",
+      "relocatedTo": "bank/audio/c_t0_song_003.ogg",
+      "bytes": 289643,
+      "sha256": "3c7600f59a10ab4a333b0dc5c52dbd7b9b3b9a9b2d02c3537b22e909c227f543"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/a_t2_song_003.ogg",
+      "relocatedTo": "bank/audio/a_t2_song_003.ogg",
+      "bytes": 302433,
+      "sha256": "c384be3e807fd4f5194e3fcdddb0dbf8a7c684b34cae1288d9b27669b4803831"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t2_song_004.ogg",
+      "relocatedTo": "bank/audio/h_t2_song_004.ogg",
+      "bytes": 262471,
+      "sha256": "5711d4b71438e03345267787640d9bd6261861dc6186ea6e1e6afc2d4bd790a1"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/g_t3_song_003.ogg",
+      "relocatedTo": "bank/audio/g_t3_song_003.ogg",
+      "bytes": 314865,
+      "sha256": "8d6563dacbfde6cd9461c44d929970695a2d2aed315e2f858439797a081202cb"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/c_t3_song_003.ogg",
+      "relocatedTo": "bank/audio/c_t3_song_003.ogg",
+      "bytes": 304198,
+      "sha256": "584b255dc2b25b3a72d98748554706a989df7d0e69d2756d52bccb54e3a1373e"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/g_t3_song_002.ogg",
+      "relocatedTo": "bank/audio/g_t3_song_002.ogg",
+      "bytes": 306501,
+      "sha256": "2bf662902ecc99d61b43bc13158888eee9985afc583e9ec2daf22c633f5416a3"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/g_t0_song_004.ogg",
+      "relocatedTo": "bank/audio/g_t0_song_004.ogg",
+      "bytes": 282673,
+      "sha256": "ac2d2aadc927a571e9323674f76935dab25f155ea24eeb18bfba0fd775250fce"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/g_t3_song_000.ogg",
+      "relocatedTo": "bank/audio/g_t3_song_000.ogg",
+      "bytes": 299761,
+      "sha256": "b319d7b06e96506cfa809823399672226a9adb72d33129480ed6d71dc5163a5c"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t1_song_000.ogg",
+      "relocatedTo": "bank/audio/h_t1_song_000.ogg",
+      "bytes": 296136,
+      "sha256": "c51894188c8d904aab67e71c846b25c826fe44924307135782e2b30a210df399"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t2_song_003.ogg",
+      "relocatedTo": "bank/audio/h_t2_song_003.ogg",
+      "bytes": 302748,
+      "sha256": "99b5a0fc8e18f8935b7cb5aa5d400a6c4d670157d8718beeb94513bac90d4f38"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_boss_song_007.ogg",
+      "relocatedTo": "bank/audio/h_boss_song_007.ogg",
+      "bytes": 72175,
+      "sha256": "5df1690bd55be0cd6e770e791687d6a0dc442850eca534ae2fe1ebd846cd4442"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/c_t1_song_000.ogg",
+      "relocatedTo": "bank/audio/c_t1_song_000.ogg",
+      "bytes": 309264,
+      "sha256": "c3f9ec4172315f59145fc018052ab3a2ff458e49c4c6bc218e748bf57f6a5902"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/d_t2_song_004.ogg",
+      "relocatedTo": "bank/audio/d_t2_song_004.ogg",
+      "bytes": 149728,
+      "sha256": "980c7faa6604df411ca516b8f038f11f4d070614913a75916ea83650b5e80e21"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/d_t0_song_005.ogg",
+      "relocatedTo": "bank/audio/d_t0_song_005.ogg",
+      "bytes": 37837,
+      "sha256": "55f90b4880c46fbfcdc24f49f18d42b68f8ae3ea072d6a594fe36ae965ddc0d3"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/a_victory_song_000.ogg",
+      "relocatedTo": "bank/audio/a_victory_song_000.ogg",
+      "bytes": 61926,
+      "sha256": "b0fab2838e27fd5ceb6406452c798f32ce038e9bcb2368d0f6651a1184673038"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_boss_song_000.ogg",
+      "relocatedTo": "bank/audio/h_boss_song_000.ogg",
+      "bytes": 311292,
+      "sha256": "0e6f82a6f03f7bb61c4480b003ccf1132220df8fe18ce699a4608c9e10e33773"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_boss_song_002.ogg",
+      "relocatedTo": "bank/audio/e_boss_song_002.ogg",
+      "bytes": 309255,
+      "sha256": "9e510f6d9b00d8342f4712c343b2eba4ae744d48ec91e6bb53d9fef47d6e4bd9"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/d_t1_song_001.ogg",
+      "relocatedTo": "bank/audio/d_t1_song_001.ogg",
+      "bytes": 302614,
+      "sha256": "7166eb990ada96e6b7fc31dbbfaf25a03bac4aaf10e5bd635688ebfd332b376f"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/g_t3_song_001.ogg",
+      "relocatedTo": "bank/audio/g_t3_song_001.ogg",
+      "bytes": 304607,
+      "sha256": "fd8e12773824ee019bc1b562d38e64f90ac39861863c8743e1b31460e43bec4e"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/c_victory_song_000.ogg",
+      "relocatedTo": "bank/audio/c_victory_song_000.ogg",
+      "bytes": 60826,
+      "sha256": "678c27f2bf1637301158f8bfe6bc21e40ca453a431624c0fc12665a595f4e649"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/f_t1_song_001.ogg",
+      "relocatedTo": "bank/audio/f_t1_song_001.ogg",
+      "bytes": 307046,
+      "sha256": "7e67f16014b0ae497b57a95ae5f4f08f7237da19cc28f05c8e73d6b500d9620e"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_t0_song_000.ogg",
+      "relocatedTo": "bank/audio/e_t0_song_000.ogg",
+      "bytes": 284398,
+      "sha256": "56e99052a0cd0387c2ac9f4aaaf47b566426dc72f294cd163fda09e5aa4ffb05"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/g_boss_song_001.ogg",
+      "relocatedTo": "bank/audio/g_boss_song_001.ogg",
+      "bytes": 309273,
+      "sha256": "9e800a5c77fb8130a6bcf32eb0fa362c5abad3d76f6cea2beb37b9b4f2bb050c"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_boss_song_006.ogg",
+      "relocatedTo": "bank/audio/h_boss_song_006.ogg",
+      "bytes": 291313,
+      "sha256": "3bcc603ee92bdf758cd46823649153b078eb4ea3eb0d6e445cbc54613d037812"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/d_t0_song_002.ogg",
+      "relocatedTo": "bank/audio/d_t0_song_002.ogg",
+      "bytes": 296183,
+      "sha256": "e10d4991f148be65fe99e7bc66ce671ba64ff3f29f70c8a83326e1a79e22a4c0"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/a_t2_song_000.ogg",
+      "relocatedTo": "bank/audio/a_t2_song_000.ogg",
+      "bytes": 310463,
+      "sha256": "ffd2748acfbc7e012144eb572cad45c009f4a821bbb80b8a13e9f2a63b61f92c"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_t1_song_003.ogg",
+      "relocatedTo": "bank/audio/e_t1_song_003.ogg",
+      "bytes": 293179,
+      "sha256": "8defe3e1147b6b2762655a5cd717e1c522a374abba1bcc9d67cf138de3b4f3cc"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/g_t2_song_000.ogg",
+      "relocatedTo": "bank/audio/g_t2_song_000.ogg",
+      "bytes": 297195,
+      "sha256": "af3ab0454220073235176fc187b03eaf3fbe55e4672778b57a58b6d792f6e976"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/d_t3_song_000.ogg",
+      "relocatedTo": "bank/audio/d_t3_song_000.ogg",
+      "bytes": 327536,
+      "sha256": "ebbb0412299ccab1349e8b0fcddb647b79eefb9d9429f4592471b189a8f24041"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/c_boss_song_002.ogg",
+      "relocatedTo": "bank/audio/c_boss_song_002.ogg",
+      "bytes": 230440,
+      "sha256": "7e35342896633c12e3cf092d4d1bdd7da8d6b3e306cd52a32901ed5051a0e3da"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/a_t1_song_000.ogg",
+      "relocatedTo": "bank/audio/a_t1_song_000.ogg",
+      "bytes": 311277,
+      "sha256": "741c515835c9226e1cf26a3b9e5bc28a1dbcdc6c94203b3acfd983132fe9e0ed"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/f_t3_song_000.ogg",
+      "relocatedTo": "bank/audio/f_t3_song_000.ogg",
+      "bytes": 305704,
+      "sha256": "6a28de057db47c3b758766366b533283176eeb05f37cd640f932404529bd1a60"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_t2_song_002.ogg",
+      "relocatedTo": "bank/audio/b_t2_song_002.ogg",
+      "bytes": 301776,
+      "sha256": "193b0e8fd58749c9c051387671ccc0ed3f5ecbe03e5d6ce037e50164bde8c19b"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/d_t2_song_002.ogg",
+      "relocatedTo": "bank/audio/d_t2_song_002.ogg",
+      "bytes": 299254,
+      "sha256": "d4d8d79ae8d5dd66f9dfe3dd0c729cff131efc20cef9ebc8cc730a1705aae0ad"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_t0_song_003.ogg",
+      "relocatedTo": "bank/audio/e_t0_song_003.ogg",
+      "bytes": 297708,
+      "sha256": "55aed63f9afdf9befecf239dfc114d41866013fdf964cc7cf9a216a40709f378"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_victory_song_000.ogg",
+      "relocatedTo": "bank/audio/h_victory_song_000.ogg",
+      "bytes": 55770,
+      "sha256": "c7c6657350c94fc02ae71044f74833961cdb2a00dcb9a042b3629a8f3864f6ac"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/f_t2_song_003.ogg",
+      "relocatedTo": "bank/audio/f_t2_song_003.ogg",
+      "bytes": 301642,
+      "sha256": "e5e3f3d402959bebcbb00cd81396e6931be642e1d9858da210863a97666a721a"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/f_boss_song_001.ogg",
+      "relocatedTo": "bank/audio/f_boss_song_001.ogg",
+      "bytes": 310904,
+      "sha256": "0889dc13d9a46fd1a11cb2d26d8dd3c357fee5cf496d8f77d7aab77217e0a715"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/a_t1_song_004.ogg",
+      "relocatedTo": "bank/audio/a_t1_song_004.ogg",
+      "bytes": 285791,
+      "sha256": "7867a2e0d5c08a095ab5611fba6b38a651fdd46d566dbd3a8334ab011dcb3e77"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/a_t1_song_003.ogg",
+      "relocatedTo": "bank/audio/a_t1_song_003.ogg",
+      "bytes": 305792,
+      "sha256": "a27e8af743c014782204506dc6cdd048f45d1001d2ff6d63d53f09608401c509"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/f_t3_song_003.ogg",
+      "relocatedTo": "bank/audio/f_t3_song_003.ogg",
+      "bytes": 135191,
+      "sha256": "72dd2e85e9f7d8917375d066e085093b131cc150d4d1fa61f12d238f5b4ebe91"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_t1_song_003.ogg",
+      "relocatedTo": "bank/audio/b_t1_song_003.ogg",
+      "bytes": 309085,
+      "sha256": "6d8030d0c824a12de8aef5ba68a9974e58ceadd2a96e8a471fb5cf50b6325463"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_t3_song_001.ogg",
+      "relocatedTo": "bank/audio/e_t3_song_001.ogg",
+      "bytes": 307955,
+      "sha256": "7c522e21e113baa93a75225d25aba1dba0002fb681fe780e2bfb442de4a03d2c"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/a_t3_song_000.ogg",
+      "relocatedTo": "bank/audio/a_t3_song_000.ogg",
+      "bytes": 312627,
+      "sha256": "d8aed4817b87ee238c63c9c92542e8edaec0466f501b3d1785c4599b0ba0313b"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t0_song_005.ogg",
+      "relocatedTo": "bank/audio/h_t0_song_005.ogg",
+      "bytes": 292772,
+      "sha256": "b36de47c8f485fb8f10d81895677cbfc2312e885d1153d4fcdb43f0521adb557"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/d_t0_song_004.ogg",
+      "relocatedTo": "bank/audio/d_t0_song_004.ogg",
+      "bytes": 285364,
+      "sha256": "60cb52b6286df13acbdc695423750d9947b00860ae4d20816fad91c693f7f0ce"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t1_song_002.ogg",
+      "relocatedTo": "bank/audio/h_t1_song_002.ogg",
+      "bytes": 305852,
+      "sha256": "108ea134ccd50fb6371d03faea3ba85da8c80e7198f7423d3b4d882505838b47"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/d_t3_song_003.ogg",
+      "relocatedTo": "bank/audio/d_t3_song_003.ogg",
+      "bytes": 302171,
+      "sha256": "136b375175a3a45635829aadbf8673d907ddc85bb5ecd92a8eac1796d83323d0"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_t2_song_007.ogg",
+      "relocatedTo": "bank/audio/b_t2_song_007.ogg",
+      "bytes": 105025,
+      "sha256": "6b2a82d408f7e85450668734c9ddda81bc416fd27201a736c5f508d43c329b26"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_t1_song_000.ogg",
+      "relocatedTo": "bank/audio/e_t1_song_000.ogg",
+      "bytes": 307362,
+      "sha256": "e1c6cb2d5bdaa3910c7b6fbadbc1a5064beec3c9883225bfaf517615ce0f6429"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t2_song_005.ogg",
+      "relocatedTo": "bank/audio/h_t2_song_005.ogg",
+      "bytes": 299806,
+      "sha256": "e8e2ed5e31e50658de26128cd1b11c85a898d01ec386a06996600c7a238b8450"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t2_song_006.ogg",
+      "relocatedTo": "bank/audio/h_t2_song_006.ogg",
+      "bytes": 225214,
+      "sha256": "2cb01b706d68d79af20194799737ff0f0906277963dd2981467d57a80ba372aa"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t1_song_003.ogg",
+      "relocatedTo": "bank/audio/h_t1_song_003.ogg",
+      "bytes": 279562,
+      "sha256": "6d8a2f7fc147f00f9525a6771848b1fa64b9c30355a096c73b895e8d5a873ac6"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/f_t2_song_001.ogg",
+      "relocatedTo": "bank/audio/f_t2_song_001.ogg",
+      "bytes": 308478,
+      "sha256": "d9057c370e1be50f004303291c2d6a2a5da03f6b1414bc5ce48110145664e632"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/a_t0_song_004.ogg",
+      "relocatedTo": "bank/audio/a_t0_song_004.ogg",
+      "bytes": 288763,
+      "sha256": "b369af05380d1002d6cef8a07f6bec45767ef5d8097f55ab98c8ae05d652e0d4"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/a_t0_song_001.ogg",
+      "relocatedTo": "bank/audio/a_t0_song_001.ogg",
+      "bytes": 299579,
+      "sha256": "d00ae60e2cc24ebf0d236a5b4d0e6c23df7b2a870d0d444afb07b2c2b8b00c2f"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/d_boss_song_001.ogg",
+      "relocatedTo": "bank/audio/d_boss_song_001.ogg",
+      "bytes": 308864,
+      "sha256": "5ff26b4877c839cf20dd12d0077c552dd6f7c1f0e8ec1a36ec3b61e3b4b5c43c"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_t2_song_001.ogg",
+      "relocatedTo": "bank/audio/e_t2_song_001.ogg",
+      "bytes": 295608,
+      "sha256": "fe8cd7e8742736f933c81f0e9493f38566b5c166a034b8b0de627089a1ef823f"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_boss_song_001.ogg",
+      "relocatedTo": "bank/audio/b_boss_song_001.ogg",
+      "bytes": 293370,
+      "sha256": "0b1541f89a758c48620a6e26bcdcc3f10e6bc996a636a2cf931c2c35a3f41d63"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_t1_song_001.ogg",
+      "relocatedTo": "bank/audio/e_t1_song_001.ogg",
+      "bytes": 296361,
+      "sha256": "18ca06e7dc52b7b2cca8fd1560e6a38f4d3c44a668473eb6eb64cb68eb0101b8"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/d_t2_song_003.ogg",
+      "relocatedTo": "bank/audio/d_t2_song_003.ogg",
+      "bytes": 294624,
+      "sha256": "a64357a6e78cf112e233624ba3789a019043e9e8ee8733bc5667e169fc85a346"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/f_t2_song_000.ogg",
+      "relocatedTo": "bank/audio/f_t2_song_000.ogg",
+      "bytes": 304451,
+      "sha256": "4e2a1078e5206f7d70e8847334575ad1d87d42f036dfd4490c8bcac3cb277a12"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/a_t0_song_003.ogg",
+      "relocatedTo": "bank/audio/a_t0_song_003.ogg",
+      "bytes": 304249,
+      "sha256": "bca0790d8594b24a49efd6114cfda6ebc1fc0073401028c2bc723c5f290db4be"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/c_t1_song_001.ogg",
+      "relocatedTo": "bank/audio/c_t1_song_001.ogg",
+      "bytes": 316579,
+      "sha256": "265b325ee59a34250cc0b81d9cf8e9316a21bdcf19092ef22108263fb17fa131"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t1_song_004.ogg",
+      "relocatedTo": "bank/audio/h_t1_song_004.ogg",
+      "bytes": 283320,
+      "sha256": "346dbee7c494cd237672f4c88fb2312cae630068e8dfade60ac5ad76f89b193c"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_boss_song_005.ogg",
+      "relocatedTo": "bank/audio/b_boss_song_005.ogg",
+      "bytes": 73393,
+      "sha256": "bc2e20e8cf6d32f32b9e4435424d154707599d4c3956dc8156b56b4649aead77"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/g_boss_song_002.ogg",
+      "relocatedTo": "bank/audio/g_boss_song_002.ogg",
+      "bytes": 329720,
+      "sha256": "62ad4a52d0e19f4afcd03a121794cc7f29c0ff3b7b6e60999845eb00ab571cd7"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_victory_song_000.ogg",
+      "relocatedTo": "bank/audio/e_victory_song_000.ogg",
+      "bytes": 53827,
+      "sha256": "adb32b80c1bf3dbe752e5b71c791be30622622c63128761886c45c2e9055b48e"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/g_t1_song_004.ogg",
+      "relocatedTo": "bank/audio/g_t1_song_004.ogg",
+      "bytes": 20794,
+      "sha256": "5a3eaa02ccec0f0c989e39efe28ab182c87933c0b2243899169f624dd64c0a81"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t0_song_000.ogg",
+      "relocatedTo": "bank/audio/h_t0_song_000.ogg",
+      "bytes": 261061,
+      "sha256": "7d47af152129623c313efcb5282d30d5a99bc32e49dcde386d6479c0dace3554"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_t1_song_000.ogg",
+      "relocatedTo": "bank/audio/b_t1_song_000.ogg",
+      "bytes": 307777,
+      "sha256": "0568928b777f7ffc3e13b0c6bbc880fcad007fe6bb4d4838b1802913f5aecc41"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_t3_song_000.ogg",
+      "relocatedTo": "bank/audio/b_t3_song_000.ogg",
+      "bytes": 315213,
+      "sha256": "be057db492c963275a6403cd7ed83e62400857653646def26022afa000a86a01"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/d_t1_song_003.ogg",
+      "relocatedTo": "bank/audio/d_t1_song_003.ogg",
+      "bytes": 319826,
+      "sha256": "87144f257e4a60be2bcaa3992ef2c53981370596c868adae5f05d229eb51591e"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_t0_song_006.ogg",
+      "relocatedTo": "bank/audio/h_t0_song_006.ogg",
+      "bytes": 283929,
+      "sha256": "a6709b1e79cbd507663d88b4f6173a54cedc54730fa0677aaa1fb120b052d6a1"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/c_t0_song_000.ogg",
+      "relocatedTo": "bank/audio/c_t0_song_000.ogg",
+      "bytes": 278844,
+      "sha256": "c538f7fef59a1941069b007657a4a609683981c6d26296b4deb6082afeb28505"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/e_t3_song_002.ogg",
+      "relocatedTo": "bank/audio/e_t3_song_002.ogg",
+      "bytes": 310760,
+      "sha256": "8c4f12a5a1745141d0e3fca5d717017ec504e6d2380d24ff32f48315a5abda8b"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/f_boss_song_002.ogg",
+      "relocatedTo": "bank/audio/f_boss_song_002.ogg",
+      "bytes": 321383,
+      "sha256": "95ad8992c6ff68822805de3199e3fcf8aa014e2609b7bf93a0dd4c482c2dfe0d"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/g_boss_song_003.ogg",
+      "relocatedTo": "bank/audio/g_boss_song_003.ogg",
+      "bytes": 133551,
+      "sha256": "985197e8f0dc087a75a1f66d0525a473b10223593c627413dd10f9e62ba9fcb3"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/d_t0_song_003.ogg",
+      "relocatedTo": "bank/audio/d_t0_song_003.ogg",
+      "bytes": 301116,
+      "sha256": "7d34f19d2feb62d7f2cca9a4a5219c9e6f1f17d4c9c712afb1e97cd3e792d8c2"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_t2_song_006.ogg",
+      "relocatedTo": "bank/audio/b_t2_song_006.ogg",
+      "bytes": 298207,
+      "sha256": "fbdf983aff9fc99e6c18bbc9d102fd97704dda216b1194cb33d6b0e582de061f"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/b_t0_song_003.ogg",
+      "relocatedTo": "bank/audio/b_t0_song_003.ogg",
+      "bytes": 279591,
+      "sha256": "3c522d7b2b57e2f788231495b4059f119d7a7407489fc0ee785b737276bb93a9"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/h_boss_song_002.ogg",
+      "relocatedTo": "bank/audio/h_boss_song_002.ogg",
+      "bytes": 279755,
+      "sha256": "fd70d47044319d0c148e8fd0d9525bba3b4de1e44bda4960833a72f5c2633276"
+    },
+    {
+      "path": "gamemodes/legend_of_deborah/content/sound/lod/ms2_surge/f_t1_song_003.ogg",
+      "relocatedTo": "bank/audio/f_t1_song_003.ogg",
+      "bytes": 156723,
+      "sha256": "6a85ee7d8615e35d984af7c8e721546a3ebfe0ca5dc77751cf4e784176f4d71d"
+    }
+  ]
+}

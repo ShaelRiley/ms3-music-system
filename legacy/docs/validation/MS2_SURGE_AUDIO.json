@@ -1,0 +1,17 @@
+{
+  "suite": "MS2_SURGE_BANK",
+  "revision": "ms2-surge-0f7591eb682f3b2b",
+  "clips": 1402,
+  "notes": 170860,
+  "files": 1403,
+  "bytes": 59993192,
+  "acidMovementRatio": 7.85037216598831,
+  "actualDecodes": 1403,
+  "command": "node tools/test_music_audio.js",
+  "decodedMetricsMatchManifest": true,
+  "native_gmod_accepted": false,
+  "es5Parser": "acorn 8.15.0 / ecmaVersion 5",
+  "controllerSHA256": "4d005166937ffe5c11fee11343429a8ef87c9ea7fd8369a537221f888a316bed",
+  "reencodedPhrase": "a_boss_010",
+  "deterministicReencodeSHA256": "45de1612b1db8f4fb0d2b7fb6b78ed97ba84ddc45553c2462d50cce2a6488ad1"
+}

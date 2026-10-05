@@ -1,0 +1,52 @@
+diff --git a/src/surge-python/surgepy.cpp b/src/surge-python/surgepy.cpp
+index 7f440f8..15a0a6f 100644
+--- a/src/surge-python/surgepy.cpp
++++ b/src/surge-python/surgepy.cpp
+@@ -1038,6 +1038,29 @@ PYBIND11_MODULE(surgepy, m)
+ {
+     m.doc() = "Python bindings for Surge XT Synthesizer";
+     m.def("createSurge", &createSurge, "Create a Surge XT instance", py::arg("sampleRate"));
++    // LoD offline-only reproducibility/transport glue. No DSP changes.
++    m.def("createLoDSurge", [](float sr, uint32_t seed, double tempo) {
++        SurgeStorage::skipLoadWtAndPatch = true;
++        if (spysetup_parent == nullptr)
++            spysetup_parent = std::make_unique<PythonPluginLayerProxy>();
++        // The offline host has no plugin reset cycle. Zero raw backing storage
++        // before C++ constructors run, including inactive voice slots, so heap
++        // reuse cannot become part of a render. Do not overwrite live objects.
++        using Synth = SurgeSynthesizerWithPythonExtensions;
++        static_assert(alignof(Synth) <= alignof(std::max_align_t));
++        auto memory = ::operator new(sizeof(Synth));
++        std::memset(memory, 0, sizeof(Synth));
++        Synth *surge;
++        try { surge = new (memory) Synth(spysetup_parent.get()); }
++        catch (...) { ::operator delete(memory); throw; }
++        std::srand(seed); // classic drift still uses the process-local C RNG
++        surge->storage.rngGen.g.seed(seed);
++        surge->setSamplerate(sr);
++        surge->time_data.tempo = tempo;
++        surge->time_data.ppqPos = 0;
++        return surge;
++    }, py::arg("sampleRate"), py::arg("seed"), py::arg("tempo"));
++    m.attr("lodBuildRevision") = "f7b97c682ade0b87da85ca5968b63d5c7c98e68d+lod-offline-1";
+     m.def(
+         "getVersion", []() { return Surge::Build::FullVersionStr; }, "Get the version of Surge XT");
+     py::class_<SurgeSynthesizer::ID>(m, "SurgeSynthesizer_ID")
+@@ -1161,6 +1184,17 @@ PYBIND11_MODULE(surgepy, m)
+              "Get a Python dictionary with the Surge XT parameters laid out in the logical patch "
+              "format")
+ 
++        .def("finalizeLoDPatch", &SurgeSynthesizer::updateUsedState,
++             "Refresh used modulation sources after offline patch construction")
++        .def("setLoDParameterActive", [](SurgeSynthesizerWithPythonExtensions &s,
++                                         const SurgePyNamedParam &p, bool active) {
++            s.storage.getPatch().param_ptr[p.id.getSynthSideId()]->deactivated = !active;
++        })
++        .def("getLoDParameterActive", [](SurgeSynthesizerWithPythonExtensions &s,
++                                         const SurgePyNamedParam &p) {
++            return !s.storage.getPatch().param_ptr[p.id.getSynthSideId()]->deactivated;
++        })
++
+         .def("loadSCLFile", &SurgeSynthesizerWithPythonExtensions::loadSCLFile,
+              "Load an SCL tuning file and apply tuning to this instance")
+         .def("retuneToStandardTuning",

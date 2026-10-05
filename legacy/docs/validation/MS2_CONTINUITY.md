@@ -1,0 +1,29 @@
+# MS2 intermittent phrase continuity repair
+
+Parent: `174b011a62dd676285435feed2e551e8a3bf26bf`, verified remote main and clean worktree before editing. The author initially reports no audible music, then reports intermittent playback after several minutes or a GMod audio-option toggle. They explicitly cannot distinguish those causes. Preserve that uncertainty: do not assert the volume boost, stereo setting or an asset failure caused the initial silence.
+
+## Native evidence and reproduced faults
+
+`MS2_CONTINUITY_NATIVE_REPORT.json` contains the supplied status and observation. The diagnostic shows enabled/ready `surge-rendered` playback, T3, valid matching bank/patch revisions, two channels, no pending opens or reported error, player volume 1, master gain 4 and quality 0. It records nine native late skips. Thus the previous repair produces intermittent audible music, but continuity and loudness/balance are not accepted. The status does not include an installed commit SHA, and its old gain estimate does not read back the native volume or position.
+
+Two source regressions fail on the parent. The resource assertion `prepared phrase survives a bounded native frame hitch` fails when a file ready before its deadline meets a 100 ms late Think: the old 60 ms cutoff discards all eight beats. The composer assertion `delayed native acknowledgement does not discard already playing phrases` fails with a 300 ms QueueJavascript result delay after a correct native start. The JS watchdog incorrectly reuses its 60 ms audio-start tolerance for the acknowledgement and reschedules an already playing phrase as a failure. These are reproduced causes of whole-phrase gaps consistent with the report; the status alone does not identify the cause of every native gap.
+
+## Repair at existing seams
+
+Native audible-start tolerance is bounded to 150 ms. A phrase prepared in advance fast-seeks past elapsed samples using `IGModAudioChannel:SetTime(elapsed, true)` on the existing nonblocking local channel. It starts once with its original due time as the musical epoch; a separate actual-Play timestamp owns the short onset fade. Natural tails and the next phrase therefore retain the shared clock. This trims missed audio instead of replaying it late. File readiness retains the old 60 ms tolerance; a late file is not mistaken for an already prepared channel delayed by a frame. Larger frame delays discard obsolete starts and resume at a future valid bar, as required by the author brief.
+
+The composer now allows one second for a native acknowledgement, separately from audio-start eligibility. Native Think remains the only phrase-start authority. Timeout/cancellation, one token per lane, role changes, stair retirement and stale acknowledgements retain their bounded behavior. No extra timer, channel, decode buffer, server work or audio payload is added. The ES5 packaged controller is regenerated from its source. Master gain 4, shared peak ceiling 0.8 and saved player volume are unchanged.
+
+Client status adds actual native state, time position and volume for at most eight voices, queried only when requested. It also reports native phase joins, late opens, maximum accepted start delay and composer acknowledgement timeouts. These provide the missing distinction if Source behavior still contradicts the source harness. Fast native seeking is documented at https://wiki.facepunch.com/gmod/IGModAudioChannel:SetTime; local files already use `noplay noblock`.
+
+The changed tests retain all 15 larger/stall/role/reversal scenarios, allow only one prepared current phrase within the new bounded window, verify original-epoch seeking and late-open rejection, and exercise 32 successive two-floor 100 ms frame hitches without whole-phrase skips or excess resource use. The delayed-acknowledgement case retains continuous eight-beat boundaries across 20 seconds. Existing loudness/headroom observers still check every native write, and Options/retry/Off remain regression gates.
+
+Live GDD 00 → 01 → 06/07 was read. The explicit Surge brief authorizes tuning and recording the change. A fresh trusted read found no protected controls in the insertion scope; Google returned `FAILED_PRECONDITION`. `MS2_CONTINUITY_GDD_AMENDMENTS.json` preserves the exact authorized but unapplied request. The live GDD is unchanged.
+
+## Finite gate and next native action
+
+Required receipts: `MS2_CONTINUITY_CHECKS.json`, `MS2_CONTINUITY_INTEGRATION.json` and `MS2_CONTINUITY_AUDIO.json`. Commands are `python3 tools/test_music_gate.py --output <empty-directory> --workers 4`, `python3 tools/test_checkpoint_g_integration.py --output <empty-directory> --workers 4` and `node tools/test_music_audio.js`. The 1,403-file, 59,993,192-byte encoded bank and all synthesis/patch/score metadata remain unchanged. No fresh asset render is needed.
+
+Fresh results: **43/43 music suites**, **297/297 canonical integration suites**, **883 Lua syntax checks** and **1,403/1,403 actual audio decodes** pass. Both source snapshots remain identical throughout their gate, with no changed files during execution. The resource suite passes 2,027 assertions, including every native gain write and repeated two-floor frame recovery; the composer suite passes 300,502 assertions, including delayed acknowledgements and all 15 stall cases. Only evidence files were added or amended after these gates.
+
+Fully quit GMod, update/install exact published main, enable Player Menu → Options → Music, then listen for at least two minutes through staging, danger and a stair crossing. Confirm continuous phrasing under ordinary frame pressure, useful level and immediate Off. If gaps remain, run `lod_music_client_status` twice about a second apart and preserve both full lines with `console_latest.txt` and `rpg_summary_latest.txt`. Actual native seeking, installed Source continuity, co-op and Steam Deck performance remain pending human acceptance. Workshop and VPS are untouched.

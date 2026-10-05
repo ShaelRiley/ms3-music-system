@@ -1,0 +1,105 @@
+{
+  "documentId": "1OSpgiWyiGmUCLFdq--WmCSZe6KQIr7_UTkQZklPV8lY",
+  "governingTabs": [
+    "00",
+    "01",
+    "05",
+    "06",
+    "07"
+  ],
+  "trustedRead": {
+    "bridgeVersion": "3.6",
+    "kind": "google-docs-trusted-read",
+    "status": "complete",
+    "outputDir": "/workspace/scratch/88b415c52a81/gdd-ms2-joins-trusted",
+    "target": {
+      "documentId": "1OSpgiWyiGmUCLFdq--WmCSZe6KQIr7_UTkQZklPV8lY",
+      "title": "The Legend of Deborah — Garry's Mod Game Design Document",
+      "revisionId": "ANLCKQloJbYHDHV4rqh3tajI1MPDLZB7QDidBAy-WXpjZLB4bIq1LKtgXw73vIVk_ZEya0IQL2TPcSHOSsHdTNNiNoeoKT4UayasrZoxQA",
+      "documentUrl": "https://docs.google.com/document/d/1OSpgiWyiGmUCLFdq--WmCSZe6KQIr7_UTkQZklPV8lY",
+      "selectedTabId": "t.bff19dm33vvw"
+    },
+    "dropdownMetadata": {
+      "status": "unavailable",
+      "resolvedTool": null,
+      "authoritative": false,
+      "count": 0
+    },
+    "controlAwareness": {
+      "hasProtectedControls": false,
+      "authoritativeDropdownCount": 0,
+      "opaqueControlCount": 0,
+      "affectedParagraphCount": 0,
+      "nativeElementCounts": {},
+      "preservationRequired": false,
+      "recommendedBehavior": "No protected controls were detected in the scanned scope."
+    },
+    "warnings": [],
+    "files": {
+      "document_result": {
+        "path": "/workspace/scratch/88b415c52a81/gdd-ms2-joins-trusted/document-result.json",
+        "bytes": 4654954,
+        "sha256": "d8ec4eb5e7931a545178dc5a05abd4ba269e156fe902fe2472ba3f70aac89601"
+      },
+      "control_inventory": {
+        "path": "/workspace/scratch/88b415c52a81/gdd-ms2-joins-trusted/control-inventory.json",
+        "bytes": 1085,
+        "sha256": "ebcdc7372473ae5e01824a5fde8251e4e2ba0a53695d2c463d4665e06f397f77"
+      },
+      "document_outline": {
+        "path": "/workspace/scratch/88b415c52a81/gdd-ms2-joins-trusted/document-outline.json",
+        "bytes": 607372,
+        "sha256": "3f5a9f9769fb0ce445aa49d22987426fb6b0461c08f1aa149e78e9396e90d2ed"
+      },
+      "document_text": {
+        "path": "/workspace/scratch/88b415c52a81/gdd-ms2-joins-trusted/document-text.md",
+        "bytes": 319634,
+        "sha256": "18c1e794b638b2794ac34946aa592f355304dd1c30a80b84646da6eb5ee0712d"
+      },
+      "receipt": {
+        "path": "/workspace/scratch/88b415c52a81/gdd-ms2-joins-trusted/receipt.json",
+        "bytes": 1005,
+        "sha256": "9cd5519afccd6dd1ebedba38ab716594d9cff8a551c57606b2edc6bf21b66fdf"
+      }
+    },
+    "error": null,
+    "manifestFile": {
+      "path": "/workspace/scratch/88b415c52a81/gdd-ms2-joins-trusted/manifest.json",
+      "bytes": 2217,
+      "sha256": "14987969be329f0a4f398d13971d761c4b28883f55b5798e0d7d84e424cde96e"
+    }
+  },
+  "request": {
+    "document_id": "1OSpgiWyiGmUCLFdq--WmCSZe6KQIr7_UTkQZklPV8lY",
+    "write_control": {
+      "requiredRevisionId": "ANLCKQloJbYHDHV4rqh3tajI1MPDLZB7QDidBAy-WXpjZLB4bIq1LKtgXw73vIVk_ZEya0IQL2TPcSHOSsHdTNNiNoeoKT4UayasrZoxQA"
+    },
+    "requests": [
+      {
+        "insertText": {
+          "location": {
+            "index": 1,
+            "tabId": "t.bff19dm33vvw"
+          },
+          "text": "LOD-MS2-JOINS-20261002 — Author-directed smooth phrase handoffs [IMPLEMENTATION-TUNABLE]\nRepeat an ordinary eight-beat rendered phrase for four successful passes (32 beats, about 14.77 seconds at 130 BPM) before selecting a fresh authored successor. Role changes and the once-only twelve-beat fanfare retain their existing timing. Routine joins keep constant gain and overlap the rendered 550 ms release; remove routine onset/end gain envelopes. Reserve each arrangement's maximum decoded full peak plus maximum decoded tail peak, measured offline from the last 150 ms of musical time through the release, to prevent the common headroom guard pumping at every overlap. Keep master gain 4, saved player volume, shared peak ceiling 0.8, floor weights and all channel/open/PCM budgets. If a same-role replacement is not prepared at its boundary, fast-seek and replay the existing resident channel on its eight-beat grid, excluding the Ogg release tail. Reject the late replacement and retry only on a complete phrase boundary. Hold at most two complete repeats within an eight-second recovery allowance; preserve Off, role ownership, stale-callback disposal and failure backoff. No runtime waveform analysis, audio re-encoding or gameplay delay. Static continuity/headroom checks do not establish inaudible native Source joins; author audition remains required.\n\n"
+        }
+      }
+    ]
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "HTTPError: 400: \n\n\n\nBad Request\n\nContent:\n{'code': 400,\n 'message': 'Precondition check failed.',\n 'status': 'FAILED_PRECONDITION'}\n\nRequest URL:\nhttps://docs.googleapis.com/v1/documents/1OSpgiWyiGmUCLFdq--WmCSZe6KQIr7_UTkQZklPV8lY:batchUpdate (Response: {'error': {'code': 400, 'message': 'Precondition check failed.', 'status': 'FAILED_PRECONDITION'}})"
+      }
+    ],
+    "structuredContent": {
+      "error": "HTTPError: 400: \n\n\n\nBad Request\n\nContent:\n{'code': 400,\n 'message': 'Precondition check failed.',\n 'status': 'FAILED_PRECONDITION'}\n\nRequest URL:\nhttps://docs.googleapis.com/v1/documents/1OSpgiWyiGmUCLFdq--WmCSZe6KQIr7_UTkQZklPV8lY:batchUpdate (Response: {'error': {'code': 400, 'message': 'Precondition check failed.', 'status': 'FAILED_PRECONDITION'}})",
+      "error_code": "INVALID_ARGUMENT"
+    },
+    "isError": true
+  },
+  "applied": false,
+  "authorization": "Current author requests a quick smooth-handoff repair; the prior explicit Surge brief authorizes implementation tuning and source publication.",
+  "fallback": "Preserve exact authorized-but-unapplied request; proceed under explicit author instruction, without browser retry."
+}

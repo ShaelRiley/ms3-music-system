@@ -1,0 +1,79 @@
+{
+  "base": "90510057c608f8e2beec9debc6ceec36b35d14f3",
+  "runId": "36967001423",
+  "candidateTrigger": "18d26f5340f096e2968253c218a108f76dee70ce",
+  "nativeListeningAccepted": false,
+  "liveGDDApplied": false,
+  "passed": [
+    "ms3_transport",
+    "ms3_browser_audio_bank",
+    "music_gate",
+    "all_recording_decodes",
+    "checkpoint_g_integration"
+  ],
+  "sha256": {
+    "tools/music/ms2_engine.js": "eb530820ee5c7f547aa469df89781dc4b3666389fd22cd4fc4c6537826cfd404",
+    "gamemodes/legend_of_deborah/gamemode/lod/ms2/engine.lua": "06f757ec3f125c6eb89c4129bfb8914ce8e8b4596c561c7a111e206915e8d5b0",
+    "gamemodes/legend_of_deborah/gamemode/lod/cl_music.lua": "47a44f82ee22e33b01ba3f664ad424c711cf29433bc26cb11a7a646fefe56939",
+    "tools/test_ms3_transport.js": "e5d6840b056a26e7d6c1be2744228a9a8d1cab5730424f3c93dd6faf4b7cf86a",
+    "tools/test_ms3_audio.py": "fc9e056ae02a9926f8e59d0d730ffcf11053760cd34c4a58bdc07ce314114992",
+    "tools/test_ms2_catalog.py": "474ab8125c557799b6ac2e3e33c012908e86a006cb822c35533b360491c1e017",
+    "tools/test_music_sequence.js": "19ef22b7623ded2351cda6c5fe6455d0e63c0f4a13eee60276eb3322efb3cb3e",
+    "tools/test_music_gate.py": "df0141bb3f998a20c143b256a3544057843dfd56b25c7255442d2d1a2ee4b079",
+    "docs/DEVELOPMENT_PLAN.md": "9700c5147edba0d9890a6969a276af990b0448001d09ffa2dbdf3643548b5b4e",
+    "docs/validation/MS3_SAMPLE_CLOCK.md": "107728505ddb7e2f0e725da568df233ae73312b62273dea21923d78a4d5444ce",
+    "docs/validation/MS3_GDD_AMENDMENT.md": "a55d7036636941f5c39ca8cdfc16dd614485b3154ce0c034c898a6e5594101e0"
+  },
+  "integration": {
+    "total": 297,
+    "passed": 297,
+    "changed_during_gate": [],
+    "lua_files": 883
+  },
+  "transport": {
+    "suite": "MS3_SAMPLE_CLOCK",
+    "checks": 8312,
+    "actualAudio": false
+  },
+  "audio": [
+    {
+      "suite": "MS3_OFFLINE_AUDIO",
+      "actualAudio": true,
+      "sampleRate": 44100,
+      "renderedFrames": 1183917,
+      "joins": 6,
+      "successorJoins": 1,
+      "maxAbsoluteSampleError": 1.9325903405364997e-08,
+      "errorRMS": 2.302301974826948e-09,
+      "relativeErrorDB": -147.60719830593638,
+      "maxPeak": 0.19274981319904327,
+      "joinLevelErrorDB": [
+        1.9890485181214338e-07,
+        1.9890485181214338e-07,
+        1.9890485181214338e-07,
+        1.9752176327770896e-07,
+        1.7438912694964754e-07,
+        1.7438912694964754e-07
+      ]
+    },
+    {
+      "suite": "MS3_SURGE_BROWSER_AUDIO",
+      "arrangements": 40,
+      "actualDecodes": 80,
+      "joins": 240,
+      "maxAbsoluteSampleError": 4.2572307901167505e-08,
+      "maxJoinLevelErrorDB": 6.231429591257695e-07,
+      "maxPeak": 0.44893231987953186
+    }
+  ],
+  "decode": {
+    "suite": "MS2_SURGE_BANK",
+    "revision": "ms2-surge-0f7591eb682f3b2b",
+    "clips": 1402,
+    "notes": 170860,
+    "files": 1403,
+    "bytes": 59993192,
+    "acidMovementRatio": 7.85037216598831,
+    "actualDecodes": 1403
+  }
+}

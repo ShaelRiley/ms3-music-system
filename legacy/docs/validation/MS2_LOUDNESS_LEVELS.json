@@ -1,0 +1,57 @@
+{
+  "bankRevision": "ms2-surge-0f7591eb682f3b2b",
+  "audioFiles": 1403,
+  "encodedBytes": 59993192,
+  "previousRendererSHA256": "ebe1390924b40488b387c9dd4511361181edc7d4e09a1c4b1bd2dd703116b3e4",
+  "currentRendererSHA256": "d29e5c861152fc91a2a60a09dfb9b6df0cbd9121cedc44c6e8a1f3345f7cc1fd",
+  "metadataChange": "project existing measured decoded peaks into runtime bank; synthesis and encoded audio are unchanged",
+  "nativeMasterGain": 4,
+  "boostDB": 12.041199826559248,
+  "scorePeakCeiling": 0.8,
+  "defaultPlayerVolume": 0.55,
+  "native_loudness_accepted": false,
+  "roles": {
+    "T0": {
+      "phrases": 183,
+      "beforeMedianRMSDBFS": -42.001893064762605,
+      "projectedSoloMedianRMSDBFS": -29.96069323820336,
+      "minimumSoloBoostDB": 11.032918822673675,
+      "medianSoloBoostDB": 12.041199826559248
+    },
+    "T1": {
+      "phrases": 313,
+      "beforeMedianRMSDBFS": -36.7286365869871,
+      "projectedSoloMedianRMSDBFS": -24.705687688278072,
+      "minimumSoloBoostDB": 9.305539673658723,
+      "medianSoloBoostDB": 12.041199826559248
+    },
+    "T2": {
+      "phrases": 313,
+      "beforeMedianRMSDBFS": -36.17687244569289,
+      "projectedSoloMedianRMSDBFS": -24.39411219176362,
+      "minimumSoloBoostDB": 7.537142641451881,
+      "medianSoloBoostDB": 12.041199826559248
+    },
+    "T3": {
+      "phrases": 309,
+      "beforeMedianRMSDBFS": -35.789239430712826,
+      "projectedSoloMedianRMSDBFS": -23.962147015930384,
+      "minimumSoloBoostDB": 7.854941993116098,
+      "medianSoloBoostDB": 12.041199826559248
+    },
+    "BOSS": {
+      "phrases": 276,
+      "beforeMedianRMSDBFS": -35.685285334101586,
+      "projectedSoloMedianRMSDBFS": -23.766080210183663,
+      "minimumSoloBoostDB": 7.764602139924193,
+      "medianSoloBoostDB": 12.041199826559248
+    },
+    "VICTORY": {
+      "phrases": 8,
+      "beforeMedianRMSDBFS": -35.85384990497003,
+      "projectedSoloMedianRMSDBFS": -23.81265007841078,
+      "minimumSoloBoostDB": 10.482102499239033,
+      "medianSoloBoostDB": 12.041199826559248
+    }
+  }
+}

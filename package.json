@@ -1,0 +1,12 @@
+{
+  "name": "ms3-music-player",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Portable MS3 music banks and sample-clock player with manual tension control",
+  "scripts": {
+    "start": "python3 -m http.server 8080 --bind 127.0.0.1",
+    "test": "python3 tools/verify_bank.py && node --test tests/player.test.mjs && node tests/transport.cjs"
+  },
+  "engines": {"node": ">=18"}
+}

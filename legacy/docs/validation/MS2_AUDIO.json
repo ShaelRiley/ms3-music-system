@@ -1,0 +1,527 @@
+{
+  "suite": "MS2_WEB_AUDIO",
+  "checks": 167,
+  "catalogRevision": "ms2-be9489d0c3ba99c7",
+  "arrangements": [
+    {
+      "id": "a-boss",
+      "notes": 123,
+      "peakVoices": 8,
+      "finite": true,
+      "peak": 0.209210604429245,
+      "rms": 0.04861847071741883,
+      "minWindow": 0.02046083008432748
+    },
+    {
+      "id": "a-t0",
+      "notes": 37,
+      "peakVoices": 2,
+      "finite": true,
+      "peak": 0.10328227281570435,
+      "rms": 0.03030862599868292,
+      "minWindow": 0.02320233232850748
+    },
+    {
+      "id": "a-t1",
+      "notes": 118,
+      "peakVoices": 12,
+      "finite": true,
+      "peak": 0.20961935818195343,
+      "rms": 0.04062971621851597,
+      "minWindow": 0.026280953207729777
+    },
+    {
+      "id": "a-t2",
+      "notes": 116,
+      "peakVoices": 7,
+      "finite": true,
+      "peak": 0.15626023709774017,
+      "rms": 0.038325745750384534,
+      "minWindow": 0.009917534498347829
+    },
+    {
+      "id": "a-t3",
+      "notes": 127,
+      "peakVoices": 12,
+      "finite": true,
+      "peak": 0.20326051115989685,
+      "rms": 0.047545630225929225,
+      "minWindow": 0.03765611755679679
+    },
+    {
+      "id": "a-victory",
+      "notes": 256,
+      "peakVoices": 12,
+      "finite": true,
+      "peak": 0.23555532097816467,
+      "rms": 0.04043898192201919,
+      "minWindow": 0.03030219547646544
+    },
+    {
+      "id": "b-boss",
+      "notes": 194,
+      "peakVoices": 10,
+      "finite": true,
+      "peak": 0.11446502059698105,
+      "rms": 0.028071430497598897,
+      "minWindow": 0.02117056801458404
+    },
+    {
+      "id": "b-t0",
+      "notes": 55,
+      "peakVoices": 8,
+      "finite": true,
+      "peak": 0.13262644410133362,
+      "rms": 0.024632952403568224,
+      "minWindow": 0.012763616083883381
+    },
+    {
+      "id": "b-t1",
+      "notes": 157,
+      "peakVoices": 14,
+      "finite": true,
+      "peak": 0.2021942436695099,
+      "rms": 0.050599412463977644,
+      "minWindow": 0.033152387047587835
+    },
+    {
+      "id": "b-t2",
+      "notes": 167,
+      "peakVoices": 12,
+      "finite": true,
+      "peak": 0.1960192769765854,
+      "rms": 0.042778851705458865,
+      "minWindow": 0.024039448606611204
+    },
+    {
+      "id": "b-t3",
+      "notes": 165,
+      "peakVoices": 15,
+      "finite": true,
+      "peak": 0.22511321306228638,
+      "rms": 0.043049894269355064,
+      "minWindow": 0.024809988755422396
+    },
+    {
+      "id": "b-victory",
+      "notes": 174,
+      "peakVoices": 13,
+      "finite": true,
+      "peak": 0.2063644379377365,
+      "rms": 0.03619476348256699,
+      "minWindow": 0.023181572126678048
+    },
+    {
+      "id": "c-boss",
+      "notes": 150,
+      "peakVoices": 12,
+      "finite": true,
+      "peak": 0.12773409485816956,
+      "rms": 0.03416116515849272,
+      "minWindow": 0.017646315887193433
+    },
+    {
+      "id": "c-t0",
+      "notes": 37,
+      "peakVoices": 6,
+      "finite": true,
+      "peak": 0.14358319342136383,
+      "rms": 0.030650417700354392,
+      "minWindow": 0.014625948835893935
+    },
+    {
+      "id": "c-t1",
+      "notes": 123,
+      "peakVoices": 12,
+      "finite": true,
+      "peak": 0.21580606698989868,
+      "rms": 0.05379084506124573,
+      "minWindow": 0.03329485629076197
+    },
+    {
+      "id": "c-t2",
+      "notes": 177,
+      "peakVoices": 13,
+      "finite": true,
+      "peak": 0.1592833250761032,
+      "rms": 0.03815333398933728,
+      "minWindow": 0.026055594863033667
+    },
+    {
+      "id": "c-t3",
+      "notes": 177,
+      "peakVoices": 14,
+      "finite": true,
+      "peak": 0.17049381136894226,
+      "rms": 0.048870444523748294,
+      "minWindow": 0.03343557328177767
+    },
+    {
+      "id": "c-victory",
+      "notes": 210,
+      "peakVoices": 13,
+      "finite": true,
+      "peak": 0.18299607932567596,
+      "rms": 0.04036480462161253,
+      "minWindow": 0.019109968090018914
+    },
+    {
+      "id": "d-boss",
+      "notes": 195,
+      "peakVoices": 14,
+      "finite": true,
+      "peak": 0.24555732309818268,
+      "rms": 0.04457110787336208,
+      "minWindow": 0.028721484761955313
+    },
+    {
+      "id": "d-t0",
+      "notes": 49,
+      "peakVoices": 5,
+      "finite": true,
+      "peak": 0.10874732583761215,
+      "rms": 0.034056523680030655,
+      "minWindow": 0.026317491301607463
+    },
+    {
+      "id": "d-t1",
+      "notes": 108,
+      "peakVoices": 8,
+      "finite": true,
+      "peak": 0.1686832755804062,
+      "rms": 0.042610370059285904,
+      "minWindow": 0.031945287768906386
+    },
+    {
+      "id": "d-t2",
+      "notes": 163,
+      "peakVoices": 10,
+      "finite": true,
+      "peak": 0.19418750703334808,
+      "rms": 0.0434238062509296,
+      "minWindow": 0.02107547821244625
+    },
+    {
+      "id": "d-t3",
+      "notes": 214,
+      "peakVoices": 12,
+      "finite": true,
+      "peak": 0.2285814881324768,
+      "rms": 0.046751009939316156,
+      "minWindow": 0.034145614480420486
+    },
+    {
+      "id": "d-victory",
+      "notes": 233,
+      "peakVoices": 15,
+      "finite": true,
+      "peak": 0.19669248163700104,
+      "rms": 0.04744609821639121,
+      "minWindow": 0.03848960158533339
+    },
+    {
+      "id": "e-boss",
+      "notes": 139,
+      "peakVoices": 13,
+      "finite": true,
+      "peak": 0.1795404553413391,
+      "rms": 0.03859412266221536,
+      "minWindow": 0.026784826180539605
+    },
+    {
+      "id": "e-t0",
+      "notes": 53,
+      "peakVoices": 6,
+      "finite": true,
+      "peak": 0.11135493963956833,
+      "rms": 0.028772446428213572,
+      "minWindow": 0.02467632588907107
+    },
+    {
+      "id": "e-t1",
+      "notes": 152,
+      "peakVoices": 12,
+      "finite": true,
+      "peak": 0.17647124826908112,
+      "rms": 0.039597955880687874,
+      "minWindow": 0.020670017767783717
+    },
+    {
+      "id": "e-t2",
+      "notes": 269,
+      "peakVoices": 15,
+      "finite": true,
+      "peak": 0.2238875925540924,
+      "rms": 0.05390129723636487,
+      "minWindow": 0.03811284894141077
+    },
+    {
+      "id": "e-t3",
+      "notes": 172,
+      "peakVoices": 15,
+      "finite": true,
+      "peak": 0.26026371121406555,
+      "rms": 0.05384724328988404,
+      "minWindow": 0.037491716751524684
+    },
+    {
+      "id": "e-victory",
+      "notes": 117,
+      "peakVoices": 10,
+      "finite": true,
+      "peak": 0.14075280725955963,
+      "rms": 0.028884986916048478,
+      "minWindow": 0.012453599850920228
+    },
+    {
+      "id": "f-boss",
+      "notes": 206,
+      "peakVoices": 13,
+      "finite": true,
+      "peak": 0.18532854318618774,
+      "rms": 0.0424186566361188,
+      "minWindow": 0.030198685394160932
+    },
+    {
+      "id": "f-t0",
+      "notes": 29,
+      "peakVoices": 4,
+      "finite": true,
+      "peak": 0.04977243021130562,
+      "rms": 0.014336578044778706,
+      "minWindow": 0.007248039797861194
+    },
+    {
+      "id": "f-t1",
+      "notes": 155,
+      "peakVoices": 13,
+      "finite": true,
+      "peak": 0.1855008602142334,
+      "rms": 0.041559551640530594,
+      "minWindow": 0.02914504373518147
+    },
+    {
+      "id": "f-t2",
+      "notes": 130,
+      "peakVoices": 9,
+      "finite": true,
+      "peak": 0.2596305310726166,
+      "rms": 0.04057579818087688,
+      "minWindow": 0.026031528749851592
+    },
+    {
+      "id": "f-t3",
+      "notes": 190,
+      "peakVoices": 13,
+      "finite": true,
+      "peak": 0.16266393661499023,
+      "rms": 0.040132034804580365,
+      "minWindow": 0.02309471685906595
+    },
+    {
+      "id": "f-victory",
+      "notes": 98,
+      "peakVoices": 13,
+      "finite": true,
+      "peak": 0.15691374242305756,
+      "rms": 0.04072811540555221,
+      "minWindow": 0.03195155604787795
+    },
+    {
+      "id": "g-boss",
+      "notes": 181,
+      "peakVoices": 13,
+      "finite": true,
+      "peak": 0.23035909235477448,
+      "rms": 0.04492965262882915,
+      "minWindow": 0.029599607325824093
+    },
+    {
+      "id": "g-t0",
+      "notes": 67,
+      "peakVoices": 8,
+      "finite": true,
+      "peak": 0.11464334279298782,
+      "rms": 0.030498416572979938,
+      "minWindow": 0.013929374864995285
+    },
+    {
+      "id": "g-t1",
+      "notes": 192,
+      "peakVoices": 13,
+      "finite": true,
+      "peak": 0.2077372819185257,
+      "rms": 0.048124315286019,
+      "minWindow": 0.032166905553962996
+    },
+    {
+      "id": "g-t2",
+      "notes": 140,
+      "peakVoices": 12,
+      "finite": true,
+      "peak": 0.1792377233505249,
+      "rms": 0.035757006548575054,
+      "minWindow": 0.02007972032763067
+    },
+    {
+      "id": "g-t3",
+      "notes": 156,
+      "peakVoices": 15,
+      "finite": true,
+      "peak": 0.14648020267486572,
+      "rms": 0.035281792483146675,
+      "minWindow": 0.023738911015204325
+    },
+    {
+      "id": "g-victory",
+      "notes": 259,
+      "peakVoices": 15,
+      "finite": true,
+      "peak": 0.31007006764411926,
+      "rms": 0.061655143693161336,
+      "minWindow": 0.04198791333540189
+    },
+    {
+      "id": "h-boss",
+      "notes": 146,
+      "peakVoices": 8,
+      "finite": true,
+      "peak": 0.1830037534236908,
+      "rms": 0.0447763726652182,
+      "minWindow": 0.027417423320147835
+    },
+    {
+      "id": "h-t0",
+      "notes": 39,
+      "peakVoices": 6,
+      "finite": true,
+      "peak": 0.16283166408538818,
+      "rms": 0.04443419428525488,
+      "minWindow": 0.033313985018062396
+    },
+    {
+      "id": "h-t1",
+      "notes": 140,
+      "peakVoices": 10,
+      "finite": true,
+      "peak": 0.1299736499786377,
+      "rms": 0.028725556408889973,
+      "minWindow": 0.019319848184903114
+    },
+    {
+      "id": "h-t2",
+      "notes": 274,
+      "peakVoices": 13,
+      "finite": true,
+      "peak": 0.1782897412776947,
+      "rms": 0.040184024318902854,
+      "minWindow": 0.030773502394134098
+    },
+    {
+      "id": "h-t3",
+      "notes": 187,
+      "peakVoices": 13,
+      "finite": true,
+      "peak": 0.2479640692472458,
+      "rms": 0.043053185049567115,
+      "minWindow": 0.03372624967923397
+    },
+    {
+      "id": "h-victory",
+      "notes": 143,
+      "peakVoices": 13,
+      "finite": true,
+      "peak": 0.1873522251844406,
+      "rms": 0.02648115018404724,
+      "minWindow": 0.015236416676627881
+    }
+  ],
+  "instruments": [
+    {
+      "inst": 0,
+      "finite": true,
+      "peak": 0.04902433976531029,
+      "rms": 0.018311750427109082,
+      "minWindow": 0.01723409271739437
+    },
+    {
+      "inst": 1,
+      "finite": true,
+      "peak": 0.02511589229106903,
+      "rms": 0.01069940259906312,
+      "minWindow": 0.009031490281616789
+    },
+    {
+      "inst": 2,
+      "finite": true,
+      "peak": 0.045359913259744644,
+      "rms": 0.015524917975469234,
+      "minWindow": 0.011047766454994683
+    },
+    {
+      "inst": 3,
+      "finite": true,
+      "peak": 0.05923418328166008,
+      "rms": 0.022977010828345544,
+      "minWindow": 0.021955625667944886
+    },
+    {
+      "inst": 4,
+      "finite": true,
+      "peak": 0.07562140375375748,
+      "rms": 0.036317719269132985,
+      "minWindow": 0.03312263961612979
+    },
+    {
+      "inst": 5,
+      "finite": true,
+      "peak": 0.0572032667696476,
+      "rms": 0.012138902416377838,
+      "minWindow": 0.005762137992405555
+    },
+    {
+      "inst": 6,
+      "finite": true,
+      "peak": 0.0413927286863327,
+      "rms": 0.006435132281951447,
+      "minWindow": 0.005483390276187972
+    },
+    {
+      "inst": 7,
+      "finite": true,
+      "peak": 0.06851442158222198,
+      "rms": 0.016815523251154638,
+      "minWindow": 0.005762133735625581
+    },
+    {
+      "inst": 8,
+      "finite": true,
+      "peak": 0.018104683607816696,
+      "rms": 0.005714595615761048,
+      "minWindow": 0.005562769839980403
+    }
+  ],
+  "score": {
+    "finite": true,
+    "peak": 0.25139063596725464,
+    "rms": 0.034957494208634005,
+    "minWindow": 0.00575384297524223
+  },
+  "off": {
+    "finite": true,
+    "peak": 0,
+    "rms": 0,
+    "minWindow": 0
+  },
+  "events": 1079,
+  "blocks": [
+    "a",
+    "b"
+  ],
+  "victories": 1,
+  "peakVoices": 24,
+  "maxQueue": 328,
+  "underruns": 0,
+  "remainingLanes": 0,
+  "rate": 44100
+}

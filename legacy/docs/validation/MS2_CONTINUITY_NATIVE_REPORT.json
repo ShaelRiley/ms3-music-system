@@ -1,0 +1,49 @@
+{
+  "sourceParent": "174b011a62dd676285435feed2e551e8a3bf26bf",
+  "loadedSourceSHAObserved": false,
+  "sourceIdentityNote": "The reported backend/bank/master gain match this checkpoint; the diagnostic does not include an installed commit SHA.",
+  "reportedObservation": "I hear the music now--came in after a few minutes, or when I turned on \"turn on stereo enhancements\" from the G-mod audio options; not sure which. BUT it's cutting in and out. Entire phrases will be silent, then we get music for a bit, then silence again. Bad.",
+  "clientStatus": {
+    "catalog": "ms2-be9489d0c3ba99c7",
+    "patchBank": "lod-va-1-ebfb7a78dc95",
+    "playback": {
+      "nativeLateSkipped": 9,
+      "playerVolume": 1,
+      "estimatedPCMBytes": 2993376,
+      "currentClips": {
+        "d": "d_t3_009"
+      },
+      "bridge": false,
+      "headroomScale": 1,
+      "peakCeiling": 0.8,
+      "channels": 2,
+      "peakChannels": 2,
+      "preparedClips": {
+        "d": "d_t3_019"
+      },
+      "pendingOpens": 0,
+      "estimatedMusicPeak": 0.7939544320106505,
+      "masterGain": 4
+    },
+    "role": "T3",
+    "quality": 0,
+    "backend": "surge-rendered",
+    "metadataAssets": 4,
+    "retryIn": 0,
+    "startupPending": false,
+    "streamedBytes": 0,
+    "plan": "campaign:100:1",
+    "renderBank": "ms2-surge-0f7591eb682f3b2b",
+    "ready": true,
+    "enabled": true,
+    "blocks": [
+      {
+        "weight": 1,
+        "block": "d",
+        "asset": "d-t3"
+      }
+    ],
+    "system": "MS2"
+  },
+  "acceptance": "Playback is observed intermittently; continuous musical playback and the louder mix are not accepted. The effect of the audio-option toggle is unproven."
+}

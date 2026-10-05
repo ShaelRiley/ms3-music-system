@@ -1,0 +1,35 @@
+{
+  "status": "authorized_but_unapplied",
+  "target": {
+    "documentId": "1OSpgiWyiGmUCLFdq--WmCSZe6KQIr7_UTkQZklPV8lY",
+    "tabId": "t.bff19dm33vvw",
+    "tabTitle": "07 — IMPLEMENTATION & TUNING"
+  },
+  "readRevision": "ANLCKQloJbYHDHV4rqh3tajI1MPDLZB7QDidBAy-WXpjZLB4bIq1LKtgXw73vIVk_ZEya0IQL2TPcSHOSsHdTNNiNoeoKT4UayasrZoxQA",
+  "trustedRead": {
+    "controlAwareness": {
+      "hasProtectedControls": false,
+      "authoritativeDropdownCount": 0,
+      "opaqueControlCount": 0,
+      "affectedParagraphCount": 0,
+      "nativeElementCounts": {},
+      "preservationRequired": false,
+      "recommendedBehavior": "No protected controls were detected in the scanned scope."
+    },
+    "documentResultSHA256": "d8ec4eb5e7931a545178dc5a05abd4ba269e156fe902fe2472ba3f70aac89601"
+  },
+  "request": {
+    "insertText": {
+      "location": {
+        "index": 1,
+        "tabId": "t.bff19dm33vvw"
+      },
+      "text": "LOD-MUSIC-CONTINUITY-IMPL — Prepared phrase timing under frame pressure [IMPLEMENTATION-TUNABLE]\nNative reports show intermittent whole-phrase silence with valid rendered channels, frame-pressure quality 0 and missed starts. Keep the native audible-start window bounded at 0.15 seconds. If a phrase was prepared before its deadline (retaining the existing 0.06-second readiness tolerance), a late Think within that window seeks past elapsed audio using the nonblocking channel's fast native SetTime path, then starts one phrase at its original musical epoch with the existing short onset fade. Files not ready within the readiness tolerance and frames beyond 0.15 seconds are rejected; resume at a future valid bar without replaying missed music. Separately allow up to 1.0 second for the native-start acknowledgement to cross QueueJavascript; an acknowledgement is not a new audio start. Keep one pending token per lane and the existing open/channel/PCM limits. Preserve native master gain 4, shared score peak ceiling 0.8, saved player volume, permissions, stair blending and once-only victory. Add actual native channel state, position and volume plus phase-join/acknowledgement-timeout diagnostics. This repairs continuity through the existing composer/native seam; native musical acceptance remains pending.\n\n"
+    }
+  },
+  "error": {
+    "error": "HTTPError: 400: \n\n\n\nBad Request\n\nContent:\n{'code': 400,\n 'message': 'Precondition check failed.',\n 'status': 'FAILED_PRECONDITION'}\n\nRequest URL:\nhttps://docs.googleapis.com/v1/documents/1OSpgiWyiGmUCLFdq--WmCSZe6KQIr7_UTkQZklPV8lY:batchUpdate (Response: {'error': {'code': 400, 'message': 'Precondition check failed.', 'status': 'FAILED_PRECONDITION'}})",
+    "error_code": "INVALID_ARGUMENT"
+  },
+  "authority": "Current explicit author direction; the live GDD was not modified."
+}

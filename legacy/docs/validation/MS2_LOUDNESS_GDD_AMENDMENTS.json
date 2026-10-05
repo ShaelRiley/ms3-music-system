@@ -1,0 +1,35 @@
+{
+  "status": "authorized_but_unapplied",
+  "target": {
+    "documentId": "1OSpgiWyiGmUCLFdq--WmCSZe6KQIr7_UTkQZklPV8lY",
+    "tabId": "t.bff19dm33vvw",
+    "tabTitle": "07 — IMPLEMENTATION & TUNING"
+  },
+  "readRevision": "ANLCKQloJbYHDHV4rqh3tajI1MPDLZB7QDidBAy-WXpjZLB4bIq1LKtgXw73vIVk_ZEya0IQL2TPcSHOSsHdTNNiNoeoKT4UayasrZoxQA",
+  "trustedRead": {
+    "controlAwareness": {
+      "hasProtectedControls": false,
+      "authoritativeDropdownCount": 0,
+      "opaqueControlCount": 0,
+      "affectedParagraphCount": 0,
+      "nativeElementCounts": {},
+      "preservationRequired": false,
+      "recommendedBehavior": "No protected controls were detected in the scanned scope."
+    },
+    "documentResultSHA256": "d8ec4eb5e7931a545178dc5a05abd4ba269e156fe902fe2472ba3f70aac89601"
+  },
+  "request": {
+    "insertText": {
+      "location": {
+        "index": 1,
+        "tabId": "t.bff19dm33vvw"
+      },
+      "text": "LOD-MUSIC-LOUDNESS-IMPL — Rendered phrase playback gain [IMPLEMENTATION-TUNABLE]\nThe author reports native Surge playback is audible but far too quiet. Set the existing native phrase master gain to 4 (+12.04 dB), multiplied by the saved 0–1 player volume. Reserve a common estimated score peak ceiling of 0.8 using each bundled phrase's offline decoded peak; count simultaneous floor lanes, release tails, the quiet bridge and gains awaiting their paced writes. Apply decreases before increases and limit every increase to remaining headroom. The bridge remains at ten percent player volume. Preserve arrangement dynamics, square-root stair blends, default-Off, permissions and all existing resource ceilings. Do not add individual RMS normalization or live waveform analysis. This repairs playback level without changing the encoded bank or musical selection; native loudness/balance acceptance remains pending.\n\n"
+    }
+  },
+  "error": {
+    "error": "HTTPError: 400: \n\n\n\nBad Request\n\nContent:\n{'code': 400,\n 'message': 'Precondition check failed.',\n 'status': 'FAILED_PRECONDITION'}\n\nRequest URL:\nhttps://docs.googleapis.com/v1/documents/1OSpgiWyiGmUCLFdq--WmCSZe6KQIr7_UTkQZklPV8lY:batchUpdate (Response: {'error': {'code': 400, 'message': 'Precondition check failed.', 'status': 'FAILED_PRECONDITION'}})",
+    "error_code": "INVALID_ARGUMENT"
+  },
+  "authority": "Current explicit author direction; the live GDD was not modified."
+}

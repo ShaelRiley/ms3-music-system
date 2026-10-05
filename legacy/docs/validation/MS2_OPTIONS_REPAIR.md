@@ -1,0 +1,15 @@
+# MS2 Options enablement repair
+
+Implementation parent: `93e793cfb35bc0dbef81cb2b079a385ff935578d`, canonical `ShaelRiley/the-legend-of-deborah/main`.
+
+Fresh native evidence from the author: `lod_music_enabled 1; lod_music 1` makes the music audible, while selecting Music in Options does not. This qualifies the earlier silence reports: the corrected catalog/note loaders and renderer can play, but the menu does not grant the host's master permission. Core audibility is now runtime-observed; the repaired menu path and complete music/performance acceptance still need fresh native evidence.
+
+The old checkbox was bound only to the client `lod_music` cvar. That saved preference defaults to On, while the server's archived `lod_music_enabled` defaults to Off. As a result, the host could see Music checked and toggle it without enabling actual playback. Removing the stale description did not resolve the mismatched action.
+
+The checkbox now uses the existing client MusicDirector to display effective host/operator permission and apply explicit user intent. Selecting On queues the saved client preference and requests master enablement through a fourth boolean on the existing `LOD_MusicDemand` message. The server accepts that flag only from its listen-server host or a superadmin. It processes the grant before subscription throttling, so a recently connected host's explicit menu action is not lost. The client sends the explicit On intent before its queued cvar update arrives. Off only changes the local preference; ordinary demand and older three-boolean messages never grant server permission. Opening/refreshed Options does not write settings or send enable requests.
+
+`test_music_options.lua` reproduces the old host checkbox reporting On while the master is disabled, then runs the production Options UI, MusicDirector, server demand handler, paced plan/state/switch delivery and client renderer handoff. It checks queued preference timing, personal Off, external master Off, unauthorized guest denial, superadmin enablement and ordinary/default-Off demand. The native renderer-ready callback is simulated; the author's console test supplies the current native audibility observation. The existing low-end Options test retains its layout, no-write, preference and minigame-lock constraints with the complete music control seam.
+
+The new regression is part of the permanent finite music gate. Final local result: **43/43 selected suites**, **882 Lua syntax checks**, complete-bank admission and actual offline Web Audio passed, with no source changes during the gate. The Options regression reports 14 checks. [The complete receipt](MS2_OPTIONS_CHECKS.json) preserves commands and log hashes.
+
+Next native action: fully quit/update/install, launch LoD on gm_flatgrass and toggle **Options → Music Off/On**. Confirm audible resumption without console commands. If the menu still fails, preserve canonical `console_latest.txt` plus `rpg_summary_latest.txt` from that session. No Workshop/VPS deployment is included.
